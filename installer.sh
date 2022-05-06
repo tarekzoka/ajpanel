@@ -7,7 +7,7 @@
 #!/bin/sh
 echo
 
-opkg install --force-overwrite  https://github.com/tarekzoka/jediepgxtream/blob/main/enigma2-plugin-extensions-jedimakerxtream_6.18_all.ipk?raw=true
+opkg install --force-overwrite  https://github.com/tarekzoka/ajpanel/blob/main/enigma2-plugin-extensions-ajpanel_v5.0.1_all.ipk?raw=true
 wait
 #!/bin/sh
 #
