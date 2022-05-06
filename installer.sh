@@ -12,7 +12,7 @@ wait
 #!/bin/sh
 #
 
-wget -O /tmp/jedimakerxtream_6.18_all.deb "https://github.com/tarekzoka/jediepgxtream/blob/main/enigma2-plugin-extensions-jedimakerxtream_6.18_all.deb?raw=true"
+wget -O /tmp/ajpanel_v5.1.0_all.deb "https://github.com/tarekzoka/ajpanel/blob/main/enigma2-plugin-extensions-ajpanel_v5.1.0_all.deb?raw=true"
 wait
 apt-get update ; dpkg -i /tmp/*.deb ; apt-get -y -f install
 wait
