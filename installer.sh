@@ -7,7 +7,7 @@
 #!/bin/sh
 echo
 
-opkg install --force-overwrite  https://github.com/tarekzoka/ajpanel/blob/main/enigma2-plugin-extensions-ajpanel_v5.4.1_all.ipk?raw=true
+opkg install --force-overwrite  https://github.com/tarekzoka/ajpanel/blob/main/enigma2-plugin-extensions-ajpanel_v5.4.2_all.ipk?raw=true
 wait
 #!/bin/sh
 #
