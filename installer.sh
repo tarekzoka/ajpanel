@@ -1,4 +1,3 @@
-echo
 #!/bin/bash
 ######################################################################################
 ## Command=wget https://raw.githubusercontent.com/tarekzoka/ajpanel/main/installer.sh -O - | /bin/sh
@@ -17,8 +16,12 @@ wait
 apt-get update ; dpkg -i /tmp/*.deb ; apt-get -y -f install
 wait
 dpkg -i --force-overwrite /tmp/*.deb
-wait
+
+killall -9 enigma2
+
 sleep 2;
+
+exit 0
 ######################################################################################
 ##
 echo ""
