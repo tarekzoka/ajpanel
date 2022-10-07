@@ -12,7 +12,7 @@ wait
 #!/bin/sh
 #
 
-wget -O /tmp/enigma2-plugin-extensions-ajpanel_v7.0.0_all.deb "https://github.com/tarekzoka/ajpanel/blob/main/enigma2-plugin-extensions-ajpanel_v7.0.0_all.deb?raw=true"
+wget -O /tmp/enigma2-plugin-extensions-ajpanel_v7.2.0_all.deb "https://github.com/tarekzoka/ajpanel/blob/main/enigma2-plugin-extensions-ajpanel_v7.2.0_all.deb?raw=true"
 wait
 apt-get update ; dpkg -i /tmp/*.deb ; apt-get -y -f install
 wait
