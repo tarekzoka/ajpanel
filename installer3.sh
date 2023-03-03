@@ -7,8 +7,8 @@ version=8.4.0
 #############################################################
 TEMPATH=/tmp
 OPKGINSTALL="opkg install --force-overwrite"
-MY_IPK="enigma2-plugin-extensions-ajpanel_v8.6.1_all.ipk"
-MY_DEB="enigma2-plugin-extensions-ajpanel_v8.6.1_all.deb"
+MY_IPK="enigma2-plugin-extensions-ajpanel_v8.6.3_all.ipk"
+MY_DEB="enigma2-plugin-extensions-ajpanel_v8.6.3_all.deb"
 MY_URL="https://raw.githubusercontent.com/tarekzoka/ajpanel/main"
 # remove old version #
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/AJPan
