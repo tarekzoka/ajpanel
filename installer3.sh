@@ -3,7 +3,7 @@
 #wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/main/installer3.sh -O - | /bin/sh
 
 ##########################################
-version=8.4.0
+version=v8.7.0
 #############################################################
 TEMPATH=/tmp
 OPKGINSTALL="opkg install --force-overwrite"
