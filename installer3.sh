@@ -3,12 +3,12 @@
 #wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/main/installer3.sh -O - | /bin/sh
 
 ##########################################
-version=v8.8.3
+version=v8.8.4
 #############################################################
 TEMPATH=/tmp
 OPKGINSTALL="opkg install --force-overwrite"
-MY_IPK="enigma2-plugin-extensions-ajpanel_v8.8.3_all.ipk"
-MY_DEB="enigma2-plugin-extensions-ajpanel_v8.8.3_all.deb"
+MY_IPK="enigma2-plugin-extensions-ajpanel_v8.8.4_all.ipk"
+MY_DEB="enigma2-plugin-extensions-ajpanel_v8.8.4_all.deb"
 MY_URL="https://raw.githubusercontent.com/tarekzoka/ajpanel/main"
 # remove old version #
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/AJPan
