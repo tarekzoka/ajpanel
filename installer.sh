@@ -5,11 +5,14 @@
 ###########################################
 ###########################################
 #!/bin/sh
-echo
-opkg install --force-overwrite https://github.com/tarekzoka/ajpanel/blob/main/enigma2-plugin-extensions-ajpanel_v8.8.8_all.ipk?raw=true
+#
+
+wget -O /tmp/ajpanel.tar.gz "https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel.tar.gz"
+
+tar -xzf /tmp/*.tar.xz -C /
+
+rm -r /tmp/ajpanel.tar.gz
 
 killall -9 enigma2
 
 sleep 2;
-
-exit 0
