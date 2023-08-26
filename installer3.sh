@@ -39,7 +39,10 @@ fi
 echo "   UPLOADED BY  >>>>   TAREK_HANFY "   
 sleep 4;
 echo "**********************************************************************************"
-wait
-exit 0  cc
+killall -9 enigma2
+
+sleep 2;
+
+exit 0
 
 
