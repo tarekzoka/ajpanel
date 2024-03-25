@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ajp_menu
+    title="Panel (Ajpanel By Tarek)"
+    mode="grid_4x3"
+    shade="yes"
+    font_size="50"
+    bg="/media/hdd/AJPanel_Backup/icons/back1.png"
+    num_fg="#FCFCFC"
+    num_bg="#000000"
+    title1_fg="#FCFCFC"
+    title1_bg="#000000"
+    title2_fg="#FCFCFC"
+    title2_bg="#000000"
+    width="1600"
+    height="950">
+<submenu
+        title="skin"
+        info="Download And Install SKINS"
+        icon="/media/hdd/AJPanel_Backup/icons/SKINS2.png"
+        mode="grid_6x3"
+        shade="yes"
+        font_size="50"
+        title_bg="#11332233"
+        num_fg="#FCFCFC"
+        num_bg="#000000"
+        title1_fg="#FCFCFC"
+        title1_bg="#000000"
+        title2_fg="#FCFCFC"
+        title2_bg="#000000"
+        width="1600"
+        height="950">
+        <item
+            name="bohallaskin"
+            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            ask="Install bohalla ?">wget https://raw.githubusercontent.com/tarekzoka/SKINS/main/BO.sh -qO - | /bin/sh</item> 
+<item
+            name="OB-mx-sline-blu"
+            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            ask="Install mx-sline-blu ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/main/OB-blackhole/mx-sline-blu.sh -O - | /bin/sh</item> 
+<item
+            name="OB-mx-sline-red"
+            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            ask="Install mx-sline-red ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/main/OB-blackhole/mx-sline-red.sh -O - | /bin/sh</item> 
+<item
+            name="OB-MxPrioFHDxtra"
+            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            ask="Install MxPrioFHDxtra ?">wget https://raw.githubusercontent.com/tarekzoka/SKINS/main/Mx-PrioFHD-xtra_tarek.sh -O - | /bin/sh</item>
+<item
+            name="OB-Mx-SunMoon"
+            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            ask="Install Mx-SunMoon ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/Mx-SunMoon.sh -O - | /bin/sh</item>
+<item
+            name="NitroAdvanceFHD"
+            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            ask="Install NitroAdvanceFHD ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/NitroAdvanceFHD/main/tarek.sh -O - | /bin/sh</item>
+<item
+            name="CinoGriPLi"
+            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            ask="Install CinoGriPLi ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/SKIN_CinoGriPLi.sh -O - | /bin/sh</item>
+<item 
+            name="DesertFHD-NEW"
+            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            ask="Install DesertFHD-NEW ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/DesertFHD-NEW.sh -O - | /bin/sh</item>
+<item
+            name="SKIN_Nuke"
+            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            ask="Install SKIN_Nuke?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/SKIN_Nuke.FHD.sh -O - | /bin/sh</item> 
+<item
+            name="OB-MXLiveFHD-posterX"
+            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            ask="Install MX-LiveFHD-posterX ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/OB-blackhole/MX-LiveFHD-posterX.sh -O - | /bin/sh</item>
+<item
+            name="skins-malek"
+            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            ask="Install skins-malek ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/skins-malek.sh -O - | /bin/sh</item>
+<item
+            name="s-KILLPRO"
+            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            ask="Install skins-KILLPRO ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/skins-KILLPRO.sh -O - | /bin/sh</item>
+<item
+            name="s-SHADOW"
+            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            ask="Install skin-SHADOW ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/skin-SHADOW.sh -O - | /bin/sh</item>
+<item
+            name="S-octagon-fhd"
+            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            ask="Install SKIN_octagon-fhd ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/SKIN_octagon-fhd-new.sh -O - | /bin/sh</item>
+<item
+            name="s-dragonfhd"
+            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            ask="Install skin-dragonfhd ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/skin-dragonfhd.sh -O - | /bin/sh</item>
+
+<item
+            name="s-premiumfhd-blue"
+            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            ask="Install premiumfhd-blue ?">wget https://raw.githubusercontent.com/tarekzoka/SKINS/main/premiumfhd-blue_2.5.sh -O - | /bin/sh</item>
+</submenu>
+#########################################
+##############update-feed##############
+    <submenu
+        title="update-feed"
+        info="Download And Install plugin"
+        icon="/media/hdd/AJPanel_Backup/icons/FEED.png"
+        mode="grid_6x3"
+        shade="yes"
+        font_size="50"
+        title_bg="#11332233"
+        num_fg="#FCFCFC"
+        num_bg="#000000"
+        title1_fg="#FCFCFC"
+        title1_bg="#000000"
+        title2_fg="#FCFCFC"
+        title2_bg="#000000"
+        width="1600"
+        height="950">
+        <item
+            name="update-ajpanel-menu"
+         icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install update-ajpanel-menu ?">wget https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel_menu.sh -O - | /bin/sh</item>
+            <item
+            name="update-feed-tarek"
+         icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install update-feed-tarek ?">wget https://raw.githubusercontent.com/tarekzoka/settingsz/main/tarekfeed.sh -O - | /bin/sh</item>
+
+
+        </submenu>
+#########################################
+##############TAREK-CHANNEL##############
+    <submenu
+        title="chanells"
+        info="Download And Install plugin"
+        icon="/media/hdd/AJPanel_Backup/icons/chanell2.png"
+        mode="grid_6x3"
+        shade="yes"
+        font_size="50"
+        title_bg="#11332233"
+        num_fg="#FCFCFC"
+        num_bg="#000000"
+        title1_fg="#FCFCFC"
+        title1_bg="#000000"
+        title2_fg="#FCFCFC"
+        title2_bg="#000000"
+        width="1600"
+        height="950">
+        <item
+            name="ch-M.goda"
+            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            ask="Install Channels By Mohamed Goda + Ahmed Shawky ?">wget https://raw.githubusercontent.com/emilnabil/channel-mohamed-goda/main/installer.sh  -O - | /bin/sh</item>
+
+       <item
+            name="ch-hussein"
+            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            ask="Install hussein-chanell ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/hussein-chanell-X.sh -O - | /bin/sh</item>    
+<item
+            name="CH-Mahmed-os"
+            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            ask="Install CHANNELL-Mahmed-os ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/CHANNELL-Mahmed-os.sh -O - | /bin/sh</item>    
+<item
+            name="CH-Romeh"
+            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            ask="Install CHANNELL-Romeh ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/CHANNELL-Romeh.sh -O - | /bin/sh</item>    
+<item
+            name="ch-nasr"
+            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            ask="Install channels-nasr ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channels-nasr.sh  -O - | /bin/sh</item>    
+<item
+            name="ch_Ashraf-fathy"
+            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            ask="Install channels_Ashraf-fathy ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channels_Ashraf-fathy.sh  -O - | /bin/sh</item>    
+<item
+            name="CH-mustafa-motor"
+            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            ask="Install CHANNELL-mustafa-motor ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/CHANNELL-mustafa-motor.sh   -O - | /bin/sh</item> 
+<item
+            name="CH-linuxsat-motor"
+            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            ask="Install linuxsat-motor ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/linuxsat-motor.sh   -O - | /bin/sh</item> 
+<item
+            name="CH-ciefp-motor1"
+            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            ask="Install ciefp-motor1 ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/ciefp-motor1.sh   -O - | /bin/sh</item> 
+<item
+            name="CH-elkhamisy"
+            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            ask="Install elkhamisy-chanell ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/elkhamisy-chanell-X.sh
+</item>
+
+</submenu>
+#########################################
+##############PLUGIN##############
+    <submenu
+        title="plugin"
+        info="Download And Install plugin"
+        icon="/media/hdd/AJPanel_Backup/icons/plugin1.png"
+        mode="grid_6x3"
+        shade="yes"
+        font_size="50"
+        title_bg="#11332233"
+        num_fg="#FCFCFC"
+        num_bg="#000000"
+        title1_fg="#FCFCFC"
+        title1_bg="#000000"
+        title2_fg="#FCFCFC"
+        title2_bg="#000000"
+        width="1600"
+        height="950">
+        <item
+            name="EPGImport"
+         icon="/media/hdd/AJPanel_Backup/icons/epg2.png"
+            ask="Install EPGImport ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/EPGImport/main/installer.sh -O - | /bin/sh</item>
+             
+            <item 
+            name="IpAudioPro"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install ipaudiopro ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/ipaudiopro-new2.sh -O - | /bin/sh</item>
+<item
+            name="ipaudiopro to egami 10.5"
+         icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install ipaudiopro ?">wget https://raw.githubusercontent.com/tarekzoka/ipaudio/main/ipaudiopro-new3.sh -O - | /bin/sh</item>
+            <item 
+            name="EPGImport-egami10.5"
+            icon="/media/hdd/AJPanel_Backup/icons/epg2.png"
+            ask="Install EPGImport ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/EPGImport/main/EPGImport-mod.sh -O - | /bin/sh</item>
+        <item
+            name="jediepgxtream1"
+         icon="/media/hdd/AJPanel_Backup/icons/jediepgxtream1.png"
+            ask="Install Jediepgextream ?">wget https://raw.githubusercontent.com/tarekzoka/jediepgxtream/main/installer.sh -O - | /bin/sh</item>
+           <item
+            name="update-ajpanel-menu"
+         icon="/media/hdd/AJPanel_Backup/icons/update-ajpanel-menu.png"
+            ask="Install update-ajpanel-menu ?">wget https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel_menu.sh -O - | /bin/sh</item>
+            <item
+            name="update-feed-tarek"
+         icon="/media/hdd/AJPanel_Backup/icons/update-feed-tarek.png"
+            ask="Install update-feed-tarek ?">wget https://raw.githubusercontent.com/tarekzoka/settingsz/main/tarekfeed.sh -O - | /bin/sh</item>
+<item
+            name="E2IPlayer"
+         icon="/media/hdd/AJPanel_Backup/icons/E2IPlayer.png"
+            ask="Install E2IPlayer ?">wget https://raw.githubusercontent.com/tarekzoka/E2IPlayer/main/E2IPlayer2.sh -O - | /bin/sh</item>
+<item
+            name="E2-MOHAMED_OS"
+         icon="/media/hdd/AJPanel_Backup/icons/MOHAMED_OS.png"
+            ask="Install E2-MOHAMED_OS ?">wget https://gitlab.com/MOHAMED_OS/e2iplayer/-/raw/main/install-e2iplayer.sh?inline=false -qO - | /bin/sh
+ -O - | /bin/sh</item>
+
+<item
+            name="xstreamity"
+         icon="/media/hdd/AJPanel_Backup/icons/xstreamity12.png"
+            ask="Install xstreamity ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/xstreamity12/main/installer2.sh -O - | /bin/sh</item>
+<item
+            name="Ajpanel"
+         icon="/media/hdd/AJPanel_Backup/icons/aj.png"
+            ask="Install Ajpanel ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/main/installer3.sh -O - | /bin/sh</item>
+<item
+            name="Gstreamer-audio"
+         icon="/media/hdd/AJPanel_Backup/icons/Tooles.png"
+            ask="Install Gstreamer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/Gstreamer-audio.sh -O - | /bin/sh</item>
+<item name="alajre" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/alajre.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/alajre/alajre.sh -O - | /bin/sh </item>
+			<item name="alternativesoftcammanager" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/plugins.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/alternativesoftcammanager/alternativesoftcammanager.sh -O - | /bin/sh </item>
+			<item name="arabicsavior" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ar.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/arabic-savior/arabicsavior.sh -O - | /bin/sh </item>
+			<item name="athantimes" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ath.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/athantimes/athantimes.sh -O - | /bin/sh </item>
+			<item name="atilehd" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/atilehd.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/atilehd/atilehd.sh -O - | /bin/sh</item>
+			<item name="azkar-almuslim" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/azkar.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/azkar-almuslim/azkar-almuslim.sh -O - | /bin/sh </item>
+			<item name="bissfeedautokey" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/bis.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bissfeedautokey/bissfeedautokey.sh -O - | /bin/sh</item>
+			<item name="bitrate2.0" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/bit.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bitrate/bitrate.sh -O - | /bin/sh</item>
+			<item name="bitrate-mod-ariad" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/bit.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bitrate/bitrate-mod-ariad.sh -O - | /bin/sh</item>
+			<item name="bootlogokids" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/bootlogo1.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bootlogokids/bootlogokids-stony272.sh -O - | /bin/sh</item>
+			<item name="bootlogoswapper" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/bootlogo1.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bootlogoswapper/bootlogoswapper-eliesat-special-edition.sh -O - | /bin/sh</item>
+			<item name="bouquetmakerxtream" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/bouquetmaker.png" info="(مشغل اي بي تي في)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/bouquetmakerxtream/bouquetmakerxtream.sh -O - | /bin/sh</item>
+			<item name="cacheflush" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/cacheflush.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/cacheflush/cacheflush.sh -O - | /bin/sh</item>
+			<item name="chocholousek-picons" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/chp.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/chocholousek-picons/chocholousek-picons.sh -O - | /bin/sh</item>
+			<item name="crondmanager" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/crondmanager.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/crondmanager/crondmanager.sh -O - | /bin/sh</item>
+			<item name="Crashlogviewer-0.9" icon="/media/hdd/AJPanel_Backup/icons/crash.png" info="(تصفح ملفات الكراش)" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/crashlogviewer/crashlogviewer.sh -O - | /bin/sh</item>
+			<item name="e2iplayer_llinusat" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/e2.png" info="(مشغل iptv)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/e2iplayer/e2iplayer.sh -O - | /bin/sh</item>
+			<item name="easy-cccam" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ecccam.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/easy-cccam/easy-cccam.sh -O - | /bin/sh</item>
+			<item name="epggrabber" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/epggrabber/epggrabber.sh -O - | /bin/sh</item>
+			<item name="feedsfinder" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/bis.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/feedsfinder/feedsfinder.sh -O - | /bin/sh</item>
+			<item name="footonsat" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/fo.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/footonsat/footonsat.sh -O - | /bin/sh</item>
+			<item name="freeserver" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/fr.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/freeserver/freeserver.sh -O - | /bin/sh </item>
+<item name="easy-cccam" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ecccam.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/easy-cccam/easy-cccam.sh -O - | /bin/sh</item>
+			<item name="epggrabber" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/epggrabber/epggrabber.sh -O - | /bin/sh</item>
+			<item name="feedsfinder" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/bis.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/feedsfinder/feedsfinder.sh -O - | /bin/sh</item>
+			<item name="footonsat" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/fo.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/footonsat/footonsat.sh -O - | /bin/sh</item>
+			<item name="freeserver" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/fr.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/freeserver/freeserver.sh -O - | /bin/sh </item>
+			<item name="historyzapselector" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/historyza.png"  info="( تصفح اخر قنوات سات قلبت عليهم)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/historyzapselector/historyzapselector.sh -O - | /bin/sh</item>
+            <item name="Historyzapselector-dorik-1.0.35" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/historyza.png" info="(تصفح آخر قنوات سات قلبت فيهم mod dorik)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/historyzapselector/historyzapselector-dorik.sh -O - | /bin/sh</item>
+			<item name="internet-speed-test" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/speedtest.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/internetspeedtest/internet-speed-test.sh -O - | /bin/sh</item>
+			<item name="ipaudio-6.8" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ipa.png" info="(اضافة الصوتيات على قنوات السات)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio/ipaudio.sh -O - | /bin/sh</item>
+<item name="xtraevent-5.3" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/xt.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/xtraevent/xtraevent-5.3.sh -O - | /bin/sh</item>
+<item name="xtraevent-6.4" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/xt.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/xtraevent/xtraevent-6.4.sh -O - | /bin/sh</item>
+            <item name="Ipaudio-7.4-ffmpeg" icon="/media/hdd/AJPanel_Backup/icons/ipa.png" info="(اضافة الصوتيات على قنوات السات)" ask="yes ">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh</item>
+			<item name="ipaudiopro-1.1-py-3.9-3.11" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ipap.png" info="(اضافة الصوتيات على قنوات السات)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipaudiopro/ipaudiopro.sh -O - | /bin/sh</item>
+			<item name="ipchecker" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ipchecker.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipchecker/ipchecker.sh -O - | /bin/sh</item>
+			<item name="iptosat" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ipt.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/iptosat/iptosat.sh -O - | /bin/sh</item>
+			<item name="isetting-e2" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/isetting.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/isetting-e2/isetting-e2.sh -O - | /bin/sh</item>
+			<item name="jedimakerxtream" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/jed.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/jedimakerxtream/jedimakerxtream.sh -O - | /bin/sh</item>
+			<item name="keyadder" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/key.png" info="(اضافة مفتاح او شفرة بيس على ملف السوفتكام)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/keyadder/keyadder.sh -O - | /bin/sh</item>
+			<item name="lamedbmerger" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/plugins.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/lamedbmerger/lamedbmerger.sh -O - | /bin/sh</item>
+			<item name="multiboot-flashonline" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/opm.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/multiboot-flashonline/multiboot-flashonline.sh -O - | /bin/sh</item>
+			<item name="multistalker" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ms.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/multistalker/multistalker.sh -O - | /bin/sh</item>
+			<item name="multistalker-pro" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ms.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/multistalker-pro/multistalkerpro.sh -O - | /bin/sh</item>
+			<item name="ncam-status" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ncams.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ncam-status/ncam-status.sh -O - | /bin/sh</item>
+			<item name="neoboot-9.65" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/neoboot.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/neoboot/neoboot.sh -O - | /bin/sh</item>
+			<item name="newpermanentclock" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/pc.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/newpermanentclock/newpermanentclock.sh -O - | /bin/sh</item>
+			<item name="novalerstore" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ns.png" info="(بانل تسطيب اضافات)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novalerstore.sh -O - | /bin/sh</item>
+			<item name="oaweather" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/oa.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/oaweather/oaweather.sh?inline=false -O - | /bin/sh</item>
+			<item name="opdboot" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/opdboot.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/opdboot/opdboot.sh -O - | /bin/sh</item>
+			<item name="opkg-tools" ask="yes(reboot)" icon="/media/hdd/AJPanel_Backup/icons/opkgtools.png"  info="(اداة تشغيل خاصة بالajpanel)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/opkg-tools/opkg-tools.sh -O - | /bin/sh</item>
+
+<item
+            name="ServiceApp-audio"
+         icon="/media/hdd/AJPanel_Backup/icons/Tooles.png"
+            ask="Install ServiceApp ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/ServiceApp-audio.sh -O - | /bin/sh</item>
+
+</submenu>
+#########################################
+##############script-all##############
+    <submenu
+        title="script-all"
+        info=" Download And install plugin And Favorites "
+        icon="/media/hdd/AJPanel_Backup/icons/SCRIPT-ALL.png"
+        mode="grid_4x2"
+        shade="yes"
+        font_size="35"
+        title_bg="#11332233"
+        num_fg="#FCFCFC"
+        num_bg="#000000"
+        title1_fg="#FCFCFC"
+        title1_bg="#000000"
+        title2_fg="#FCFCFC"
+        title2_bg="#000000"
+        width="1600"
+        height="950">
+        <item
+            name="SCRIPT"
+            icon="/media/hdd/AJPanel_Backup/icons/SCRIPT-ALL.png"
+            ask="Install SCRIPT ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/script-all/main/SCRIPT-all.sh -O - | /bin/sh</item>
+
+</submenu>
+#########################################
+##############DM920-900-os##############
+    <submenu
+        title="DM920-900-os"
+        info=" Download And install plugin And Favorites "
+        icon="/media/hdd/AJPanel_Backup/icons/dream-os.png"
+        mode="grid_4x2"
+        shade="yes"
+        font_size="35"
+        title_bg="#11332233"
+        num_fg="#FCFCFC"
+        num_bg="#000000"
+        title1_fg="#FCFCFC"
+        title1_bg="#000000"
+        title2_fg="#FCFCFC"
+        title2_bg="#000000"
+        width="1600"
+        height="950">
+        <item
+            name="multiquickbut"
+            icon="/media/hdd/AJPanel_Backup/icons/xx.png"
+            ask="Install multiquickbut ?">#!/bin/sh
+#
+
+wget -O /tmp/enigma2-plugin-extensions-multiquickbuttonfhd.deb "https://raw.githubusercontent.com/tarekzoka/multiquickbut-os/main/enigma2-plugin-extensions-multiquickbuttonfhd.deb"
+
+dpkg -i --force-overwrite /tmp/*.deb
+
+rm -r /tmp/enigma2-plugin-extensions-multiquickbuttonfhd.deb
+
+wait
+
+sleep 2;
+
+exit 0</item>
+<item
+            name="advancedquickbutton"
+            icon="/media/hdd/AJPanel_Backup/icons/xx.png"
+            ask="Install advancedquickbutton ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/multiquickbut-os/main/dvancedquickbutton.sh -O - | /bin/sh </item>
+
+<item
+            name="E2-MOHAMED_OS"
+         icon="/media/hdd/AJPanel_Backup/icons/MOHAMED_OS.png"
+            ask="Install E2-MOHAMED_OS ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/E2IPlayer/main/E2IPlayer.sh.sh -O - | /bin/sh</item>
+
+<item
+            name="E2-TAREK"
+         icon="/media/hdd/AJPanel_Backup/icons/MOHAMED_OS.png"
+            ask="Install E2-MOHAMED_OS ?">#!/bin/sh
+#
+
+wget -O /tmp/e2iplayer_2023.09.07.01_all.deb "https://raw.githubusercontent.com/tarekzoka/E2IPlayer/main/e2iplayer_2023.09.07.01_all.deb"
+
+dpkg -i --force-overwrite /tmp/*.deb
+
+rm -r /tmp/e2iplayer_2023.09.07.01_all.deb
+
+wait
+
+killall -9 enigma2
+
+sleep 2;
+
+exit 0 </item>
+
+<item
+            name="Ajpanel"
+         icon="/media/hdd/AJPanel_Backup/icons/aj.png"
+            ask="Install Ajpanel ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/main/installer3.sh -O - | /bin/sh</item>
+
+<item
+            name="StartUpService"
+            icon="/media/hdd/AJPanel_Backup/icons/sevies.png"
+            ask="Install StartUpService ?">#!/bin/sh
+#
+
+wget -O /tmp/StartUpService.tar.gz "https://raw.githubusercontent.com/tarekzoka/StartUpService/main/StartUpService.tar.gz"
+
+tar -xzf /tmp/*.tar.gz -C /
+
+rm -r /tmp/StartUpService.tar.gz
+
+wait
+
+killall -9 enigma2
+
+sleep 2;</item>
+<item
+            name="dreamxtream-os"
+         icon="/media/hdd/AJPanel_Backup/icons/dreamxtream-os.png"
+            ask="Install dreamxtream ?">#!/bin/sh
+#
+wget -O /tmp/dreamxtream_0.3-r2.0_armhf.deb "https://raw.githubusercontent.com/tarekzoka/dreamxtream/main/dreamxtream_0.3-r2.0_armhf.deb"
+
+wait
+
+apt-get update ; dpkg -i /tmp/*.deb ; apt-get -y -f install
+
+wait
+
+dpkg -i --force-overwrite /tmp/*.deb
+
+wait
+
+rm -r /tmp/dreamxtream_0.3-r2.0_armhf.deb
+
+wait
+
+sleep 2;
+
+exit 0 </item>
+<item
+            name="xstreamity"
+         icon="/media/hdd/AJPanel_Backup/icons/xstreamity12.png"
+            ask="Install xstreamity ?">#!/bin/sh
+#
+
+wget -O /tmp/xstreamity_4.40_20240309_all.deb "https://raw.githubusercontent.com/tarekzoka/xstreamity12/main/xstreamity_4.40_20240309_all.deb"
+
+dpkg -i --force-overwrite /tmp/*.deb
+
+rm -r /tmp/xstreamity_4.40_20240309_all.deb
+
+wait
+
+sleep 2;
+
+exit 0 </item>
+<item
+            name="jedimakerxtream"
+         icon="/media/hdd/AJPanel_Backup/icons/jed.png"
+            ask="Install jedimakerxtream ?">#!/bin/sh
+#
+
+wget -O /tmp/jedimakerxtream_6.34_all.deb "https://raw.githubusercontent.com/tarekzoka/jediepgxtream/main/jedimakerxtream_6.34_all.deb"
+
+dpkg -i --force-overwrite /tmp/*.deb
+
+rm -r /tmp/jedimakerxtream_6.34_all.deb
+
+wait
+
+sleep 2;
+
+exit 0  </item>
+<item
+            name="ipaudio-6.6"
+         icon="/media/hdd/AJPanel_Backup/icons/ipa.png"
+            ask="Install ipaudio-6.6 ?">#!/bin/sh
+#
+
+wget -O /tmp/ipaudio-6.6.tar.gz "https://raw.githubusercontent.com/tarekzoka/ipaudio/main/ipaudio-6.6.tar.gz"
+
+tar -xzf /tmp/*.tar.gz -C /
+
+rm -r /tmp/ipaudio-6.6.tar.gz
+
+
+killall -9 enigma2
+
+sleep 2;  </item>
+
+<item
+            name="ipaudio-libasound.so"
+         icon="/media/hdd/AJPanel_Backup/icons/dd.png"
+            ask="Install ipaudio-6.8?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/asound-libasound.so-os.sh -O - | /bin/sh  </item>
+
+<item
+            name="dreamarabia"
+            icon="/media/hdd/AJPanel_Backup/icons/dreamarabia.png"
+            ask="Install dreamarabia ?">#!/bin/sh
+#
+
+wget -O /tmp/geminilocale_all.deb "https://raw.githubusercontent.com/tarekzoka/Dreamarabia/main/geminilocale_all.deb"
+
+dpkg -i --force-overwrite /tmp/*.deb
+
+rm -r /tmp/geminilocale_all.deb
+
+wait
+
+wget -O /tmp/dreamarabia.tar.gz"https://raw.githubusercontent.com/tarekzoka/Dreamarabia/main/dreamarabia.tar.gz"
+
+tar -xzf dreamarabia.tar.xz  -C /
+
+rm -r /tmp/geminilocale_all.deb
+
+wait
+
+killall -9 enigma2
+
+sleep 2;
+
+exit 0 </item>
+<item
+            name="remove-dreamarabia"
+            icon="/media/hdd/AJPanel_Backup/icons/remove-dreamarabia.png"
+            ask="Install remove-dreamarabia ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/Dreamarabia/main/rm-dreamarabia.sh -O - | /bin/sh -O - | /bin/sh</item>
+<item
+            name="barryallen"
+         icon="/media/hdd/AJPanel_Backup/icons/barryallen.png"
+            ask="Install barryallen ?">wget --no-check-certificate https://raw.githubusercontent.com/tarekzoka/BarryAllen/main/installer.sh -O - | /bin/sh</item>
+<item
+            name="dreamarabia"
+            icon="/media/hdd/AJPanel_Backup/icons/dreamarabia.png"
+            ask="Install dreamarabia ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/Dreamarabia/main/dreamarabia-instal.sh -O - | /bin/sh -O - | /bin/sh?</item>
+<item
+            name="feedmerlin"
+            icon="/media/hdd/AJPanel_Backup/icons/feedmerlin.png"
+            ask="Install feedmerlin ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/script-all/main/feed%20merlin%20dreambox.sh -O - | /bin/sh</item>
+<item
+            name="OSCAM-os"
+         icon="/media/hdd/AJPanel_Backup/icons/money.png"
+            ask="Install ncam-os?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/oscam-os.sh -O - | /bin/sh</item>
+<item
+            name="OSCAM-1-os"
+         icon="/media/hdd/AJPanel_Backup/icons/money.png"
+            ask="Install ncam-os?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/oscam-os.sh -O - | /bin/sh</item>
+
+<item
+            name="ncam-os"
+         icon="/media/hdd/AJPanel_Backup/icons/money.png"
+            ask="Install ncam-os?">#!/bin/sh
+#
+
+wget -O /tmp/ncam_14.7-r0_all.deb "https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/ncam_14.6-r0_all.deb"
+
+dpkg -i --force-overwrite /tmp/*.deb
+
+rm -r /tmp/ncam_14.7-r0_all.deb
+
+wait
+
+sleep 2;
+
+exit 0
+  
+</item>
+
+<item
+            name="dpkg"
+         icon="/media/hdd/AJPanel_Backup/icons/dpkg.png"
+            ask="Install dpkg ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/script-all/main/dpkg%20-wget%20-y-dream.sh -O - | /bin/sh</item>
+
+
+</submenu>
+#########################################
+##############oscam-nacam##############
+    <submenu
+        title="oscam-nacam"
+        info=" Download And install plugin And Favorites "
+        icon="/media/hdd/AJPanel_Backup/icons/oscam-nacam.png"
+        mode="grid_4x2"
+        shade="yes"
+        font_size="35"
+        title_bg="#11332233"
+        num_fg="#FCFCFC"
+        num_bg="#000000"
+        title1_fg="#FCFCFC"
+        title1_bg="#000000"
+        title2_fg="#FCFCFC"
+        title2_bg="#000000"
+        width="1600"
+        height="950">
+        <item
+            name="nacam"
+            icon="/media/hdd/AJPanel_Backup/icons/ncam-14.3.png"
+            ask="Install ncam-14.7 ?">wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installerEMU.sh -O - | /bin/sh</item>
+<item
+            name="oscam"
+            icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
+            ask="Install oscam-11751 ?">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s oscam</item>
+<item name="OScam by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/mos.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s oscam</item>
+<item name="OScam by tarek " icon="/media/hdd/AJPanel_Backup/icons/money.png" ask="yes">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer2.sh -O - | /bin/sh</item>
+		<item name="Ncam by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s ncam</item>
+		<item name="powercam by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s powercam</item>
+		<item name="supcam by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s supcam</item>
+		<item name="gosatplus by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s gosatplus</item>
+		<item name="ultracam by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s ultracam</item>
+<item
+            name="ccam239"
+         icon="/media/hdd/AJPanel_Backup/icons/ccam239.png"
+            ask="Install ccam ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/ccam/cccam.sh -O - | /bin/sh
+</item>
+</submenu>
+#########################################
+##############TOOLES##############
+    <submenu
+        title="Tooles"
+        info=" Download And install plugin And Tooles "
+        icon="/media/hdd/AJPanel_Backup/icons/Tooles.png"
+        mode="grid_4x2"
+        shade="yes"
+        font_size="35"
+        title_bg="#11332233"
+        num_fg="#FCFCFC"
+        num_bg="#000000"
+        title1_fg="#FCFCFC"
+        title1_bg="#000000"
+        title2_fg="#FCFCFC"
+        title2_bg="#000000"
+        width="1600"
+        height="950">
+        <item
+            name="vertualkeyboard"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install vertualkeyboard ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOLSvertualkeyboard.sh -O - | /bin/sh</item>
+<item
+            name="wget-curl-opkg"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install wget-curl-opkg ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/Tooles/main/1TOOL-wget-curl-opkg-toles.sh -O - | /bin/sh</item>
+
+<item
+            name="SoftCamKey2"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install SoftCamKey2 ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOL-SoftCamKey2.sh -O - | /bin/sh</item>
+<item
+            name="update-py2"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install update-py2 ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOL-update-py2.sh -O - | /bin/sh</item>
+<item
+            name="update-py3"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install update-py3 ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOL-update-py3.sh -O - | /bin/sh</item>
+<item
+            name="update-arbic"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install update-arbic ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOLS--update-arbic.sh -O - | /bin/sh</item>
+<item
+            name="ipaudio-tools"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install ipaudio-tools ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOLS-ipaudio-tools.sh -O - | /bin/sh</item>
+<item
+            name="SUptime"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install SUptime ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOLSUptime.sh -O - | /bin/sh</item>
+<item
+            name="Satellites"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install Satellites ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOLS_S_Satellites Editor.sh -O - | /bin/sh</item>
+<item
+            name="curl"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install curl ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOL-curl.sh-O - | /bin/sh</item>
+<item
+            name="chmod"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install chmod ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/chmod-all-scripts.sh-O - | /bin/sh</item>
+<item
+            name="TOOL-ipkinstaller"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install TOOL-ipkinstaller ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOL-ipkinstaller.sh -O - | /bin/sh
+</item>
+<item
+            name="TOOL-gst-base"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install TOOL-gst-base ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOL-gst-base.shO - | /bin/sh</item>
+
+<item
+            name="TOOL-gstplayer"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install TOOL-gstplayer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOL-gstplayer.sh-O - | /bin/sh</item>
+
+<item
+            name="TOOL-gstreamer-good"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="TOOL-gstreamer-good ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOL-gstreamer-good.sh-O - | /bin/sh</item>
+
+<item
+            name="SoftCamKeyALL"
+         icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install SoftCamKeyALL ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOLS_SoftCamKeyALL.sh -O - | /bin/sh</item>
+<item
+            name="Freeccam1"
+         icon="/media/hdd/AJPanel_Backup/icons/Tooles.png"
+            ask="Install Cccam3 ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/1FREE-Free-Cccam-Servers1.sh -O - | /bin/sh</item>
+<item
+            name="Freeccam2"
+         icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install Cccam2 ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/1FREE-Free-Cccam-Servers2.sh -O - | /bin/sh</item>
+<item
+            name="gstreamer"
+         icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install gstreamer ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/opkg%20install%20gstreamer1.sh -O - | /bin/sh</item>
+<item
+            name="IPaudioPro"
+         icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install IPaudioPro ?">wget https://raw.githubusercontent.com/tarekzoka/ipaudio/main/IPaudioPro-support.sh -O - | /bin/sh</item>
+<item
+            name="ArabicSavior"
+         icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install ArabicSavior ?">wget https://raw.githubusercontent.com/tarekzoka/ArabicSavior/main/ArabicSavior2.sh -O - | /bin/sh</item>
+<item
+            name="asound-libasound"
+         icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install asound-libasound ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/asound-libasound.so.2.0.sh -O - | /bin/sh</item>
+<item
+            name="asound-libasound-tar"
+         icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install asound-libasound ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/asound-libasound2.sh -O - | /bin/sh</item>
+
+<item
+            name="Freeccam3"
+         icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install Cccam1 ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/1FREE-Free-Cccam-Servers3.sh -O - | /bin/sh
+</item>
+</submenu>
+#########################################
+##############tarektpanel##############
+
+	<submenu title="SymLink-picon" shade="yes" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/digitalisation.png">
+		<item name="picon 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/picon /usr/share/enigma2/picon</item>
+		<item name="piconCrypt 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/piconCrypt /usr/share/enigma2/piconCrypt</item>
+		<item name="piconProv 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/piconProv /usr/share/enigma2/piconProv</item>
+		<item name="piconSat 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/piconSat /usr/share/enigma2/piconSat</item>
+		<item name="zzpicon 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/zzpicon /usr/share/enigma2/zzpicon</item>
+		<item name="emu 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/emu /usr/share/enigma2/emu</item>
+<item 
+            name="picon-nile"
+            icon="/media/hdd/AJPanel_Backup/icons/picon.png"
+            ask="Install picon-nile ?">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tar1971/picon-nilesat/main/installer.sh -O - | /bin/sh</item>
+<item 
+            name="picon-amos"
+            icon="/media/hdd/AJPanel_Backup/icons/picon.png"
+            ask="Install picon-nile ?">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/picons/main/amos-picon.sh -O - | /bin/sh</item>
+<item 
+            name="picon-defult"
+            icon="/media/hdd/AJPanel_Backup/icons/picon.png"
+            ask="Install picon-defult ?">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/picons/main/picon_defult-picon.sh -O - | /bin/sh</item>
+<item 
+            name="picon-black"
+            icon="/media/hdd/AJPanel_Backup/icons/picon.png"
+            ask="Install picon-defult ?">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/picons/main//picons-black.sh -O - | /bin/sh</item>
+<item ask="Install Chochlousek Picon ?" icon="/hdd/AJPanel_Backup/icons/picon.png" name="Chocholousek-Picons">sh -c "$(wget --no-check-certificate https://github.com/s3n0/e2plugins/raw/master/ChocholousekPicons/online-setup -qO -)</item>
+		<item 
+            name="picon-amos"
+            icon="/media/hdd/AJPanel_Backup/icons/picon.png"
+            ask="Install picon-nile ?">wget https://raw.githubusercontent.com/emil237/picon-amos/main/installer.sh -O - | /bin/sh</item>
+		<item ask="yes" icon="/media/hdd/AJPanel_Backup/icons/picon.png" name="Astra_19.2E">wget https://dreambox4u.com/emilnabil237/picons/installer-picin19.2e.sh -O - | /bin/sh"</item>
+		<item ask="" icon="/media/hdd/AJPanel_Backup/icons/picon.png" name="Badr_26E">wget https://raw.githubusercontent.com/emil237/picon-Badr26E/main/installer.sh -O - | /bin/sh</item>
+		<item ask="" icon="/media/hdd/AJPanel_Backup/icons/picon.png" name="Bulgariasat_1.9E">wget https://raw.githubusercontent.com/emil237/picon-bulgariasat/main/installer.sh -O - | /bin/sh</item>
+		<item ask="" icon="/media/hdd/AJPanel_Backup/icons/picon.png" name="Eutelsat_16E">wget https://raw.githubusercontent.com/emil237/picon-eutelsat_16E/main/installer.sh -O - | /bin/sh</item>
+		<item ask="" icon="/media/hdd/AJPanel_Backup/icons/picon.png" name="Eutelsat_21.6E">wget https://dreambox4u.com/emilnabil237/picons/installer-picon21.6e.sh -O - | /bin/sh</item>
+		<item 
+            name="picon-HOTBIRD-13"
+            icon="/media/hdd/AJPanel_Backup/icons/picon.png"
+            ask="Install HOTBIRD-13 ?">wget https://raw.githubusercontent.com/emil237/picon-hotbird/main/installer.sh -O - | /bin/sh</item>
+		<item ask="" icon="/media/hdd/AJPanel_Backup/icons/picon.png" name="Nilesat_7W+8W">wget https://dreambox4u.com/emilnabil237/picons/nilesat/installer.sh -O - | /bin/sh</item>
+		<item ask="" icon="/media/hdd/AJPanel_Backup/icons/picon.png" name="picons-other">wget https://raw.githubusercontent.com/emil237/picon-other/main/installer.sh -O - | /bin/sh</item>
+		<item ask="" icon="/media/hdd/AJPanel_Backup/icons/picon.png" name="Yahsat_52.5E">wget https://raw.githubusercontent.com/emil237/picon-yahsat/main/installer.sh -O - | /bin/sh</item>
+
+
+<item 
+             name="picon-media-hdd"
+            icon="/media/hdd/AJPanel_Backup/icons/picon.png"
+            ask="Install picon-nile ?">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/picons/main/PICON_picon-media-hdd.sh -O - | /bin/sh</item>
+</submenu>
+#########################################
+##############tarektpanel##############
+
+		<submenu title="drivers-network" shade="yes" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/drive.png" bg=" " title_fg=" " title_bg=" " align_items="left">
+			<item name="network-usb-mt7601u" icon="/media/hdd/AJPanel_Backup/icons/drive2.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/Drivers/-/raw/main/network-usb-mt7601u-1.0-r0.sh -O - | /bin/sh</item>
+			<item name="network-usb-mt7601u" icon="/media/hdd/AJPanel_Backup/icons/drive2.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/Drivers/-/raw/main/network-usb-mt7601u-1.0-r2.sh -O - | /bin/sh</item>
+			<item name="network-usb-novaler" icon="/media/hdd/AJPanel_Backup/icons/drive2.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/Drivers/-/raw/main/network-usb-novaler-1.0.sh -O - | /bin/sh</item>
+			<item name="network-usb-rt3070" icon="/media/hdd/AJPanel_Backup/icons/drive2.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/Drivers/-/raw/main/network-usb-rt3070-1.0-r0.sh -O - | /bin/sh</item>
+			<item name="network-usb-rt3573" icon="/media/hdd/AJPanel_Backup/icons/drive2.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/Drivers/-/raw/main/network-usb-rt3573-1.0-r0.sh -O - | /bin/sh</item>
+			<item name="network-usb-zgemmah7" icon="/media/hdd/AJPanel_Backup/icons/drive2.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/Drivers/-/raw/main/network-usb-zgemmah7-1.0.sh -O - | /bin/sh</item>
+<item ask="yes" icon="/media/hdd/AJPanel_Backup/icons/drive2.png" name="Youtube">wget https://raw.githubusercontent.com/fairbird/Youtube-Opensource-DreamOS/master/installer.sh -qO - | /bin/sh</item>
+		<item ask="yes" icon="/media/hdd/AJPanel_Backup/icons/drive2.png" name="service app">opkg install enigma2-plugin-systemplugins-serviceapp</item>
+		<item ask="yes" icon="/media/hdd/AJPanel_Backup/icons/drive2.png" name="xml update">opkg install enigma2-plugin-systemplugins-xmlupdate</item>
+		<item ask="yes" icon="/media/hdd/AJPanel_Backup/icons/drive2.png" name="wirelesslan">opkg install enigma2-plugin-systemplugins-wirelesslan</item>
+				<item ask="yes" icon="/media/hdd/AJPanel_Backup/icons/drive2.png" name="epgimport">opkg install enigma2-plugin-extensions-epgimport</item>
+		<item ask="yes" icon="/media/hdd/AJPanel_Backup/icons/drive2.png" name="imdb">opkg install enigma2-plugin-extensions-imdb</item>
+		<item ask="yes" icon="/media/hdd/AJPanel_Backup/icons/drive2.png" name="PlutoTV">wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/PlutoTV/installer.sh -qO - | /bin/sh</item>
+				
+		<item ask="yes" icon="/media/hdd/AJPanel_Backup/icons/drive2.png" name="oaweather">opkg install enigma2-plugin-extensions-oaweather</item>
+		<item ask="yes" icon="/media/hdd/AJPanel_Backup/icons/drive2.png" name="permanentclock">opkg install enigma2-plugin-extensions-permanentclock</item>
+	
+		<item ask="yes" icon="/media/hdd/AJPanel_Backup/icons/drive2.png" name="weatherplugin">opkg install enigma2-plugin-extensions-weatherplugin</item> </submenu>
+#########################################
+##############tarektpanel##############
+
+		<submenu title="boot-logo" shade="yes" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/boot.png" bg=" " title_fg=" " title_bg=" " align_items="left">
+			<item name="boot-eid-adhh" icon="/media/hdd/AJPanel_Backup/icons/boot.png" ask="yes">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/bootlogo/main/BootLogo-eid-adhh.sh -O - | /bin/sh</item>
+<item name="boot-Ramadan" icon="/media/hdd/AJPanel_Backup/icons/boot.png" ask="yes">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/bootlogo/main/BootLogoRamadan.sh -O - | /bin/sh</item>
+<item name="boot-wappernewatv" icon="/media/hdd/AJPanel_Backup/icons/boot.png" ask="yes">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/bootlogo/main/BootLogoSwappernewatv.sh -O - | /bin/sh</item>
+
+
+
+                 </submenu>
+    </ajp_menu>
+
+
+
+
+
+
