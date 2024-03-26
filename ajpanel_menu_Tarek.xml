@@ -221,6 +221,15 @@
             name="EPGImport-egami10.5"
             icon="/media/hdd/AJPanel_Backup/icons/epg2.png"
             ask="Install EPGImport ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/EPGImport/main/EPGImport-mod.sh -O - | /bin/sh</item>
+<item 
+            name="subssupport"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles.png"
+            ask="Install subssupport ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/subssupport/epggrabber.sh-O - | /bin/sh</item>
+<item 
+            name="ajpanel-1"
+            icon="/media/hdd/AJPanel_Backup/icons/aj.png"
+            ask="Install ajpanel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ajpanel/ajpanel.sh-O - | /bin/sh</item>
+
         <item
             name="jediepgxtream1"
          icon="/media/hdd/AJPanel_Backup/icons/jediepgxtream1.png"
@@ -273,7 +282,7 @@
 			<item name="Crashlogviewer-0.9" icon="/media/hdd/AJPanel_Backup/icons/crash.png" info="(تصفح ملفات الكراش)" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/crashlogviewer/crashlogviewer.sh -O - | /bin/sh</item>
 			<item name="e2iplayer_llinusat" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/e2.png" info="(مشغل iptv)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/e2iplayer/e2iplayer.sh -O - | /bin/sh</item>
 			<item name="easy-cccam" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ecccam.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/easy-cccam/easy-cccam.sh -O - | /bin/sh</item>
-			<item name="epggrabber" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/epggrabber/epggrabber.sh -O - | /bin/sh</item>
+			<item name="epggrabber1" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epggrabber/epggrabber.sh -O - | /bin/sh</item>
 			<item name="feedsfinder" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/bis.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/feedsfinder/feedsfinder.sh -O - | /bin/sh</item>
 			<item name="footonsat" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/fo.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/footonsat/footonsat.sh -O - | /bin/sh</item>
 			<item name="freeserver" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/fr.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/freeserver/freeserver.sh -O - | /bin/sh </item>
@@ -290,6 +299,7 @@
 <item name="xtraevent-6.4" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/xt.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/xtraevent/xtraevent-6.4.sh -O - | /bin/sh</item>
             <item name="Ipaudio-7.4-ffmpeg" icon="/media/hdd/AJPanel_Backup/icons/ipa.png" info="(اضافة الصوتيات على قنوات السات)" ask="yes ">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh</item>
 			<item name="ipaudiopro-1.1-py-3.9-3.11" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ipap.png" info="(اضافة الصوتيات على قنوات السات)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipaudiopro/ipaudiopro.sh -O - | /bin/sh</item>
+<item name="levi45-addon-manager" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/Tooles.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/levi45-addon-manager/levi45-addon-manager.sh-O - | /bin/sh</item>
 			<item name="ipchecker" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ipchecker.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipchecker/ipchecker.sh -O - | /bin/sh</item>
 			<item name="iptosat" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ipt.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/iptosat/iptosat.sh -O - | /bin/sh</item>
 			<item name="isetting-e2" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/isetting.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/isetting-e2/isetting-e2.sh -O - | /bin/sh</item>
