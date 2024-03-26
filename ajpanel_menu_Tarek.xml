@@ -223,8 +223,8 @@
             ask="Install EPGImport ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/EPGImport/main/EPGImport-mod.sh -O - | /bin/sh</item>
 <item 
             name="subssupport"
-            icon="/media/hdd/AJPanel_Backup/icons/Tooles.png"
-            ask="Install subssupport ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/subssupport/epggrabber.sh-O - | /bin/sh</item>
+            icon="/media/hdd/AJPanel_Backup/icons/sub.png"
+            ask="Install subssupport ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/subssupport/subssupport.sh -O - | /bin/sh</item>
 <item 
             name="ajpanel-1"
             icon="/media/hdd/AJPanel_Backup/icons/aj.png"
