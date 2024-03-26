@@ -238,10 +238,10 @@
             name="update-ajpanel-menu"
          icon="/media/hdd/AJPanel_Backup/icons/update-ajpanel-menu.png"
             ask="Install update-ajpanel-menu ?">wget https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel_menu.sh -O - | /bin/sh</item>
-            <item
-            name="update-feed-tarek"
-         icon="/media/hdd/AJPanel_Backup/icons/update-feed-tarek.png"
-            ask="Install update-feed-tarek ?">wget https://raw.githubusercontent.com/tarekzoka/settingsz/main/tarekfeed.sh -O - | /bin/sh</item>
+            <item 
+            name="Quran"
+            icon="/media/hdd/AJPanel_Backup/icons/Quran.png"
+            ask="Install Quran ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/Quran/installer.sh -O - | /bin/sh</item>
 <item
             name="E2IPlayer"
          icon="/media/hdd/AJPanel_Backup/icons/E2IPlayer.png"
@@ -614,11 +614,11 @@ exit 0
         <item
             name="nacam"
             icon="/media/hdd/AJPanel_Backup/icons/ncam-14.3.png"
-            ask="Install ncam-14.7 ?">wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installerEMU.sh -O - | /bin/sh</item>
+            ask="Install ncam-last ?">wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installerEMU.sh -O - | /bin/sh</item>
 <item
             name="oscam"
             icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
-            ask="Install oscam-11751 ?">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s oscam</item>
+            ask="Install oscam-last ?">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s oscam</item>
 <item name="OScam by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/mos.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s oscam</item>
 <item name="OScam by tarek " icon="/media/hdd/AJPanel_Backup/icons/money.png" ask="yes">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer2.sh -O - | /bin/sh</item>
 		<item name="Ncam by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s ncam</item>
