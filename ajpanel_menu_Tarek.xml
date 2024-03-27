@@ -31,55 +31,73 @@
         height="950">
         <item
             name="bohallaskin"
-            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install bohalla ?">wget https://raw.githubusercontent.com/tarekzoka/SKINS/main/BO.sh -qO - | /bin/sh</item> 
+<item 
+            name="premiumfhd-ylew"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install aglare-fhd ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/premiumfhd-ylew.sh -O - | /bin/sh</item>
+<item 
+            name="premium-fhd-rose"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install aglare-fhd ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/premium-fhd-rose.sh -O - | /bin/sh</item>
+
 <item
-            name="OB-mx-sline-blu"
-            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            name="mxsline-blu"
+            icon="/media/hdd/AJPanel_Backup/icon/OBH.png"
             ask="Install mx-sline-blu ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/main/OB-blackhole/mx-sline-blu.sh -O - | /bin/sh</item> 
 <item
-            name="OB-mx-sline-red"
-            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            name="mxsline-red"
+            icon="/media/hdd/AJPanel_Backup/icon/OBH.png"
             ask="Install mx-sline-red ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/main/OB-blackhole/mx-sline-red.sh -O - | /bin/sh</item> 
 <item
-            name="OB-MxPrioFHDxtra"
-            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            name="MxPrioFHDxtra"
+            icon="/media/hdd/AJPanel_Backup/icon/OBH.png"
             ask="Install MxPrioFHDxtra ?">wget https://raw.githubusercontent.com/tarekzoka/SKINS/main/Mx-PrioFHD-xtra_tarek.sh -O - | /bin/sh</item>
 <item
-            name="OB-Mx-SunMoon"
-            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            name="Mx-SunMoon"
+            icon="/media/hdd/AJPanel_Backup/icon/OBH.png"
             ask="Install Mx-SunMoon ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/Mx-SunMoon.sh -O - | /bin/sh</item>
 <item
             name="NitroAdvanceFHD"
-            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install NitroAdvanceFHD ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/NitroAdvanceFHD/main/tarek.sh -O - | /bin/sh</item>
 <item
             name="CinoGriPLi"
-            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install CinoGriPLi ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/SKIN_CinoGriPLi.sh -O - | /bin/sh</item>
 <item 
             name="DesertFHD-NEW"
-            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install DesertFHD-NEW ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/DesertFHD-NEW.sh -O - | /bin/sh</item>
+<item 
+            name="aglare-fhd"
+            icon="/media/hdd/AJPanel_Backup/icons/pli.png"
+            ask="Install aglare-fhd ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/aglare-fhd-pli.sh -O - | /bin/sh</item>
+<item 
+            name="aglare-fhd"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install aglare-fhd ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/aglare-fhd.sh -O - | /bin/sh</item>
+
 <item
             name="SKIN_Nuke"
             icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
             ask="Install SKIN_Nuke?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/SKIN_Nuke.FHD.sh -O - | /bin/sh</item> 
 <item
-            name="OB-MXLiveFHD-posterX"
-            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            name="MXLiveFHD-posterX"
+            icon="/media/hdd/AJPanel_Backup/icons/OBH.png"
             ask="Install MX-LiveFHD-posterX ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/OB-blackhole/MX-LiveFHD-posterX.sh -O - | /bin/sh</item>
 <item
             name="skins-malek"
-            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/pli.png"
             ask="Install skins-malek ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/skins-malek.sh -O - | /bin/sh</item>
 <item
             name="s-KILLPRO"
-            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install skins-KILLPRO ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/skins-KILLPRO.sh -O - | /bin/sh</item>
 <item
             name="s-SHADOW"
-            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/pli.png"
             ask="Install skin-SHADOW ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/skin-SHADOW.sh -O - | /bin/sh</item>
 <item
             name="S-octagon-fhd"
@@ -92,7 +110,7 @@
 
 <item
             name="s-premiumfhd-blue"
-            icon="/media/hdd/AJPanel_Backup/icons/skin3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install premiumfhd-blue ?">wget https://raw.githubusercontent.com/tarekzoka/SKINS/main/premiumfhd-blue_2.5.sh -O - | /bin/sh</item>
 </submenu>
 #########################################
@@ -264,6 +282,11 @@
             name="Gstreamer-audio"
          icon="/media/hdd/AJPanel_Backup/icons/Tooles.png"
             ask="Install Gstreamer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/Gstreamer-audio.sh -O - | /bin/sh</item>
+<item 
+            name="multistalkerpro"
+            icon="/media/hdd/AJPanel_Backup/icons/ms.png"
+            ask="Install multistalkerpro ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/multistalker-pro/multistalkerpro.sh -O - | /bin/sh</item>
+
 <item name="alajre" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/alajre.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/alajre/alajre.sh -O - | /bin/sh </item>
 			<item name="alternativesoftcammanager" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/plugins.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/alternativesoftcammanager/alternativesoftcammanager.sh -O - | /bin/sh </item>
 			<item name="arabicsavior" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ar.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/arabic-savior/arabicsavior.sh -O - | /bin/sh </item>
@@ -434,6 +457,31 @@ wait
 killall -9 enigma2
 
 sleep 2;</item>
+<item 
+            name="subssupport"
+            icon="/media/hdd/AJPanel_Backup/icons/sub.png"
+            ask="Install subssupport ?">#!/bin/sh
+#
+wget -O /tmp/subssupport_1.5.8-20200522_all.deb "https://raw.githubusercontent.com/tarekzoka/subssupport/main/subssupport_1.5.8-20200522_all.deb"
+
+wait
+
+apt-get update ; dpkg -i /tmp/*.deb ; apt-get -y -f install
+
+wait
+
+dpkg -i --force-overwrite /tmp/*.deb
+
+wait
+
+rm -r /tmp/subssupport_1.5.8-20200522_all.deb
+
+wait
+
+sleep 2;
+
+exit 0</item>
+
 <item
             name="dreamxtream-os"
          icon="/media/hdd/AJPanel_Backup/icons/dreamxtream-os.png"
