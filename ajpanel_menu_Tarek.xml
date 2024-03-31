@@ -436,7 +436,7 @@
         height="950">
 <item 
             name="ansite-quran"
-            icon="/media/hdd/AJPanel_Backup/icons/quran.png"
+            icon="/media/hdd/AJPanel_Backup/icons/ansite.png"
             ask="Install ansite-quran?">#!/bin/sh
 #
 
@@ -472,6 +472,14 @@ exit 0</item>
             name="advancedquickbutton"
             icon="/media/hdd/AJPanel_Backup/icons/xx.png"
             ask="Install advancedquickbutton ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/multiquickbut-os/main/dvancedquickbutton.sh -O - | /bin/sh </item>
+<item
+            name="RaedQuickSignal"
+            icon="/media/hdd/AJPanel_Backup/icons/cacheflush.png"
+            ask="Install RaedQuickSignal ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh </item>
+<item 
+            name="ArabicSavior"
+            icon="/media/hdd/AJPanel_Backup/icons/ar.png"
+            ask="Install ArabicSavior ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh</item>
 
 <item
             name="E2-MOHAMED_OS"
@@ -656,6 +664,11 @@ exit 0 </item>
             name="merlin-Quickbutton"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install Quickbutton ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/Quickbutton.sh -O - | /bin/sh</item>
+<item 
+            name="DreamOSatScript"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install DreamOSatScript ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/DreamOSatScript.sh -O - | /bin/sh</item>
+
 <item 
             name="merlin-SysCC"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
