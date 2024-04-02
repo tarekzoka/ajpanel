@@ -29,7 +29,15 @@
         title2_bg="#000000"
         width="1600"
         height="950">
-        <item
+        <item 
+            name="aglare-2.4"
+            icon="/media/hdd/AJPanel_Backup/icons/ATV.png"
+            ask="Install aglare-2.4 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-gitlab.sh -O - | /bin/sh</item>
+<item 
+            name="aglare-2.3"
+            icon="/media/hdd/AJPanel_Backup/icons/pli.png"
+            ask="Install aglare-2.3 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/pli/aglare-fhd-gitlab.sh -O - | /bin/sh</item>
+<item
             name="bohallaskin"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install bohalla ?">wget https://raw.githubusercontent.com/tarekzoka/SKINS/main/BO.sh -qO - | /bin/sh</item> 
@@ -58,6 +66,11 @@
             name="Mx-SunMoon"
             icon="/media/hdd/AJPanel_Backup/icon/OBH.png"
             ask="Install Mx-SunMoon ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/Mx-SunMoon.sh -O - | /bin/sh</item>
+<item 
+            name="Jihadv2"
+            icon="/media/hdd/AJPanel_Backup/icons/ATV.png"
+            ask="Install Jihadv2 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/Jihadv2.sh-O - | /bin/sh</item>
+
 <item 
             name="revolution-pro"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
@@ -481,6 +494,11 @@ exit 0</item>
             icon="/media/hdd/AJPanel_Backup/icons/ar.png"
             ask="Install ArabicSavior ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh</item>
 
+<item 
+            name="alternativesoftcammanager"
+            icon="/media/hdd/AJPanel_Backup/icons/camd.png"
+            ask="Install cammanager ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/alternativesoftcammanager.sh -O - | /bin/sh</item>
+
 <item
             name="E2-MOHAMED_OS"
          icon="/media/hdd/AJPanel_Backup/icons/MOHAMED_OS.png"
@@ -754,7 +772,7 @@ exit 0
             icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
             ask="Install oscam-last ?">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s oscam</item>
 <item name="OScam by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/mos.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s oscam</item>
-<item name="OScam by tarek " icon="/media/hdd/AJPanel_Backup/icons/money.png" ask="yes">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer2.sh -O - | /bin/sh</item>
+<item name="OScam by tarek " icon="/media/hdd/AJPanel_Backup/icons/oscam1.png" ask="yes">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer2.sh -O - | /bin/sh</item>
 		<item name="Ncam by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s ncam</item>
 		<item name="powercam by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s powercam</item>
 		<item name="supcam by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s supcam</item>
@@ -788,6 +806,11 @@ exit 0
             name="vertualkeyboard"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install vertualkeyboard ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOLSvertualkeyboard.sh -O - | /bin/sh</item>
+<item 
+            name="bitrate"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install bitrate ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/bitrate/bitrate.sh -O - | /bin/sh</item>
+
 <item
             name="wget-curl-opkg"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
@@ -817,6 +840,11 @@ exit 0
             name="SUptime"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install SUptime ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOLSUptime.sh -O - | /bin/sh</item>
+<item 
+            name="QuickButton-BH"
+            icon="/media/hdd/AJPanel_Backup/icons/BH.png"
+            ask="Install QuickButton ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/MultiQuickButton/MultiQuickButton-gitlab.sh -O - | /bin/sh</item>
+
 <item
             name="Satellites"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
@@ -983,10 +1011,37 @@ exit 0 </item>
 
 		<submenu title="boot-logo" shade="yes" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/boot.png" bg=" " title_fg=" " title_bg=" " align_items="left">
 			<item name="boot-eid-adhh" icon="/media/hdd/AJPanel_Backup/icons/boot.png" ask="yes">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/bootlogo/main/BootLogo-eid-adhh.sh -O - | /bin/sh</item>
+<item 
+            name="bootlogos-coffee"
+            icon="/media/hdd/AJPanel_Backup/icons/boot.png"
+            ask="Install bootlogos-coffee ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/bootlogoswapper/bootlogos-coffee.sh -O - | /bin/sh</item>
+<item 
+            name="bootlogos-house"
+            icon="/media/hdd/AJPanel_Backup/icons/boot.png"
+            ask="Install bootlogos-house ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/bootlogoswapper/bootlogos-house.sh -O - | /bin/sh</item>
+
 <item name="boot-Ramadan" icon="/media/hdd/AJPanel_Backup/icons/boot.png" ask="yes">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/bootlogo/main/BootLogoRamadan.sh -O - | /bin/sh</item>
+<item 
+            name="bootlogos-nature"
+            icon="/media/hdd/AJPanel_Backup/icons/boot.png"
+            ask="Install bootlogos-nature ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/bootlogoswapper/bootlogos-nature.sh -O - | /bin/sh</item>
+
 <item name="boot-wappernewatv" icon="/media/hdd/AJPanel_Backup/icons/boot.png" ask="yes">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/bootlogo/main/BootLogoSwappernewatv.sh -O - | /bin/sh</item>
 
+</submenu>
+#########################################
+##############DANS##############
 
+		<submenu title="DANS" shade="yes" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/DNS.png" bg=" " title_fg=" " title_bg=" " align_items="left">
+			<item name="Google">echo "nameserver 8.8.8.8" > /etc/resolv.conf; echo "nameserver 8.8.4.4" >> /etc/resolv.conf; killall -9 enigma2</item>
+		<item name="Cloudflare">echo "nameserver 1.1.1.1" > /etc/resolv.conf; echo "nameserver 1.0.0.1" >> /etc/resolv.conf; killall -9 enigma2</item>
+		<item name="CleanBrowsing">echo "nameserver 185.228.168.9" > /etc/resolv.conf; echo "nameserver 185.228.169.9" >> /etc/resolv.conf; killall -9 enigma2</item>
+		<item name="Quad9">echo "nameserver 9.9.9.9" > /etc/resolv.conf; echo "nameserver 149.112.112.112" >> /etc/resolv.conf; killall -9 enigma2</item>
+		<item name="Open Home">echo "nameserver 208.67.222.222" > /etc/resolv.conf; echo "nameserver 208.67.220.220" >> /etc/resolv.conf; killall -9 enigma2</item>
+		<item name="Comodo">echo "nameserver 8.26.56.26" > /etc/resolv.conf; echo "nameserver 8.20.247.20" >> /etc/resolv.conf; killall -9 enigma2</item>
+		<item name="Alternate">echo "nameserver 76.76.19.19" > /etc/resolv.conf; echo "nameserver 76.223.122.150" >> /etc/resolv.conf; killall -9 enigma2</item>
+		<item name="AdGuard">echo "nameserver 94.140.14.14" > /etc/resolv.conf; echo "nameserver 94.140.15.15" >> /etc/resolv.conf; killall -9 enigma2</item>
+		<item name="Control D">echo "nameserver 76.76.2.0" > /etc/resolv.conf; echo "nameserver 76.76.10.0" >> /etc/resolv.conf; killall -9 enigma2</item>
 
                  </submenu>
     </ajp_menu>
