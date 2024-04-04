@@ -32,11 +32,11 @@
         <item 
             name="aglare-2.5"
             icon="/media/hdd/AJPanel_Backup/icons/ATV.png"
-            ask="Install aglare-2.4 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-gitlab.sh -O - | /bin/sh</item>
+            ask="Install aglare-2.4 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-atv.sh -O - | /bin/sh</item>
 <item 
             name="aglare-2.5"
             icon="/media/hdd/AJPanel_Backup/icons/pli.png"
-            ask="Install aglare-2.3 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/pli/aglare-fhd-gitlab.sh -O - | /bin/sh</item>
+            ask="Install aglare-2.3 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/pli/aglare-fhd-pli.sh -O - | /bin/sh</item>
 <item
             name="bohallaskin"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
