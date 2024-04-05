@@ -162,6 +162,7 @@
          icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install update-feed-tarek ?">wget https://raw.githubusercontent.com/tarekzoka/settingsz/main/tarekfeed.sh -O - | /bin/sh</item>
 
+<item name="update-dependencies" info="Download correction ipk" icon="/media/hdd/AJPanel_Backup/icons/FEED2.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-dependencies.sh -O - | /bin/sh</item>
 
         </submenu>
 #########################################
@@ -807,6 +808,11 @@ exit 0
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install vertualkeyboard ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOLSvertualkeyboard.sh -O - | /bin/sh</item>
 <item 
+            name="IPAudioProJSON"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install JSONPRO ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro//IPAudioPro.sh -O - | /bin/sh</item>
+
+<item 
             name="bitrate"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install bitrate ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/bitrate/bitrate.sh -O - | /bin/sh</item>
@@ -944,6 +950,10 @@ exit 0 </item>
 		<item name="piconSat 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/piconSat /usr/share/enigma2/piconSat</item>
 		<item name="zzpicon 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/zzpicon /usr/share/enigma2/zzpicon</item>
 		<item name="emu 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/emu /usr/share/enigma2/emu</item>
+<item 
+            name="picons-ipaudio"
+            icon="/media/hdd/AJPanel_Backup/icons/picon.png"
+            ask="Install picons-ipaudio ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/picons/-/raw/main/picons-ipaudio.sh-O - | /bin/sh</item>
 <item 
             name="picon-nile"
             icon="/media/hdd/AJPanel_Backup/icons/picon.png"
