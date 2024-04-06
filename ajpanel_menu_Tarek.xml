@@ -273,9 +273,9 @@
             icon="/media/hdd/AJPanel_Backup/icons/sub.png"
             ask="Install subssupport ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/subssupport/subssupport.sh -O - | /bin/sh</item>
 <item 
-            name="ajpanel-1"
+            name="ajpanel"
             icon="/media/hdd/AJPanel_Backup/icons/aj.png"
-            ask="Install ajpanel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ajpanel/ajpanel.sh-O - | /bin/sh</item>
+            ask="Install ajpanel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ajpanel/ajpanel.sh -O - | /bin/sh</item>
 
  <item
             name="Sherlockmod"
@@ -398,6 +398,8 @@
 			<item name="novalerstore" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ns.png" info="(بانل تسطيب اضافات)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novalerstore.sh -O - | /bin/sh</item>
 			<item name="oaweather" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/oa.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/oaweather/oaweather.sh?inline=false -O - | /bin/sh</item>
 			<item name="opdboot" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/opdboot.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/opdboot/opdboot.sh -O - | /bin/sh</item>
+
+<item name="worldcam" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/Tooles.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/worldcam/main/installer.sh -O - | /bin/sh</item>
 			<item name="opkg-tools" ask="yes(reboot)" icon="/media/hdd/AJPanel_Backup/icons/opkgtools.png"  info="(اداة تشغيل خاصة بالajpanel)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/opkg-tools/opkg-tools.sh -O - | /bin/sh</item>
 
 <item
@@ -950,10 +952,11 @@ exit 0 </item>
 		<item name="piconSat 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/piconSat /usr/share/enigma2/piconSat</item>
 		<item name="zzpicon 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/zzpicon /usr/share/enigma2/zzpicon</item>
 		<item name="emu 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/emu /usr/share/enigma2/emu</item>
+
 <item 
             name="picons-ipaudio"
             icon="/media/hdd/AJPanel_Backup/icons/picon.png"
-            ask="Install picons-ipaudio ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/picons/-/raw/main/picons-ipaudio.sh-O - | /bin/sh</item>
+            ask="Install picons-ipaudio ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/picons/-/raw/main/picons-ipaudio.sh -O - | /bin/sh</item>
 <item 
             name="picon-nile"
             icon="/media/hdd/AJPanel_Backup/icons/picon.png"
