@@ -30,9 +30,9 @@
         width="1600"
         height="950">
         <item 
-            name="aglare-2.5"
+            name="aglare-2.6"
             icon="/media/hdd/AJPanel_Backup/icons/ATV.png"
-            ask="Install aglare-2.4 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-atv.sh -O - | /bin/sh</item>
+            ask="Install aglare-2.6 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-atv.sh -O - | /bin/sh</item>
 <item 
             name="aglare-2.5"
             icon="/media/hdd/AJPanel_Backup/icons/pli.png"
@@ -399,9 +399,12 @@
 			<item name="oaweather" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/oa.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/oaweather/oaweather.sh?inline=false -O - | /bin/sh</item>
 			<item name="opdboot" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/opdboot.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/opdboot/opdboot.sh -O - | /bin/sh</item>
 
-<item name="worldcam" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/Tooles.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/worldcam/main/installer.sh -O - | /bin/sh</item>
+<item name="worldcam" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/worldcam/main/installer.sh -O - | /bin/sh</item>
 			<item name="opkg-tools" ask="yes(reboot)" icon="/media/hdd/AJPanel_Backup/icons/opkgtools.png"  info="(اداة تشغيل خاصة بالajpanel)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/opkg-tools/opkg-tools.sh -O - | /bin/sh</item>
 
+<item name="worldcam2" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/worldcam/worldcam.sh -O - | /bin/sh</item>
+
+<item name="worldcam1" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/worldcam/worldcam1.sh -O - | /bin/sh</item>
 <item
             name="ServiceApp-audio"
          icon="/media/hdd/AJPanel_Backup/icons/Tooles.png"
