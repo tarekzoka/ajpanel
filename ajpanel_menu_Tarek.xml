@@ -31,12 +31,12 @@
         height="950">
         <item 
             name="aglare-2.6"
-            icon="/media/hdd/AJPanel_Backup/icons/ATV.png"
+            icon="/media/hdd/AJPanel_Backup/icons/pli.png"
             ask="Install aglare-2.6 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-atv.sh -O - | /bin/sh</item>
 <item 
-            name="aglare-2.5"
-            icon="/media/hdd/AJPanel_Backup/icons/pli.png"
-            ask="Install aglare-2.3 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/pli/aglare-fhd-pli.sh -O - | /bin/sh</item>
+            name="aglare-2.6"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install aglare-2.3 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-atv1.sh -O - | /bin/sh</item>
 <item
             name="bohallaskin"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
@@ -402,8 +402,6 @@
 <item name="worldcam" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/worldcam/main/installer.sh -O - | /bin/sh</item>
 			<item name="opkg-tools" ask="yes(reboot)" icon="/media/hdd/AJPanel_Backup/icons/opkgtools.png"  info="(اداة تشغيل خاصة بالajpanel)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/opkg-tools/opkg-tools.sh -O - | /bin/sh</item>
 
-<item name="worldcam2" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/worldcam/worldcam.sh -O - | /bin/sh</item>
-
 <item name="worldcam1" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/worldcam/worldcam1.sh -O - | /bin/sh</item>
 <item
             name="ServiceApp-audio"
@@ -698,7 +696,7 @@ exit 0 </item>
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install SysCC ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/SysCC.sh -O - | /bin/sh</item>
 
-
+<item name="worldcam-os" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/worldcam/worldcam-v-4.2.5.sh -O - | /bin/sh</item>
 <item
             name="remove-dreamarabia"
             icon="/media/hdd/AJPanel_Backup/icons/remove-dreamarabia.png"
@@ -707,10 +705,20 @@ exit 0 </item>
             name="barryallen"
          icon="/media/hdd/AJPanel_Backup/icons/barryallen.png"
             ask="Install barryallen ?">wget --no-check-certificate https://raw.githubusercontent.com/tarekzoka/BarryAllen/main/installer.sh -O - | /bin/sh</item>
-<item
-            name="dreamarabia"
-            icon="/media/hdd/AJPanel_Backup/icons/dreamarabia.png"
-            ask="Install dreamarabia ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/Dreamarabia/main/dreamarabia-instal.sh -O - | /bin/sh -O - | /bin/sh?</item>
+<item 
+            name="dpkg-configure_-a"
+            icon="/media/hdd/AJPanel_Backup/icons/dpkg.png"
+            ask="Install ncam ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/dm920/-/raw/main/dpkg_-i.sh -O - | /bin/sh</item>
+<item 
+            name="wget_-y-dream"
+            icon="/media/hdd/AJPanel_Backup/icons/dpkg.png"
+            ask="Install wget_-y-dream ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/dm920/-/raw/main/wget_-y-dream.sh -O - | /bin/sh</item>
+
+<item 
+            name="dpkg_-i"
+            icon="/media/hdd/AJPanel_Backup/icons/dpkg.png"
+            ask="Install dpkg_-i ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/dm920/-/raw/main/dpkg_-i.sh -O - | /bin/sh</item>
+
 <item
             name="feedmerlin"
             icon="/media/hdd/AJPanel_Backup/icons/feedmerlin.png"
@@ -744,6 +752,11 @@ exit 0
   
 </item>
 
+<item 
+            name="ncam2"
+            icon="/media/hdd/AJPanel_Backup/icons/ncam-14.3.png"
+            ask="Install ncam ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/softcam/-/raw/main/mohamed-os/ncam.sh -O - | /bin/sh</item>
+
 <item
             name="dpkg"
          icon="/media/hdd/AJPanel_Backup/icons/dpkg.png"
@@ -752,7 +765,7 @@ exit 0
 
 </submenu>
 #########################################
-##############oscam-nacam##############
+##############oscam5-nacam##############
     <submenu
         title="oscam-nacam"
         info=" Download And install plugin And Favorites "
