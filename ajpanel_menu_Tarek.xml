@@ -789,7 +789,7 @@ exit 0
 <item
             name="oscam"
             icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
-            ask="Install oscam-last ?">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s oscam</item>
+            ask="Install oscam-last ?">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer2.sh -O - | /bin/sh</item>
 <item name="OScam by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/mos.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s oscam</item>
 <item name="OScam by tarek " icon="/media/hdd/AJPanel_Backup/icons/oscam1.png" ask="yes">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer2.sh -O - | /bin/sh</item>
 		<item name="Ncam by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s ncam</item>
