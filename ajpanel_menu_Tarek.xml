@@ -36,7 +36,11 @@
 <item 
             name="aglare-2.6"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
-            ask="Install aglare-2.3 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-atv1.sh -O - | /bin/sh</item>
+            ask="Install aglare-2.6 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-atv1.sh -O - | /bin/sh</item>
+<item 
+            name="aglare-2.7"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install aglare-2.7 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-atv2.sh -O - | /bin/sh</item>
 <item
             name="bohallaskin"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
