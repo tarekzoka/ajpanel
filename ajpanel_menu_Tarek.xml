@@ -828,8 +828,7 @@ exit 0
 <item 
             name="IPAudioProJSON"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
-            ask="Install JSONPRO ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro//IPAudioPro.sh -O - | /bin/sh</item>
-
+            ask="Install JSONPRO ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro/IPAudioPro.sh -O - | /bin/sh</item>
 <item 
             name="bitrate"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
