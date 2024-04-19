@@ -204,6 +204,11 @@
             name="CH-Mahmed-os"
             icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
             ask="Install CHANNELL-Mahmed-os ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/CHANNELL-Mahmed-os.sh -O - | /bin/sh</item>    
+<item 
+            name="channel-Ismail"
+            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            ask="Install channel-Ismail ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channel-Ismail%20Saidi.sh -O - | /bin/sh</item>
+
 <item
             name="CH-Romeh"
             icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
@@ -412,6 +417,11 @@
          icon="/media/hdd/AJPanel_Backup/icons/Tooles.png"
             ask="Install ServiceApp ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/ServiceApp-audio.sh -O - | /bin/sh</item>
 
+<item 
+            name="IPaudioPro-mnasr"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install IPaudioPro-mnasr ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro/IPaudioPro-mnasr.sh -O - | /bin/sh</item>
+
 </submenu>
 #########################################
 ##############script-all##############
@@ -472,6 +482,10 @@ killall -9 enigma2
 
 sleep 2; </item>
 
+<item 
+            name="Quran"
+            icon="/media/hdd/AJPanel_Backup/icons/Quran.png"
+            ask="Install Quran ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/Quran.sh -O - | /bin/sh</item>
         <item
             name="multiquickbut"
             icon="/media/hdd/AJPanel_Backup/icons/xx.png"
@@ -654,6 +668,12 @@ killall -9 enigma2
 
 sleep 2;  </item>
 
+<item 
+            name="ipaudio-json"
+            icon="/media/hdd/AJPanel_Backup/icons/dd.png"
+            ask="Install ipaudio-json ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro/ipaudio.sh -O - | /bin/sh</item>
+
+
 <item
             name="ipaudio-libasound.so"
          icon="/media/hdd/AJPanel_Backup/icons/dd.png"
@@ -789,18 +809,25 @@ exit 0
         <item
             name="nacam"
             icon="/media/hdd/AJPanel_Backup/icons/ncam-14.3.png"
-            ask="Install ncam-last ?">wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installerEMU.sh -O - | /bin/sh</item>
+            ask="Install ncam-last ?">wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer3.sh -O - | /bin/sh</item>
 <item
             name="oscam"
             icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
             ask="Install oscam-last ?">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer2.sh -O - | /bin/sh</item>
-<item name="OScam by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/mos.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s oscam</item>
-<item name="MOHAMED_OS-oscam " icon="/media/hdd/AJPanel_Backup/icons/oscam1.png" ask="yes">curl -LJso- "https://gitlab.com/MOHAMED_OS/dz_store/-/raw/main/Cam_Emulator/online-setup" | bash -s oscam</item>
-<item name="MOHAMED_OS-oscam-ncam " icon="/media/hdd/AJPanel_Backup/icons/oscam1.png" ask="yes">curl -LJso- "https://gitlab.com/MOHAMED_OS/dz_store/-/raw/main/Cam_Emulator/online-setup" | bash -s ncam</item>
-		<item name="powercam by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s powercam</item>
-		<item name="supcam by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s supcam</item>
-		<item name="gosatplus by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s gosatplus</item>
-		<item name="ultracam by mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://github.com/MOHAMED19OS/Enigma2_Store/blob/main/Cam_Emulator/online-setup?raw=true" | bash -s ultracam</item>
+
+<item name="MOH-OS-oscam " icon="/media/hdd/AJPanel_Backup/icons/oscam1.png" ask="yes">curl -LJso- "https://gitlab.com/MOHAMED_OS/dz_store/-/raw/main/Cam_Emulator/online-setup" | bash -s oscam</item>
+
+<item name="MOH-OS-ncam " icon="/media/hdd/AJPanel_Backup/icons/ncam-14.3.png" ask="yes">curl -LJso- "https://gitlab.com/MOHAMED_OS/dz_store/-/raw/main/Cam_Emulator/online-setup" | bash -s ncam</item>
+		<item name="powercam-moh-os " icon="/media/hdd/AJPanel_Backup/icons/ncam-14.3.png" ask="yes">curl -LJso- "https://gitlab.com/MOHAMED_OS/dz_store/-/raw/main/Cam_Emulator/online-setup" | bash -s powercam</item>
+
+		<item name="supcam-oscam-moh-os  " icon="/media/hdd/AJPanel_Backup/icons/ncam-14.3.png" ask="yes">curl -LJso- "https://gitlab.com/MOHAMED_OS/dz_store/-/raw/main/Cam_Emulator/online-setup" | bash -s supcam-oscam</item>
+
+		<item name="gosatplus-mohamed os" icon="/media/hdd/AJPanel_Backup/icons/ncam-14.3.png" ask="yes">curl -LJso- "https://gitlab.com/MOHAMED_OS/dz_store/-/raw/main/Cam_Emulator/online-setup" | bash -s gosatplus</item>
+
+		<item name="ultracam-mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://gitlab.com/MOHAMED_OS/dz_store/-/raw/main/Cam_Emulator/online-setup" | bash -s ultracam</item>
+
+<item name="gosatplus-oscam-mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://gitlab.com/MOHAMED_OS/dz_store/-/raw/main/Cam_Emulator/online-setup" | bash -s gosatplus-oscam</item>
+
 <item
             name="ccam239"
          icon="/media/hdd/AJPanel_Backup/icons/ccam239.png"
@@ -1059,6 +1086,11 @@ exit 0 </item>
             ask="Install bootlogos-nature ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/bootlogoswapper/bootlogos-nature.sh -O - | /bin/sh</item>
 
 <item name="boot-wappernewatv" icon="/media/hdd/AJPanel_Backup/icons/boot.png" ask="yes">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/bootlogo/main/BootLogoSwappernewatv.sh -O - | /bin/sh</item>
+
+<item 
+            name="bootlogoswapper2"
+            icon="/media/hdd/AJPanel_Backup/icons/boot.png"
+            ask="Install bootlogoswapper ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/bootlogoswapper/bootlogoswapper.sh -O - | /bin/sh</item>
 
 </submenu>
 #########################################
