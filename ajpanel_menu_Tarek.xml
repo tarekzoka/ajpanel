@@ -34,9 +34,9 @@
             icon="/media/hdd/AJPanel_Backup/icons/pli.png"
             ask="Install aglare-2.6 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-atv.sh -O - | /bin/sh</item>
 <item 
-            name="aglare-2.6"
+            name="aglare-2.9"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
-            ask="Install aglare-2.6 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-atv1.sh -O - | /bin/sh</item>
+            ask="Install aglare-2.9?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-atv1.sh -O - | /bin/sh</item>
 <item 
             name="aglare-2.7"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
@@ -814,6 +814,8 @@ exit 0
             name="oscam"
             icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
             ask="Install oscam-last ?">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer2.sh -O - | /bin/sh</item>
+
+<item name="OSCamicam_Kitte888" ask="yes" icon="/media/hdd/AJPanel_Backup/vector2/plug.png">wget https://raw.githubusercontent.com/biko-73/OSCamicam_Kitte888/main/installer.sh  -O - | /bin/sh</item>
 
 <item name="MOH-OS-oscam " icon="/media/hdd/AJPanel_Backup/icons/oscam1.png" ask="yes">curl -LJso- "https://gitlab.com/MOHAMED_OS/dz_store/-/raw/main/Cam_Emulator/online-setup" | bash -s oscam</item>
 
