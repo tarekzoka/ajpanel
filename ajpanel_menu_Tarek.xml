@@ -858,6 +858,10 @@ exit 0
             name="vertualkeyboard"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install vertualkeyboard ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOLSvertualkeyboard.sh -O - | /bin/sh</item>
+<item
+            name="ar"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install ar ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/biko-73/AjPanel/main/installer-ar.sh-O - | /bin/sh</item>
 <item 
             name="IPAudioProJSON"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
@@ -983,6 +987,11 @@ exit 0 </item>
             name="asound-libasound-tar"
          icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install asound-libasound ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/asound-libasound2.sh -O - | /bin/sh</item>
+<item 
+            name="ar"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install ar ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ar/installer2.sh -O - | /bin/sh</item>
+
 
 <item
             name="Freeccam3"
