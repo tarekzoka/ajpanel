@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # ==============================================
-# SCRIPT : DOWNLOAD AND INSTALL oscam-nacam #
+# SCRIPT : DOWNLOAD AND INSTALL ajpanel/main/ar #
 # =====================================================================================================================
-# Command:wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer2.sh -O - | /bin/sh
+# Command:wget https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ar/installer2.sh -O - | /bin/sh
 #
 # =====================================================================================================================
 
@@ -11,7 +11,7 @@
 # Plugin	... Enter Manually
 ########################################################################################################################
 
-PACKAGE_DIR='oscam-nacam/main'
+PACKAGE_DIR='ajpanel/main/ar'
 
 MY_IPK="enigma2-ar_2.28_all.ipk"
 MY_DEB="enigma2-ar_2.28_all.deb"
@@ -92,3 +92,5 @@ else
 	echo "Download failed !"
 	exit 1
 fi
+
+
