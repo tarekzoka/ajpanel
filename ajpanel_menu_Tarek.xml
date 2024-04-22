@@ -485,8 +485,8 @@ sleep 2; </item>
 <item 
             name="Quran"
             icon="/media/hdd/AJPanel_Backup/icons/Quran.png"
-            ask="Install Quran ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/Quran.sh -O - | /bin/sh</item>
-        <item
+            ask="Install Quran ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/Quran/Quran.sh -O - | /bin/sh</item>
+<item
             name="multiquickbut"
             icon="/media/hdd/AJPanel_Backup/icons/xx.png"
             ask="Install multiquickbut ?">#!/bin/sh
