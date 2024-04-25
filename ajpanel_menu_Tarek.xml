@@ -811,6 +811,15 @@ exit 0
             icon="/media/hdd/AJPanel_Backup/icons/ncam-14.3.png"
             ask="Install ncam-last ?">wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer3.sh -O - | /bin/sh</item>
 <item
+            name="nacam2"
+            icon="/media/hdd/AJPanel_Backup/icons/ncam-14.3.png"
+            ask="Install ncam-last ?">curl -LJso- "https://gitlab.com/hanfy1971/softcam/-/raw/main/mohamed-os/online-setup1" | bash -s ncam</item>
+
+<item
+            name="oscam2"
+            icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
+            ask="Install oscam-last ?">curl -LJso- "https://gitlab.com/hanfy1971/softcam/-/raw/main/mohamed-os/online-setup" | bash -s oscam</item>
+<item
             name="oscam"
             icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
             ask="Install oscam-last ?">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer2.sh -O - | /bin/sh</item>
