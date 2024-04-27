@@ -195,6 +195,10 @@
             name="ch-M.goda"
             icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
             ask="Install Channels By Mohamed Goda + Ahmed Shawky ?">wget https://raw.githubusercontent.com/emilnabil/channel-mohamed-goda/main/installer.sh  -O - | /bin/sh</item>
+<item 
+            name="Quran-iptv"
+            icon="/media/hdd/AJPanel_Backup/icons/Quran.png"
+            ask="Install Quran-iptv ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channel-Quran-iptv.sh -O - | /bin/sh</item>
 
        <item
             name="ch-hussein"
@@ -290,6 +294,11 @@
             name="Sherlockmod"
          icon="/media/hdd/AJPanel_Backup/icons/sherlock.png"
             ask="Install Sherlockmod ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/sherlockmod/main/sherlockmod.sh -O - | /bin/sh</item>
+<item
+            name="FootOnsat"
+            icon="/media/hdd/AJPanel_Backup/icons/fo.png"
+            ask="Install FootOnsat ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/FootOnsat/online-setup" | bash -s ncam</item>
+
 <item 
             name="opkg-tools"
             icon="/media/hdd/AJPanel_Backup/icons/update-ajpanel-menu.png"
