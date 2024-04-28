@@ -297,7 +297,7 @@
 <item
             name="FootOnsat"
             icon="/media/hdd/AJPanel_Backup/icons/fo.png"
-            ask="Install FootOnsat ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/FootOnsat/online-setup" | bash -s ncam</item>
+            ask="Install FootOnsat ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/FootOnsat/online-setup" | bash -s FootOnsat</item>
 
 <item 
             name="opkg-tools"
@@ -330,15 +330,14 @@
             icon="/media/hdd/AJPanel_Backup/icons/alajre.png"
             ask="Install alajre ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/alajre/alajre.sh -O - | /bin/sh</item>
 
-<item
-            name="E2IPlayer"
-         icon="/media/hdd/AJPanel_Backup/icons/E2IPlayer.png"
-            ask="Install E2IPlayer ?">wget https://raw.githubusercontent.com/tarekzoka/E2IPlayer/main/E2IPlayer2.sh -O - | /bin/sh</item>
+<item 
+            name="e2iplayer2"
+            icon="/media/hdd/AJPanel_Backup/icons/e2.png"
+            ask="Install e2iplayer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/e2iplayer/E2IPlayer2.sh -O - | /bin/sh</item>
 <item
             name="E2-MOHAMED_OS"
          icon="/media/hdd/AJPanel_Backup/icons/MOHAMED_OS.png"
-            ask="Install E2-MOHAMED_OS ?">wget https://gitlab.com/MOHAMED_OS/e2iplayer/-/raw/main/install-e2iplayer.sh?inline=false -qO - | /bin/sh
- -O - | /bin/sh</item>
+            ask="Install E2-MOHAMED_OS ?">wget -qO- --no-check-certificate https://gitlab.com/MOHAMED_OS/e2iplayer/-/raw/main/install-e2iplayer.sh -O - | /bin/sh</item>
 
 <item
             name="xstreamity"
@@ -495,6 +494,10 @@ sleep 2; </item>
             name="Quran"
             icon="/media/hdd/AJPanel_Backup/icons/Quran.png"
             ask="Install Quran ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/Quran/Quran.sh -O - | /bin/sh</item>
+<item 
+            name="footonsat"
+            icon="/media/hdd/AJPanel_Backup/icons/fo.png"
+            ask="Install footonsat ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/footonsat/footonsat.sh -O - | /bin/sh</item>
 <item
             name="multiquickbut"
             icon="/media/hdd/AJPanel_Backup/icons/xx.png"
@@ -533,7 +536,11 @@ exit 0</item>
 <item
             name="E2-MOHAMED_OS"
          icon="/media/hdd/AJPanel_Backup/icons/MOHAMED_OS.png"
-            ask="Install E2-MOHAMED_OS ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/E2IPlayer/main/E2IPlayer.sh.sh -O - | /bin/sh</item>
+            ask="Install E2-MOHAMED_OS ?">wget -qO- --no-check-certificate https://gitlab.com/MOHAMED_OS/e2iplayer/-/raw/main/install-e2iplayer.sh -O - | /bin/sh</item>
+<item 
+            name="e2iplayer2"
+            icon="/media/hdd/AJPanel_Backup/icons/e2.png"
+            ask="Install e2iplayer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/e2iplayer/E2IPlayer2.sh -O - | /bin/sh</item>
 
 <item
             name="E2-TAREK"
