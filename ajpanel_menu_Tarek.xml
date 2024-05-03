@@ -34,9 +34,9 @@
             icon="/media/hdd/AJPanel_Backup/icons/pli.png"
             ask="Install aglare-2.6 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-atv.sh -O - | /bin/sh</item>
 <item 
-            name="aglare-2.9"
+            name="aglare-3"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
-            ask="Install aglare-2.9?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-atv1.sh -O - | /bin/sh</item>
+            ask="Install aglare-3?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-atv1.sh -O - | /bin/sh</item>
 <item 
             name="aglare-2.7"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
@@ -300,6 +300,11 @@
             ask="Install FootOnsat ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/FootOnsat/online-setup" | bash -s FootOnsat</item>
 
 <item 
+            name="tmdb"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install tmdb ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tmdb/tmbd.sh -O - | /bin/sh</item>
+
+<item 
             name="opkg-tools"
             icon="/media/hdd/AJPanel_Backup/icons/update-ajpanel-menu.png"
             ask="Install opkg-tools ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/opkg-tools/opkg-tools.sh -O - | /bin/sh</item>
@@ -420,6 +425,10 @@
 			<item name="opkg-tools" ask="yes(reboot)" icon="/media/hdd/AJPanel_Backup/icons/opkgtools.png"  info="(اداة تشغيل خاصة بالajpanel)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/opkg-tools/opkg-tools.sh -O - | /bin/sh</item>
 
 <item name="worldcam1" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/worldcam/worldcam1.sh -O - | /bin/sh</item>
+<item 
+            name="youtube"
+            icon="/media/hdd/AJPanel_Backup/icons/yt.png"
+            ask="Install youtube ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/youtube/youtube.sh -O - | /bin/sh</item>
 <item
             name="ServiceApp-audio"
          icon="/media/hdd/AJPanel_Backup/icons/Tooles.png"
@@ -854,6 +863,11 @@ exit 0
 		<item name="ultracam-mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://gitlab.com/MOHAMED_OS/dz_store/-/raw/main/Cam_Emulator/online-setup" | bash -s ultracam</item>
 
 <item name="gosatplus-oscam-mohamed os " icon="/media/hdd/AJPanel_Backup/icons/plug.png" ask="yes">curl -LJso- "https://gitlab.com/MOHAMED_OS/dz_store/-/raw/main/Cam_Emulator/online-setup" | bash -s gosatplus-oscam</item>
+<item 
+            name="oscamicam-11777"
+            icon="/media/hdd/AJPanel_Backup/icons/plug.png"
+            ask="Install oscamicam ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/softcam/-/raw/main/kite888/oscamicam.sh -O - | /bin/sh</item>
+
 
 <item
             name="ccam239"
