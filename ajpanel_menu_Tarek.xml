@@ -161,6 +161,11 @@
             name="update-ajpanel-menu"
          icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install update-ajpanel-menu ?">wget https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel_menu.sh -O - | /bin/sh</item>
+<item
+            name="update-ajpanel-menu-light"
+         icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install update-menu-light ?">wget https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel_menu-light.sh -O - | /bin/sh</item>
+
             <item
             name="update-feed-tarek"
          icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
