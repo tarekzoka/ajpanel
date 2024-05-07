@@ -191,6 +191,11 @@
             name="kaled-channel"
             icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
             ask="Install kaled-channel?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channel-kaled.sh -O - | /bin/sh</item>
+item 
+            name="ch-ahmed-husin"
+            icon="/media/hdd/AJPanel_Backup/icons/you.png"
+            ask="Install channels ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channel-ahmed-husin.sh -O - | /bin/sh</item>
+
 <item 
             name="ch-M.goda"
             icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
@@ -1156,6 +1161,44 @@ exit 0 </item>
 		<item name="Alternate">echo "nameserver 76.76.19.19" > /etc/resolv.conf; echo "nameserver 76.223.122.150" >> /etc/resolv.conf; killall -9 enigma2</item>
 		<item name="AdGuard">echo "nameserver 94.140.14.14" > /etc/resolv.conf; echo "nameserver 94.140.15.15" >> /etc/resolv.conf; killall -9 enigma2</item>
 		<item name="Control D">echo "nameserver 76.76.2.0" > /etc/resolv.conf; echo "nameserver 76.76.10.0" >> /etc/resolv.conf; killall -9 enigma2</item>
+</submenu>
+#########################################
+##############REMOVE5##############
+	<submenu font_size="30" height="950" icon="REMOVE1.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Remove" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+		<item ask="Remove AlternativeSoftcamManager" icon="remove.png" name="AlternativeSoftcamManager">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-alternativesoftcammanager.sh -O - | /bin/sh</item>
+		<item ask="Remove Channels" icon="DEL.png" info="Remove All Channels" name="Channels">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-channels.sh  -O - | /bin/sh</item>
+		<item ask="yes" icon="remove.png" name="Crashlogs">wget https://dreambox4u.com/emilnabil237/script/remove/DEL_all_Crashlogs.sh  -O - | /bin/sh</item>
+		<item ask="yes" icon="DEL.png" name="Jedimaker-playlists">rm -f /etc/enigma2/jediplaylists/playlists.txt</item>
+		<item ask="yes" icon="DEL.png" name="Xstreamity-playlists">rm -f /etc/enigma2/xstreamity/playlists.txt</item>
+		<item ask="yes" icon="DEL.png" name="Cccamfinder">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-CCcamFinder.sh  -O - | /bin/sh</item>
+		<item ask="yes" icon="DEL.png" name="Emu-All">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-emus.sh  -O - | /bin/sh</item>
+		<item ask="yes" icon="DEL.png" name="Emu-Ncam">opkg remove enigma2-plugin-softcams-ncam*</item>
+		<item ask="yes" icon="DEL.png" name="Emu-Oscam">opkg remove enigma2-plugin-softcams-oscam*</item>
+		<item ask="yes" icon="DEL.png" name="Emu-Config-Files">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-emus-config-files.sh  -O - | /bin/sh</item>
+		<item ask="yes" icon="DEL.png" name="E2iplayer">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-e2iplayer.sh  -O - | /bin/sh</item>
+		<item ask="Remove FreeServer-Plugin" icon="DEL.png" name="FreeServer-Plugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-FreeServer.sh -O - | /bin/sh</item>
+
+<item 
+            name="D_all.sever"
+            icon="/media/hdd/AJPanel_Backup/icons/DEL.png"
+            ask="Install D_all.sever ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/remove/-/raw/main/D_all.sever.sh -O - | /bin/sh</item>		<item ask="yes" icon="DEL.png" name="Mediaplayer2">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-mediaplayer2.sh -O - | /bin/sh</item>
+		<item ask="remove all neoboot" icon="DEL.png" info="Remove all Neoboot" name="Neoboot">wget https://dreambox4u.com/emilnabil237/script/DELETE_plugin-neoboot.sh -O - | /bin/sh</item>
+		<item ask="Remove NetSpeedTest" icon="DEL.png" name="NetSpeedTest">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-NetSpeedTest.sh -O - | /bin/sh</item>
+		<item ask="Remove OscamFinder" icon="DEL.png" name="OscamFinder">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-OscamFinder.sh -O - | /bin/sh</item>
+		<item ask="Remove levi45-AddonsManager" icon="remove.png" name="levi45-AddonsManager">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-levi45-addonsmanager.sh -O - | /bin/sh</item>
+		<item ask="Remove M3u-Converter" icon="DEL.png" name="M3u-Converter">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-m3u-converter.sh -O - | /bin/sh</item>
+		<item ask="Remove SatVenusPANEL" icon="DEL.png" name="SatVenusPANEL">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-SatVenusPANEL.sh -O - | /bin/sh</item>
+		<item ask="Remove SoftCam_Manager" icon="DEL.png" name="SoftCam_Manager">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-SoftCam_Manager.sh  -O - | /bin/sh</item>
+		<item ask="Remove SubsSupport" icon="DEL.png" name="SubsSupport">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-subssupport.sh  -O - | /bin/sh</item>
+		<item ask="Remove Tuner Settings ?" icon="DEL.png" name="Tuner-Settings">init 4 
+sleep 1; 
+sed -i '/config.Nims.0/d' /etc/enigma2/settings
+init 3</item>
+		<item ask="Remove Tvpanel" icon="DEL.png" name="Tvpanel">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-tvpanel.sh  -O - | /bin/sh</item>
+		<item ask="Remove XCplugin" icon="DEL.png" name="XCplugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-Plugin-XCplugin.sh  -O - | /bin/sh</item>
+		<item ask="Remove Xstreamity Plugin" icon="DEL.png" name="Xstreamity-Plugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-xstreamity.sh  -O - | /bin/sh</item>
+		<item ask="Remove Youtube" icon="DEL.png" name="Youtube">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-youtube.sh  -O - | /bin/sh</item>
+
 
                  </submenu>
     </ajp_menu>
