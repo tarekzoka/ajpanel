@@ -191,9 +191,9 @@
             name="kaled-channel"
             icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
             ask="Install kaled-channel?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channel-kaled.sh -O - | /bin/sh</item>
-item 
+<item 
             name="ch-ahmed-husin"
-            icon="/media/hdd/AJPanel_Backup/icons/you.png"
+            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
             ask="Install channels ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channel-ahmed-husin.sh -O - | /bin/sh</item>
 
 <item 
@@ -443,6 +443,11 @@ item
             name="IPaudioPro-mnasr"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install IPaudioPro-mnasr ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro/IPaudioPro-mnasr.sh -O - | /bin/sh</item>
+<item 
+            name="safty-ipaudio7.4"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install safty-ipaudio7.4 ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/safty-ipaudio7.4.sh -O - | /bin/sh</item>
+
 
 </submenu>
 #########################################
