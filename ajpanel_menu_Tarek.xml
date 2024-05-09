@@ -142,9 +142,9 @@
 #########################################
 ##############update-feed##############
     <submenu
-        title="update-feed"
+        title="up-panel-feed"
         info="Download And Install plugin"
-        icon="/media/hdd/AJPanel_Backup/icons/FEED.png"
+        icon="/media/hdd/AJPanel_Backup/icons/FEED1.png"
         mode="grid_6x3"
         shade="yes"
         font_size="50"
@@ -158,20 +158,20 @@
         width="1600"
         height="950">
         <item
-            name="update-ajpanel-menu"
-         icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            name="ajp-menu-icons"
+         icon="/media/hdd/AJPanel_Backup/icons/menu.png"
             ask="Install update-ajpanel-menu ?">wget https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel_menu.sh -O - | /bin/sh</item>
 <item
-            name="update-ajpanel-menu-light"
-         icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            name="ajpapel-xml"
+         icon="/media/hdd/AJPanel_Backup/icons/xml.png"
             ask="Install update-menu-light ?">wget https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel_menu-light.sh -O - | /bin/sh</item>
 
             <item
-            name="update-feed-tarek"
-         icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            name="feed-tarek"
+         icon="/media/hdd/AJPanel_Backup/icons/FEED.png"
             ask="Install update-feed-tarek ?">wget https://raw.githubusercontent.com/tarekzoka/settingsz/main/tarekfeed.sh -O - | /bin/sh</item>
 
-<item name="update-dependencies" info="Download correction ipk" icon="/media/hdd/AJPanel_Backup/icons/FEED2.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-dependencies.sh -O - | /bin/sh</item>
+<item name="update-dependencies" info="Download correction ipk" icon="/media/hdd/AJPanel_Backup/icons/DEPEB.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-dependencies.sh -O - | /bin/sh</item>
 
         </submenu>
 #########################################
