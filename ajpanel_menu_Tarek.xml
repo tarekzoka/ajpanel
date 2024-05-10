@@ -171,7 +171,7 @@
          icon="/media/hdd/AJPanel_Backup/icons/FEED.png"
             ask="Install update-feed-tarek ?">wget https://raw.githubusercontent.com/tarekzoka/settingsz/main/tarekfeed.sh -O - | /bin/sh</item>
 
-<item name="update-dependencies" info="Download correction ipk" icon="/media/hdd/AJPanel_Backup/icons/DEPEB.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-dependencies.sh -O - | /bin/sh</item>
+<item name="update-dependencies" info="Download correction ipk" icon="/media/hdd/AJPanel_Backup/icons/dp.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-dependencies.sh -O - | /bin/sh</item>
 
         </submenu>
 #########################################
