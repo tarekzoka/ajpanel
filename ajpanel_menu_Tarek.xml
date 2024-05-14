@@ -42,6 +42,11 @@
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install aglare-2.7 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-atv2.sh -O - | /bin/sh</item>
 <item
+            name="ORANGESKY-XP2-FHD"
+         icon="/media/hdd/AJPanel_Backup/icons/pli.png"
+            ask="Install ORANGESKY-XP2 ?">wget https://raw.githubusercontent.com/tarekzoka/SKINS/main/Muaath/installer.sh -O - | /bin/sh</item>
+
+<item
             name="bohallaskin"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install bohalla ?">wget https://raw.githubusercontent.com/tarekzoka/SKINS/main/BO.sh -qO - | /bin/sh</item> 
@@ -295,6 +300,11 @@
             name="subssupport"
             icon="/media/hdd/AJPanel_Backup/icons/sub.png"
             ask="Install subssupport ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/subssupport/subssupport.sh -O - | /bin/sh</item>
+<item 
+            name="subssupport-1.5.8-r9"
+            icon="/media/hdd/AJPanel_Backup/icons/sub.png"
+            ask="Install subssupport-1.5.8-r9 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/subssupport/subssupport-1.5.8-r9.sh -O - | /bin/sh</item>
+
 <item 
             name="ajpanel"
             icon="/media/hdd/AJPanel_Backup/icons/aj.png"
@@ -863,6 +873,11 @@ exit 0
             name="oscam"
             icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
             ask="Install oscam-last ?">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/installer2.sh -O - | /bin/sh</item>
+
+<item 
+            name="OSCAM-audi06"
+            icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
+            ask="Install OSCAM-audi06 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/softcam/-/raw/main/audi06_19/oscam.sh -O - | /bin/sh</item>
 
 <item name="OSCamicam_Kitte888" ask="yes" icon="/media/hdd/AJPanel_Backup/vector2/plug.png">wget https://raw.githubusercontent.com/biko-73/OSCamicam_Kitte888/main/installer.sh  -O - | /bin/sh</item>
 
