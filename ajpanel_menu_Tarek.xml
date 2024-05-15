@@ -310,6 +310,12 @@
             icon="/media/hdd/AJPanel_Backup/icons/aj.png"
             ask="Install ajpanel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ajpanel/ajpanel.sh -O - | /bin/sh</item>
 
+<item
+            name="ipkinstaller"
+            icon="/media/hdd/AJPanel_Backup/icons/REMOVE1.png"
+            ask="Install TOOL-ipkinstaller ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOL-ipkinstaller.sh -O - | /bin/sh
+</item>
+
  <item
             name="Sherlockmod"
          icon="/media/hdd/AJPanel_Backup/icons/sherlock.png"
@@ -440,11 +446,12 @@
 			<item name="novalerstore" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ns.png" info="(بانل تسطيب اضافات)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novalerstore.sh -O - | /bin/sh</item>
 			<item name="oaweather" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/oa.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/oaweather/oaweather.sh?inline=false -O - | /bin/sh</item>
 			<item name="opdboot" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/opdboot.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/opdboot/opdboot.sh -O - | /bin/sh</item>
+<item name="worldcam-4.5" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/worldcam/worldcam-v-4.2.5.sh -O - | /bin/sh</item>
 
 <item name="worldcam" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/worldcam/main/installer.sh -O - | /bin/sh</item>
 			<item name="opkg-tools" ask="yes(reboot)" icon="/media/hdd/AJPanel_Backup/icons/opkgtools.png"  info="(اداة تشغيل خاصة بالajpanel)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/opkg-tools/opkg-tools.sh -O - | /bin/sh</item>
 
-<item name="worldcam1" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/worldcam/worldcam1.sh -O - | /bin/sh</item>
+<item name="worldcam-4.3" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/worldcam/worldcam4.3.sh -O - | /bin/sh</item>
 <item 
             name="youtube"
             icon="/media/hdd/AJPanel_Backup/icons/yt.png"
@@ -462,6 +469,10 @@
             name="ipaudiopro-Elsafty"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install safty-ipaudiopro ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/safty-ipaudio7.4.sh -O - | /bin/sh</item>
+<item 
+            name="vavoo"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles.png"
+            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/main/vavoo.sh -O - | /bin/sh</item>
 
 
 </submenu>
