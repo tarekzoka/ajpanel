@@ -3,8 +3,7 @@
 
 wget -O /media/hdd/AJPanel_Backup/ajpanel_menu_Tarek.xml "https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel_menu_Tarek.xml"
 wait
-wget -O /media/wget -O /media/hdd/AJPanel_Backup/ajpanel_menu_Tarek.xml "https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel_menu_Tarek.xml"
-/AJPanel_Backup/ajpanel_menu_Tarek.xml "https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel_menu_Tarek.xml"
+wget -O /media/dreambox-storage/AJPanel_Backup/ajpanel_menu_Tarek.xml "https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel_menu_Tarek.xml"
 wait
 wget -O /media/usb/AJPanel_Backup/ajpanel_menu_Tarek.xml "https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel_menu_Tarek.xml"
 
