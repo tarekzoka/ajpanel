@@ -64,9 +64,9 @@
             icon="/media/hdd/AJPanel_Backup/icon/OBH.png"
             ask="Install mx-sline-blu ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/main/OB-blackhole/mx-sline-blu.sh -O - | /bin/sh</item> 
 <item 
-            name="MX-LiveFHD"
-            icon="/media/hdd/AJPanel_Backup/icons/OBH.png"
-            ask="Install MX-LiveFHD ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/OBH/MX-LiveFHD-posterX-v3.sh -O - | /bin/sh</item>
+            name="TITANIUOM"
+            icon="/media/hdd/AJPanel_Backup/icons/BH.png"
+            ask="Install titaniuom ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/OBH/MX-LiveFHD-posterX-v3.sh -O - | /bin/sh</item>
 
 <item
             name="mxsline-red"
