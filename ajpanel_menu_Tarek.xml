@@ -62,7 +62,7 @@
 <item
             name="mxsline-blu"
             icon="/media/hdd/AJPanel_Backup/icon/OBH.png"
-            ask="Install mx-sline-blu ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/main/OB-blackhole/mx-sline-blu.sh -O - | /bin/sh</item> 
+            ask="Install mx-sline-blu ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/OB-blackhole/mx-sline-blu.sh -O - | /bin/sh</item> 
 <item 
             name="TITANIUOM"
             icon="/media/hdd/AJPanel_Backup/icons/BH.png"
@@ -71,7 +71,7 @@
 <item
             name="mxsline-red"
             icon="/media/hdd/AJPanel_Backup/icon/OBH.png"
-            ask="Install mx-sline-red ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/main/OB-blackhole/mx-sline-red.sh -O - | /bin/sh</item> 
+            ask="Install mx-sline-red ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/OB-blackhole/mx-sline-red.sh -O - | /bin/sh</item> 
 <item
             name="MxPrioFHDxtra"
             icon="/media/hdd/AJPanel_Backup/icon/OBH.png"
