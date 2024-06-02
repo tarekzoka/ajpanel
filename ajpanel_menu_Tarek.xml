@@ -943,6 +943,10 @@ exit 0
             name="vertualkeyboard"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install vertualkeyboard ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOLSvertualkeyboard.sh -O - | /bin/sh</item>
+<item 
+            name="Settings_all_image"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install Settings_ ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/settings-allimge/-/raw/main/TarekSettings_all_image.sh -O - | /bin/sh</item>
 <item
             name="ar"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
