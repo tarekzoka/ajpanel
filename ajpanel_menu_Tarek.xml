@@ -947,6 +947,16 @@ exit 0
             name="Settings_all_image"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install Settings_ ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/settings-allimge/-/raw/main/TarekSettings_all_image.sh -O - | /bin/sh</item>
+<item 
+            name="epg-kaled"
+            icon="/media/hdd/AJPanel_Backup/icons/robot.png"
+            ask="Install epg-kaled ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epg/epg-kaled.sh -O - | /bin/sh</item>
+
+<item 
+            name="metrix_skinparts"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install metrix_skinparts ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/metrix-parts/metrix_skinparts.sh -O - | /bin/sh</item>
+
 <item
             name="ar"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
