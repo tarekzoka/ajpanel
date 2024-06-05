@@ -29,11 +29,44 @@
         title2_bg="#000000"
         width="1600"
         height="950">
-        <item 
-            name="aglare-3.2"
-            icon="/media/hdd/AJPanel_Backup/icons/pli.png"
-            ask="Install aglare ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-atv.sh -O - | /bin/sh</item>
 <item 
+            name="copper-fhd_2.3"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install copper-fhd?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/copper-fhd_2.3.sh -O - | /bin/sh</item>
+<item 
+            name="aglare-fhd_3.4"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install aglare ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd_3.4.sh -O - | /bin/sh</item> 
+<item 
+            name="aglare-fhd_3.2"
+            icon="/media/hdd/AJPanel_Backup/icons/pli.png"
+            ask="Install aglare ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/pli/aglare-fhd-pli.sh -O - | /bin/sh</item>
+
+<item 
+            name="premium-fhd-magenta_3.1"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install premium-fhd-magenta?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/premium-fhd-magenta_3.1.sh -O - | /bin/sh</item>
+<item 
+            name="premium-fhd-blue_3.1"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install premium-fhd-blue?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/premium-fhd-blue_3.1.sh -O - | /bin/sh</item>
+
+<item 
+            name="premium-fhd-black_3.1"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install premium-fhd-black?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/premium-fhd-black_3.sh -O - | /bin/sh</item>
+<item 
+            name="novax-fhd_2.1"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install novax-fhd?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/novax-fhd_2.1.sh -O - | /bin/sh</item>
+
+<item 
+            name="aglare-fhd_3.4"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install aglare-fhd?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd_3.4.sh -O - | /bin/sh</item>
+
+     
+<item
             name="aglare-3"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install aglare-3?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd-atv1.sh -O - | /bin/sh</item>
@@ -951,6 +984,11 @@ exit 0
             name="epg-kaled"
             icon="/media/hdd/AJPanel_Backup/icons/robot.png"
             ask="Install epg-kaled ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epg/epg-kaled.sh -O - | /bin/sh</item>
+<item 
+            name="EPG-CORN"
+            icon="/media/hdd/AJPanel_Backup/icons/robot.png"
+            ask="Install EPG-CORN ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epg/EPG-CORN.sh -O - | /bin/sh</item>
+
 
 <item 
             name="metrix_skinparts"
