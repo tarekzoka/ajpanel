@@ -34,6 +34,11 @@
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install copper-fhd?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/copper-fhd_2.3.sh -O - | /bin/sh</item>
 <item 
+            name="MetrixHD"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install MetrixHD?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/MetrixHD.sh -O - | /bin/sh</item>
+
+<item 
             name="aglare-fhd_3.4"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install aglare ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd_3.4.sh -O - | /bin/sh</item> 
@@ -321,6 +326,12 @@
             ask="Install EPGImport ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/EPGImport/main/installer.sh -O - | /bin/sh</item>
 
 <item name="epggrabber1" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epggrabber/epggrabber.sh -O - | /bin/sh</item>
+
+<item 
+            name="ipaudiopro-last"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install ipaudiopro-last ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-1.1-last.sh -O - | /bin/sh</item>
+
 
             <item 
             name="IpAudioPro"
@@ -994,6 +1005,11 @@ exit 0
             name="metrix_skinparts"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install metrix_skinparts ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/metrix-parts/metrix_skinparts.sh -O - | /bin/sh</item>
+
+<item 
+            name="metrix_skinparts-etc-usr"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install metrix_skinparts ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/metrix-parts/metrix-fhd-parts-ec-usr.sh -O - | /bin/sh</item>
 
 <item
             name="ar"
