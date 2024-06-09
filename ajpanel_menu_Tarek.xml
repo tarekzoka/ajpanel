@@ -52,6 +52,12 @@
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install premium-fhd-magenta?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/premium-fhd-magenta_3.1.sh -O - | /bin/sh</item>
 <item 
+            name="premium-fhd-red"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install premium-fhd-red?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/premium-fhd-red.sh -O - | /bin/sh</item>
+
+
+<item 
             name="premium-fhd-blue_3.1"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install premium-fhd-blue?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/premium-fhd-blue_3.1.sh -O - | /bin/sh</item>
@@ -220,6 +226,8 @@
             ask="Install update-feed-tarek ?">wget https://raw.githubusercontent.com/tarekzoka/settingsz/main/tarekfeed.sh -O - | /bin/sh</item>
 
 <item name="update-dependencies" info="Download correction ipk" icon="/media/hdd/AJPanel_Backup/icons/dp.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-dependencies.sh -O - | /bin/sh</item>
+<item name="update-dependencies1" info="Download correction ipk" icon="/media/hdd/AJPanel_Backup/icons/dp.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-dependencies1.sh -O - | /bin/sh</item>
+
 
         </submenu>
 #########################################
@@ -248,6 +256,11 @@
             name="ch-ahmed-husin"
             icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
             ask="Install channels ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channel-ahmed-husin.sh -O - | /bin/sh</item>
+<item 
+            name="channel-ashry"
+            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            ask="Install channel-ashry ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/channels/-/raw/main/channel-ashry-2024-6.sh -O - | /bin/sh</item>
+
 
 <item 
             name="ch-M.goda"
@@ -505,6 +518,8 @@
             name="youtube"
             icon="/media/hdd/AJPanel_Backup/icons/yt.png"
             ask="Install youtube ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/youtube/youtube.sh -O - | /bin/sh</item>
+
+
 <item
             name="ServiceApp-audio"
          icon="/media/hdd/AJPanel_Backup/icons/Tooles.png"
@@ -518,6 +533,17 @@
             name="ipaudiopro-Elsafty"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install safty-ipaudiopro ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/safty-ipaudio7.4.sh -O - | /bin/sh</item>
+<item 
+            name="ipaudiopro-Elsafty"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install ipaudiopro-Elsafty ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-Elsafty.sh -O - | /bin/sh</item>
+
+<item 
+            name="ipaudiopro-last-link"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install ipaudiopro-last ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro.sh -O - | /bin/sh</item>
+
+
 <item 
             name="vavoo"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles.png"
@@ -1132,6 +1158,11 @@ exit 0 </item>
             name="ArabicSavior"
          icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install ArabicSavior ?">wget https://raw.githubusercontent.com/tarekzoka/ArabicSavior/main/ArabicSavior2.sh -O - | /bin/sh</item>
+<item 
+            name="dependencies-audio"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install dependencies-audio ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/update-dependencies-audio.sh -O - | /bin/sh</item>
+
 <item
             name="asound-libasound"
          icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
@@ -1142,7 +1173,7 @@ exit 0 </item>
             ask="Install asound-libasound ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/asound-libasound2.sh -O - | /bin/sh</item>
 <item 
             name="ar"
-            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install ar ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ar/installer2.sh -O - | /bin/sh</item>
 
 
