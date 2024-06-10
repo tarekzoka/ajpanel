@@ -345,6 +345,12 @@
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro-last ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-1.1-last.sh -O - | /bin/sh</item>
 
+<item 
+            name="dependencies-ipaudiopro"
+            icon="/media/hdd/AJPanel_Backup/icons/depe.png"
+            ask="Install dependencies-audio ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/update-dependencies-audio.sh -O - | /bin/sh</item>
+
+
 
             <item 
             name="IpAudioPro"
