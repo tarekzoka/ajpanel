@@ -456,13 +456,9 @@
          icon="/media/hdd/AJPanel_Backup/icons/Tooles.png"
             ask="Install Gstreamer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/Gstreamer-audio.sh -O - | /bin/sh</item>
 <item 
-            name="multistalkerpro"
-            icon="/media/hdd/AJPanel_Backup/icons/PRO.png"
+            name="new-multistalkerpro"
+            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
             ask="Install multistalkerpro ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/multistalker-pro/multistalkerpro.sh -O - | /bin/sh</item>
-<item 
-            name="NEW-multi-stalkerpro"
-            icon="/media/hdd/AJPanel_Backup/icons/PRO.png"
-            ask="Install multi-stalkerpro ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/multistalker-pro/multi-stalkerpro.sh -O - | /bin/sh</item>
 <item 
             name="arabic-savior"
             icon="/media/hdd/AJPanel_Backup/icons/ar.png"
@@ -548,6 +544,11 @@
             name="ipaudiopro-last-link"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro-last ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro.sh -O - | /bin/sh</item>
+
+<item
+            name="multistalker-pro"
+            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
+            ask="Install multistalker-pro ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/multistalker-pro/new/online-setup" | bash -s new</item>
 
 
 <item 
