@@ -37,6 +37,11 @@
             name="MetrixHD"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install MetrixHD?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/MetrixHD.sh -O - | /bin/sh</item>
+<item 
+            name="elitefhd"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install elitefhd ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/elitefhd/elitefhd.sh -O - | /bin/sh</item>
+
 
 <item 
             name="aglare-fhd_3.4"
@@ -452,8 +457,12 @@
             ask="Install Gstreamer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/Gstreamer-audio.sh -O - | /bin/sh</item>
 <item 
             name="multistalkerpro"
-            icon="/media/hdd/AJPanel_Backup/icons/ms.png"
+            icon="/media/hdd/AJPanel_Backup/icons/PRO.png"
             ask="Install multistalkerpro ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/multistalker-pro/multistalkerpro.sh -O - | /bin/sh</item>
+<item 
+            name="NEW-multi-stalkerpro"
+            icon="/media/hdd/AJPanel_Backup/icons/PRO.png"
+            ask="Install multi-stalkerpro ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/multistalker-pro/multi-stalkerpro.sh -O - | /bin/sh</item>
 <item 
             name="arabic-savior"
             icon="/media/hdd/AJPanel_Backup/icons/ar.png"
@@ -535,15 +544,6 @@
             name="IPaudioPro-mnasr"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install IPaudioPro-mnasr ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro/IPaudioPro-mnasr.sh -O - | /bin/sh</item>
-<item 
-            name="ipaudiopro-Elsafty"
-            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
-            ask="Install safty-ipaudiopro ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/safty-ipaudio7.4.sh -O - | /bin/sh</item>
-<item 
-            name="ipaudiopro-Elsafty"
-            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
-            ask="Install ipaudiopro-Elsafty ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-Elsafty.sh -O - | /bin/sh</item>
-
 <item 
             name="ipaudiopro-last-link"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
@@ -1177,6 +1177,16 @@ exit 0 </item>
             name="asound-libasound-tar"
          icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install asound-libasound ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/asound-libasound2.sh -O - | /bin/sh</item>
+<item 
+            name="OLD-Elsafty"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install safty-ipaudiopro ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/safty-ipaudio7.4.sh -O - | /bin/sh</item>
+<item 
+            name="JSON-Elsafty-NEW"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install ipaudiopro-Elsafty ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-Elsafty.sh -O - | /bin/sh</item>
+
+
 <item 
             name="ar"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
