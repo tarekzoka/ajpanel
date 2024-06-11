@@ -545,11 +545,10 @@
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro-last ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro.sh -O - | /bin/sh</item>
 
-<item
-            name="multistalker-pro"
-            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
-            ask="Install multistalker-pro ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/multistalker-pro/new/online-setup" | bash -s new</item>
-
+<item 
+            name="new-multistalker-pro"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install multistalker-pro ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/multistalker-pro/main/multistalker-pro.sh -O - | /bin/sh</item>
 
 <item 
             name="vavoo"
