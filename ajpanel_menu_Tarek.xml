@@ -335,7 +335,7 @@
         height="950">
         <item
             name="EPGImport"
-         icon="/media/hdd/AJPanel_Backup/icons/epg2.png"
+         icon="/media/hdd/AJPanel_Backup/icons/epg.png"
             ask="Install EPGImport ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/EPGImport/main/installer.sh -O - | /bin/sh</item>
 
 <item name="epggrabber1" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epggrabber/epggrabber.sh -O - | /bin/sh</item>
@@ -366,8 +366,8 @@
          icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro ?">wget https://raw.githubusercontent.com/tarekzoka/ipaudio/main/ipaudiopro-new3.sh -O - | /bin/sh</item>
             <item 
-            name="EPGImport-egami10.5"
-            icon="/media/hdd/AJPanel_Backup/icons/epg2.png"
+            name="egami10.5"
+            icon="/media/hdd/AJPanel_Backup/icons/epg.png"
             ask="Install EPGImport ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/EPGImport/main/EPGImport-mod.sh -O - | /bin/sh</item>
 <item 
             name="subssupport"
@@ -1317,7 +1317,7 @@ exit 0 </item>
 #########################################
 ##############DANS##############
 
-		<submenu title="DANS" shade="yes" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/DNS.png" bg=" " title_fg=" " title_bg=" " align_items="left">
+		<submenu title="DANS" shade="yes" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png" bg=" " title_fg=" " title_bg=" " align_items="left">
 			<item name="Google">echo "nameserver 8.8.8.8" > /etc/resolv.conf; echo "nameserver 8.8.4.4" >> /etc/resolv.conf; killall -9 enigma2</item>
 		<item name="Cloudflare">echo "nameserver 1.1.1.1" > /etc/resolv.conf; echo "nameserver 1.0.0.1" >> /etc/resolv.conf; killall -9 enigma2</item>
 		<item name="CleanBrowsing">echo "nameserver 185.228.168.9" > /etc/resolv.conf; echo "nameserver 185.228.169.9" >> /etc/resolv.conf; killall -9 enigma2</item>
