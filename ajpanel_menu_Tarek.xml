@@ -452,7 +452,7 @@
             ask="Install Gstreamer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/Gstreamer-audio.sh -O - | /bin/sh</item>
 <item 
             name="multistalkerpro"
-            icon="/media/hdd/AJPanel_Backup/icons/ms.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
             ask="Install multistalkerpro ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/multistalker-pro/multistalkerpro.sh -O - | /bin/sh</item>
 <item 
             name="arabic-savior"
@@ -543,7 +543,7 @@
 
 <item 
             name="new-multistalker-pro"
-            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
             ask="Install multistalker-pro ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/multistalker-pro/main/multistalker-pro.sh -O - | /bin/sh</item>
 
 <item 
@@ -1110,7 +1110,7 @@ exit 0
 
 <item
             name="MultiStalker-OS"
-            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
             ask="Install MultiStalker-OS ?">#!/bin/sh
 ##
 echo ""
@@ -1174,12 +1174,12 @@ exit 0 </item>
          icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install asound-libasound ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/asound-libasound2.sh -O - | /bin/sh</item>
 <item 
-            name="old-ipaudiopro-Elsafty"
-            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
-            ask="Install safty-ipaudiopro ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/safty-ipaudio7.4.sh -O - | /bin/sh</item>
+            name="old-Elsafty"
+            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
+            ask="Install old-Elsafty ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/safty-ipaudio7.4.sh -O - | /bin/sh</item>
 <item 
             name="ipaudiopro-Elsafty"
-            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
             ask="Install ipaudiopro-Elsafty ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-Elsafty.sh -O - | /bin/sh</item>
 <item 
             name="alsa-utils"
@@ -1190,10 +1190,6 @@ exit 0 </item>
             name="curl"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install curl ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/tooles/-/raw/main/curl.sh -O - | /bin/sh</item>
-<item 
-            name="opkg-tools
-            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
-            ask="Install opkg-tools ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/tooles/-/raw/main/opkg-tools.sh -O - | /bin/sh</item>
 
 
 <item 
