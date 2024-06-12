@@ -339,6 +339,11 @@
             ask="Install EPGImport ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/EPGImport/main/installer.sh -O - | /bin/sh</item>
 
 <item name="epggrabber1" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epggrabber/epggrabber.sh -O - | /bin/sh</item>
+<item 
+            name="new-multistalker-pro"
+            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
+            ask="Install multistalker-pro ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/multistalker-pro/main/multistalker-pro.sh -O - | /bin/sh</item>
+
 
 <item 
             name="ipaudiopro-last"
