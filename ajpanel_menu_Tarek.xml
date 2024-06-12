@@ -1191,6 +1191,22 @@ exit 0 </item>
             name="ar"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install ar ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ar/installer2.sh -O - | /bin/sh</item>
+<item 
+            name="alsa-utils"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install alsa-utils ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/tooles/-/raw/main/alsa-utils.sh -O - | /bin/sh</item>
+
+<item 
+            name="curl"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install curl ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/tooles/-/raw/main/curl.sh -O - | /bin/sh</item>
+
+<item 
+            name="opkg-tools"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install opkg-tools ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/tooles/-/raw/main/opkg-tools.sh -O - | /bin/sh</item>
+
+
 
 
 <item
