@@ -343,7 +343,10 @@
             name="new-multistalker-pro"
             icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
             ask="Install multistalker-pro ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/multistalker-pro/main/multistalker-pro.sh -O - | /bin/sh</item>
-
+<item 
+            name="mips-multistalker-pro"
+            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
+            ask="Install multistalker-mips ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/multistalker-pro/main/multistalker-pro-mips.sh -O - | /bin/sh</item>
 
 <item 
             name="ipaudiopro-last"
@@ -377,6 +380,10 @@
             name="subssupport-1.5.8-r9"
             icon="/media/hdd/AJPanel_Backup/icons/sub.png"
             ask="Install subssupport-1.5.8-r9 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/subssupport/subssupport-1.5.8-r9.sh -O - | /bin/sh</item>
+<item 
+            name="xklass"
+            icon="/media/hdd/AJPanel_Backup/icons/kis.png"
+            ask="Install xklass ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/xklass/xklass-playeriptv.sh -O - | /bin/sh</item>
 
 <item 
             name="ajpanel"
