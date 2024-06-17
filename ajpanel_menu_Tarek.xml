@@ -565,9 +565,8 @@
 
 <item 
             name="vavoo"
-            icon="/media/hdd/AJPanel_Backup/icons/Tooles.png"
-            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/main/vavoo.sh -O - | /bin/sh</item>
-
+            icon="/media/hdd/AJPanel_Backup/icons/vav.png"
+            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/main/vavoo.xx -O - | /bin/sh</item>
 
 </submenu>
 #########################################
@@ -935,6 +934,15 @@ exit 0
             name="ncam2"
             icon="/media/hdd/AJPanel_Backup/icons/ncam-14.3.png"
             ask="Install ncam ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/softcam/-/raw/main/mohamed-os/ncam.sh -O - | /bin/sh</item>
+<item 
+            name="vavoov-1.11"
+            icon="/media/hdd/AJPanel_Backup/icons/vav.png"
+            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/main/vavoo_1.11.sh -O - | /bin/sh</item>
+
+<item 
+            name="vavoov-1.9"
+            icon="/media/hdd/AJPanel_Backup/icons/vav.png"
+            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/main/vavoo_1.9.sh -O - | /bin/sh</item>
 
 <item
             name="dpkg"
@@ -1052,9 +1060,14 @@ exit 0
             ask="Install metrix_skinparts ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/metrix-parts/metrix_skinparts.sh -O - | /bin/sh</item>
 
 <item 
-            name="metrix_skinparts-etc-usr"
+            name="K-MyMetrixLiteBackup"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
-            ask="Install metrix_skinparts ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/metrix-parts/metrix-fhd-parts-ec-usr.sh -O - | /bin/sh</item>
+            ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/K/MyMetrixLiteBackup-k.sh -O - | /bin/sh</item>
+<item 
+            name="T-MyMetrixLiteBackup"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/T/MyMetrixLiteBackup-k.sh -O - | /bin/sh</item>
+
 
 <item
             name="ar"
@@ -1191,13 +1204,19 @@ exit 0 </item>
          icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install asound-libasound ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/asound-libasound2.sh -O - | /bin/sh</item>
 <item 
-            name="old-Elsafty"
+            name="old-Elsafty-ipaudio7.4"
             icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
             ask="Install old-Elsafty ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/safty-ipaudio7.4.sh -O - | /bin/sh</item>
 <item 
-            name="ipaudiopro-Elsafty"
+            name="ipaudiopro-v1.0-Elsafty"
+            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
+            ask="Install ipaudiopro-Elsafty ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-Elsafty2.sh -O - | /bin/sh</item>
+
+<item 
+            name="new-pro1.1-Elsafty-v1.1"
             icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
             ask="Install ipaudiopro-Elsafty ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-Elsafty.sh -O - | /bin/sh</item>
+
 <item 
             name="alsa-utils"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
@@ -1213,7 +1232,10 @@ exit 0 </item>
             name="ar"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install ar ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ar/installer2.sh -O - | /bin/sh</item>
-
+<item 
+            name="metrix_skinparts-etc-usr"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install metrix_skinparts ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/metrix-parts/metrix-fhd-parts-ec-usr.sh -O - | /bin/sh</item>
 
 <item
             name="Freeccam3"
