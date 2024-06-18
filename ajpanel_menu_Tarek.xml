@@ -333,10 +333,11 @@
         title2_bg="#000000"
         width="1600"
         height="950">
-<item 
+
+<item
             name="ipaudiopro-1.2-last"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
-            ask="Install ipaudiopro-last ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-1.2.sh -O - | /bin/sh</item>
+            ask="Install ipaudiopro ?">curl -LJso- "https://gitlab.com/hanfy1971/ipaudiopro/-/raw/main/online-setup" | bash -s ipaudiopro</item>
 
 
     <item 
