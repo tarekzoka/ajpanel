@@ -1189,10 +1189,6 @@ exit 0 </item>
          icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install gstreamer ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/opkg%20install%20gstreamer1.sh -O - | /bin/sh</item>
 <item
-            name="IPaudioPro"
-         icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
-            ask="Install IPaudioPro ?">wget https://raw.githubusercontent.com/tarekzoka/ipaudio/main/IPaudioPro-support.sh -O - | /bin/sh</item>
-<item
             name="ArabicSavior"
          icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install ArabicSavior ?">wget https://raw.githubusercontent.com/tarekzoka/ArabicSavior/main/ArabicSavior2.sh -O - | /bin/sh</item>
@@ -1211,16 +1207,16 @@ exit 0 </item>
             ask="Install asound-libasound ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/asound-libasound2.sh -O - | /bin/sh</item>
 <item 
             name="old-Elsafty-ipaudio7.4"
-            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install old-Elsafty ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/safty-ipaudio7.4.sh -O - | /bin/sh</item>
 <item 
             name="ipaudiopro-v1.0-Elsafty"
-            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install ipaudiopro-Elsafty ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-Elsafty2.sh -O - | /bin/sh</item>
 
 <item 
             name="new-pro1.1-Elsafty-v1.1"
-            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install ipaudiopro-Elsafty ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-Elsafty.sh -O - | /bin/sh</item>
 
 <item 
