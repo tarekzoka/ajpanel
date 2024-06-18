@@ -338,7 +338,10 @@
             name="ipaudiopro-1.2-last"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro ?">curl -LJso- "https://gitlab.com/hanfy1971/ipaudiopro/-/raw/main/online-setup" | bash -s ipaudiopro</item>
-
+<item
+            name="IPtoSAT"
+            icon="/media/hdd/AJPanel_Backup/icons/iptosat.png"
+            ask="Install FootOnsat ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/IPtoSAT/online-setup" | bash -s IPtoSAT</item>
 
     <item 
             name="mips-ipaudiopro-last"
@@ -359,6 +362,11 @@
             name="ipaudiopro-last"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro-last ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-1.1-last.sh -O - | /bin/sh</item>
+<item
+            name="Suptv"
+            icon="/media/hdd/AJPanel_Backup/icons/plug.png"
+            ask="Install Suptv ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/Suptv/online-setup" | bash -s FootOnsat</item>
+
 
 <item 
             name="dependencies-ipaudiopro"
@@ -563,6 +571,11 @@
             name="ipaudiopro-last-link"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro-last ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro.sh -O - | /bin/sh</item>
+<item 
+            name="IPaudio-all-ver"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install IPaudio-all-ver ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/IPaudio/-/raw/main/installertt.sh -O - | /bin/sh</item>
+
 
 <item 
             name="new-multistalker-pro"
@@ -633,6 +646,11 @@ rm -r /tmp/plugin-extensions-ansite.tar.gz
 killall -9 enigma2
 
 sleep 2; </item>
+
+<item
+            name="IPtoSAT"
+            icon="/media/hdd/AJPanel_Backup/icons/iptosat.png"
+            ask="Install FootOnsat ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/IPtoSAT/online-setup" | bash -s IPtoSAT</item>
 
 <item 
             name="Quran"
