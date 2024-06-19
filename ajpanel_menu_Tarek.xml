@@ -341,7 +341,7 @@
 <item
             name="IPtoSAT"
             icon="/media/hdd/AJPanel_Backup/icons/iptosat.png"
-            ask="Install FootOnsat ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/IPtoSAT/online-setup" | bash -s IPtoSAT</item>
+            ask="Install IPtoSAT ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/IPtoSAT/online-setup" | bash -s IPtoSAT</item>
 
     <item 
             name="mips-ipaudiopro-last"
@@ -365,7 +365,7 @@
 <item
             name="Suptv"
             icon="/media/hdd/AJPanel_Backup/icons/plug.png"
-            ask="Install Suptv ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/Suptv/online-setup" | bash -s FootOnsat</item>
+            ask="Install Suptv ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/Suptv/online-setup" | bash -s Suptv</item>
 
 
 <item 
