@@ -338,16 +338,17 @@
             name="ipaudiopro-1.2-last"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro ?">curl -LJso- "https://gitlab.com/hanfy1971/ipaudiopro/-/raw/main/online-setup" | bash -s ipaudiopro</item>
+<item 
+            name="ipaudiopro-1.2"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install ipaudiopro-last ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/main/ipaudiopro.sh -O - | /bin/sh</item>
+
 <item
             name="IPtoSAT"
-            icon="/media/hdd/AJPanel_Backup/icons/iptosat.png"
+            icon="/media/hdd/AJPanel_Backup/icons/ipt.png"
             ask="Install IPtoSAT ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/IPtoSAT/online-setup" | bash -s IPtoSAT</item>
 
-    <item 
-            name="mips-ipaudiopro-last"
-            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
-            ask="Install ipaudiopro-last ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-pro-mips.sh -O - | /bin/sh</item>
-    
+       
 <item name="epggrabber1" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epggrabber/epggrabber.sh -O - | /bin/sh</item>
 <item 
             name="new-multistalker-pro"
@@ -358,10 +359,6 @@
             icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
             ask="Install multistalker-mips ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/multistalker-pro/main/multistalker-pro-mips.sh -O - | /bin/sh</item>
 
-<item 
-            name="ipaudiopro-last"
-            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
-            ask="Install ipaudiopro-last ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-1.1-last.sh -O - | /bin/sh</item>
 <item
             name="Suptv"
             icon="/media/hdd/AJPanel_Backup/icons/plug.png"
@@ -376,9 +373,10 @@
 
 
             <item 
-            name="IpAudioPro"
+            name="IpAudioPro-1.2"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
-            ask="Install ipaudiopro ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/ipaudiopro-new2.sh -O - | /bin/sh</item>
+            ask="Install ipaudiopro ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/main/ipaudiopro.sh -O - | /bin/sh</item>
+
 <item
             name="ipaudiopro to egami 10.5"
          icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
@@ -399,6 +397,10 @@
             name="xklass"
             icon="/media/hdd/AJPanel_Backup/icons/kis.png"
             ask="Install xklass ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/xklass/xklass-playeriptv.sh -O - | /bin/sh</item>
+<item
+            name="xklass"
+            icon="/media/hdd/AJPanel_Backup/icons/kis.png"
+            ask="Install xklass ?">curl -LJso- "https://raw.githubusercontent.com/tarekzoka/xklass/main/online-setup" | bash -s xklass</item>
 
 <item 
             name="ajpanel"
@@ -567,10 +569,7 @@
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install IPaudioPro-mnasr ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro/IPaudioPro-mnasr.sh -O - | /bin/sh</item>
 
-<item 
-            name="ipaudiopro-last-link"
-            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
-            ask="Install ipaudiopro-last ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro.sh -O - | /bin/sh</item>
+
 <item 
             name="IPaudio-all-ver"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
