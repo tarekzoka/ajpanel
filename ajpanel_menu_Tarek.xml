@@ -39,7 +39,7 @@
             ask="Install MetrixHD?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/MetrixHD.sh -O - | /bin/sh</item>
 
 <item 
-            name="aglare-fhd_3.4"
+            name="aglare-fhd_3.5"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install aglare ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd_3.4.sh -O - | /bin/sh</item> 
 <item 
@@ -227,6 +227,10 @@
 
 <item name="update-dependencies" info="Download correction ipk" icon="/media/hdd/AJPanel_Backup/icons/dp.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-dependencies.sh -O - | /bin/sh</item>
 <item name="update-dependencies1" info="Download correction ipk" icon="/media/hdd/AJPanel_Backup/icons/dp.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-dependencies1.sh -O - | /bin/sh</item>
+<item 
+            name="ATV-CONVER-DEVEL-open7.4.1"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install open7.4.1 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/tooles/-/raw/main/conver-to-openatv_7.4.1.sh-O - | /bin/sh</item>
 
 
         </submenu>
@@ -358,6 +362,11 @@
             name="mips-multistalker-pro"
             icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
             ask="Install multistalker-mips ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/multistalker-pro/main/multistalker-pro-mips.sh -O - | /bin/sh</item>
+
+<item 
+            name="RaedQuickSignal"
+            icon="/media/hdd/AJPanel_Backup/icons/qei.png"
+            ask="Install RaedQuickSignal ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/RaedQuickSignal/main/RaedQuickSignal.sh -O - | /bin/sh</item>
 
 <item
             name="Suptv"
