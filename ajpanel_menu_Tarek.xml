@@ -194,7 +194,7 @@
             ask="Install premiumfhd-blue ?">wget https://raw.githubusercontent.com/tarekzoka/SKINS/main/premiumfhd-blue_2.5.sh -O - | /bin/sh</item>
 </submenu>
 #########################################
-##############update-feed##############
+##############update-feed5##############
     <submenu
         title="up-panel-feed"
         info="Download And Install plugin"
@@ -229,8 +229,9 @@
 <item name="update-dependencies1" info="Download correction ipk" icon="/media/hdd/AJPanel_Backup/icons/dp.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_update-dependencies1.sh -O - | /bin/sh</item>
 <item 
             name="ATV-CONVER-DEVEL-open7.4.1"
-            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
-            ask="Install open7.4.1 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/tooles/-/raw/main/conver-to-openatv_7.4.1.sh-O - | /bin/sh</item>
+            icon="/media/hdd/AJPanel_Backup/icons/DEVEL.png"
+            ask="Install open7.4.1 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/tooles/-/raw/main/conver-to-openatv_7.4.1.sh -O - | /bin/sh</item>
+
 
 
         </submenu>
