@@ -1117,8 +1117,7 @@ exit 0
 <item
             name="openwebif"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
-            ask="Install openwebif ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/openwebif.sh -O - | /bin/sh</item>
-
+            ask="Install openwebif ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/tooles/-/raw/main/openwebif.sh -O - | /bin/sh</item>
 
 <item
             name="ar"
