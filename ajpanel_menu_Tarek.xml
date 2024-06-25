@@ -347,6 +347,10 @@
             name="ipaudiopro-1.2"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro-last ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/main/ipaudiopro.sh -O - | /bin/sh</item>
+<item 
+            name="ipaudiopro-1.3"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install ipaudiopro-1.3 ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/main/ipaudiopro1.3.sh -O - | /bin/sh</item>
 
 <item
             name="IPtoSAT"
@@ -379,8 +383,10 @@
             name="dependencies-ipaudiopro"
             icon="/media/hdd/AJPanel_Backup/icons/depe.png"
             ask="Install dependencies-audio ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/update-dependencies-audio.sh -O - | /bin/sh</item>
-
-
+<item 
+            name="weatherplugin"
+            icon="/media/hdd/AJPanel_Backup/icons/oa.png"
+            ask="Install weatherplugin ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/weatherplugin/weatherplugin.sh -O - | /bin/sh</item>
 
             <item 
             name="IpAudioPro-1.2"
@@ -1088,18 +1094,26 @@ exit 0
 
 
 <item 
-            name="metrix_skinparts"
+            name="metrix_parts"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
-            ask="Install metrix_skinparts ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/metrix-parts/metrix_skinparts.sh -O - | /bin/sh</item>
+            ask="Install metrix_parts ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/metrix-parts/metrix_skinparts.sh -O - | /bin/sh</item>
 
 <item 
             name="K-MyMetrixLiteBackup"
-            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            icon="/media/hdd/AJPanel_Backup/icons/tix.png"
             ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/K/MyMetrixLiteBackup-k.sh -O - | /bin/sh</item>
 <item 
             name="T-MyMetrixLiteBackup"
-            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            icon="/media/hdd/AJPanel_Backup/icons/tix.png"
             ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/T/MyMetrixLiteBackup-k.sh -O - | /bin/sh</item>
+<item 
+            name="metrix_skinparts-etc-usr"
+            icon="/media/hdd/AJPanel_Backup/icons/tix.png"
+            ask="Install metrix_skinparts ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/metrix-parts/metrix-fhd-parts-ec-usr.sh -O - | /bin/sh</item>
+<item
+            name="openwebif"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install openwebif ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/openwebif.sh -O - | /bin/sh</item>
 
 
 <item
@@ -1261,10 +1275,6 @@ exit 0 </item>
             name="ar"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install ar ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ar/installer2.sh -O - | /bin/sh</item>
-<item 
-            name="metrix_skinparts-etc-usr"
-            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
-            ask="Install metrix_skinparts ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/metrix-parts/metrix-fhd-parts-ec-usr.sh -O - | /bin/sh</item>
 
 <item
             name="Freeccam3"
