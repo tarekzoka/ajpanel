@@ -1084,7 +1084,11 @@ exit 0
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install Settings_ ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/settings-allimge/-/raw/main/TarekSettings_all_image.sh -O - | /bin/sh</item>
 <item 
-            name="epg-kaled"
+            name="epg-T"
+            icon="/media/hdd/AJPanel_Backup/icons/robot.png"
+            ask="Install epg-TAREK ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epg/epg-tarek.sh -O - | /bin/sh</item>
+<item 
+            name="epg-k"
             icon="/media/hdd/AJPanel_Backup/icons/robot.png"
             ask="Install epg-kaled ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epg/epg-kaled.sh -O - | /bin/sh</item>
 <item 
