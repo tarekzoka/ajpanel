@@ -351,6 +351,10 @@
             name="ipaudiopro-1.3"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro-1.3 ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/main/ipaudiopro1.3.sh -O - | /bin/sh</item>
+<item
+            name="ipaudiopro1.3"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install ipaudiopro1.3 ?">curl -LJso- "https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/main/online-setup" | bash -s ipaudiopro1.3</item>
 
 <item
             name="IPtoSAT"
@@ -1110,6 +1114,11 @@ exit 0
             name="T-MyMetrixLiteBackup"
             icon="/media/hdd/AJPanel_Backup/icons/tix.png"
             ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/T/MyMetrixLiteBackup-k.sh -O - | /bin/sh</item>
+<item 
+            name="D-MyMetrixLiteBackup"
+            icon="/media/hdd/AJPanel_Backup/icons/tix.png"
+            ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/D/MyMetrixLiteBackup-k.sh -O - | /bin/sh</item>
+
 <item 
             name="metrix_skinparts-etc-usr"
             icon="/media/hdd/AJPanel_Backup/icons/tix.png"
