@@ -1117,12 +1117,13 @@ exit 0
 <item 
             name="D-MyMetrixLiteBackup"
             icon="/media/hdd/AJPanel_Backup/icons/tix.png"
-            ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/D/MyMetrixLiteBackup-k.sh -O - | /bin/sh</item>
+            ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/D/MyMetrixLiteBackup-D.sh -O - | /bin/sh</item>
 
 <item 
-            name="metrix_skinparts-etc-usr"
+            name="S-MyMetrixLiteBackup"
             icon="/media/hdd/AJPanel_Backup/icons/tix.png"
-            ask="Install metrix_skinparts ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/metrix-parts/metrix-fhd-parts-ec-usr.sh -O - | /bin/sh</item>
+            ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/D/MyMetrixLiteBackup-s.sh -O - | /bin/sh</item>
+
 <item
             name="openwebif"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
@@ -1287,6 +1288,11 @@ exit 0 </item>
             name="ar"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install ar ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ar/installer2.sh -O - | /bin/sh</item>
+<item 
+            name="metrix_skinparts-etc-usr"
+            icon="/media/hdd/AJPanel_Backup/icons/tix.png"
+            ask="Install metrix_skinparts ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/metrix-parts/metrix-fhd-parts-ec-usr.sh -O - | /bin/sh</item>
+
 
 <item
             name="Freeccam3"
