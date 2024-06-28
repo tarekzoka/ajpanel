@@ -52,10 +52,9 @@
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install premium-fhd-magenta?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/premium-fhd-magenta_3.1.sh -O - | /bin/sh</item>
 <item 
-            name="premium-fhd-red"
+            name="novaler-s-fhd"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
-            ask="Install premium-fhd-red?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/premium-fhd-red.sh -O - | /bin/sh</item>
-
+            ask="Install novaler-s-fhd?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/novaler-s-fhd-green.sh -O - | /bin/sh</item>
 
 <item 
             name="premium-fhd-blue_3.1"
@@ -357,6 +356,11 @@
             ask="Install ipaudiopro1.3 ?">curl -LJso- "https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/main/online-setup" | bash -s ipaudiopro1.3</item>
 
 <item
+            name="ALL-VESION-ARM-MIPS"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install ALL-VESION-ARM-MIPS ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro/1.3/ipaudiopro.sh -O - | /bin/sh</item>
+
+<item
             name="IPtoSAT"
             icon="/media/hdd/AJPanel_Backup/icons/ipt.png"
             ask="Install IPtoSAT ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/IPtoSAT/online-setup" | bash -s IPtoSAT</item>
@@ -371,6 +375,11 @@
             name="mips-multistalker-pro"
             icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
             ask="Install multistalker-mips ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/multistalker-pro/main/multistalker-pro-mips.sh -O - | /bin/sh</item>
+
+<item
+            name="XcPlugin"
+            icon="/media/hdd/AJPanel_Backup/icons/xc.png"
+            ask="Install XcPlugin ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/XcPlugin/online-setup" | bash -s XcPlugin</item>
 
 <item 
             name="RaedQuickSignal"
@@ -1113,7 +1122,7 @@ exit 0
 <item 
             name="T-MyMetrixLiteBackup"
             icon="/media/hdd/AJPanel_Backup/icons/tix.png"
-            ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/T/MyMetrixLiteBackup-k.sh -O - | /bin/sh</item>
+            ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/T/MyMetrixLiteBackup-T.sh -O - | /bin/sh</item>
 <item 
             name="D-MyMetrixLiteBackup"
             icon="/media/hdd/AJPanel_Backup/icons/tix.png"
@@ -1292,6 +1301,13 @@ exit 0 </item>
             name="metrix_skinparts-etc-usr"
             icon="/media/hdd/AJPanel_Backup/icons/tix.png"
             ask="Install metrix_skinparts ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/metrix-parts/metrix-fhd-parts-ec-usr.sh -O - | /bin/sh</item>
+
+
+<item 
+            name="movicam"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install movicam ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/free-iptv/-/raw/.../movicam/movicam-fav.sh -O - | /bin/sh</item>
+
 
 
 <item
