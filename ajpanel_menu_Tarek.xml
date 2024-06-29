@@ -989,12 +989,12 @@ exit 0
 <item 
             name="vavoov-1.11"
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
-            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/main/vavoo_1.11.sh -O - | /bin/sh</item>
+            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/.../vavoo_1.11.sh -O - | /bin/sh</item>
 
 <item 
             name="vavoov-1.9"
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
-            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/main/vavoo_1.9.sh -O - | /bin/sh</item>
+            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/.../vavoo_1.9.sh -O - | /bin/sh</item>
 
 <item
             name="dpkg"
@@ -1131,7 +1131,7 @@ exit 0
 <item 
             name="S-MyMetrixLiteBackup"
             icon="/media/hdd/AJPanel_Backup/icons/tix.png"
-            ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/D/MyMetrixLiteBackup-s.sh -O - | /bin/sh</item>
+            ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/s/MyMetrixLiteBackup-s.sh -O - | /bin/sh</item>
 
 <item
             name="openwebif"
