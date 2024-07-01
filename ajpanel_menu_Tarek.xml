@@ -498,7 +498,7 @@
 
 <item
             name="xstreamity"
-         icon="/media/hdd/AJPanel_Backup/icons/xstreamity12.png"
+         icon="/media/hdd/AJPanel_Backup/icons/xtz.png"
             ask="Install xstreamity ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/xstreamity12/main/installer2.sh -O - | /bin/sh</item>
 <item
             name="Ajpanel"
@@ -1269,18 +1269,18 @@ exit 0 </item>
          icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install asound-libasound ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/asound-libasound2.sh -O - | /bin/sh</item>
 <item 
-            name="old-Elsafty-ipaudio7.4"
-            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            name="Elsafty-ipaudio7.4"
+            icon="/media/hdd/AJPanel_Backup/icons/safty.png"
             ask="Install old-Elsafty ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/safty-ipaudio7.4.sh -O - | /bin/sh</item>
 <item 
-            name="ipaudiopro-v1.0-Elsafty"
-            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            name="Elsafty-v1.0"
+            icon="/media/hdd/AJPanel_Backup/icons/safty.png"
             ask="Install ipaudiopro-Elsafty ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-Elsafty2.sh -O - | /bin/sh</item>
 
 <item 
-            name="new-pro1.1-Elsafty-v1.1"
-            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
-            ask="Install ipaudiopro-Elsafty ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-Elsafty.sh -O - | /bin/sh</item>
+            name="Elsafty-v1.1"
+            icon="/media/hdd/AJPanel_Backup/icons/safty.png"
+            ask="Install Elsafty-v1.1 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-Elsafty.sh -O - | /bin/sh</item>
 
 <item 
             name="alsa-utils"
@@ -1299,7 +1299,7 @@ exit 0 </item>
             ask="Install ar ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ar/installer2.sh -O - | /bin/sh</item>
 <item 
             name="metrix_skinparts-etc-usr"
-            icon="/media/hdd/AJPanel_Backup/icons/tix.png"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install metrix_skinparts ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/metrix-parts/metrix-fhd-parts-ec-usr.sh -O - | /bin/sh</item>
 
 
