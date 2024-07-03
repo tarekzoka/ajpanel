@@ -39,9 +39,9 @@
             ask="Install MetrixHD?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/MetrixHD.sh -O - | /bin/sh</item>
 
 <item 
-            name="aglare-fhd_3.5"
+            name="aglare-fhd_3.7"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
-            ask="Install aglare ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd_3.4.sh -O - | /bin/sh</item> 
+            ask="Install aglare ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd_3.7.sh -O - | /bin/sh</item> 
 <item 
             name="aglare-fhd_3.2"
             icon="/media/hdd/AJPanel_Backup/icons/pli.png"
@@ -71,9 +71,9 @@
             ask="Install novax-fhd?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/novax-fhd_2.1.sh -O - | /bin/sh</item>
 
 <item 
-            name="aglare-fhd_3.4"
+            name="aglare-fhd_3.7"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
-            ask="Install aglare-fhd?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd_3.4.sh -O - | /bin/sh</item>
+            ask="Install aglare-fhd?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd_3.7.sh -O - | /bin/sh</item>
 
      
 <item
@@ -706,6 +706,24 @@ sleep 2;
 
 exit 0</item>
 <item
+            name="MultiStalker-OS"
+            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
+            ask="Install MultiStalker-OS ?">#!/bin/sh
+##
+echo ""
+
+wget "https://raw.githubusercontent.com/tarekzoka/plugin-os/main/MultiStalker.tar.gz"
+
+
+tar -xzf MultiStalker.tar.gz  -C /
+
+wait
+rm -f /tmp/MultiStalker.tar.gz
+echo "   UPLOADED BY  >>>>   TAREK_TT "   
+sleep 4;                                                                                                                  
+exit 0 </item>
+
+<item
             name="advancedquickbutton"
             icon="/media/hdd/AJPanel_Backup/icons/xx.png"
             ask="Install advancedquickbutton ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/multiquickbut-os/main/dvancedquickbutton.sh -O - | /bin/sh </item>
@@ -1207,23 +1225,6 @@ exit 0
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install TOOL-gst-base ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOL-gst-base.shO - | /bin/sh</item>
 
-<item
-            name="MultiStalker-OS"
-            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
-            ask="Install MultiStalker-OS ?">#!/bin/sh
-##
-echo ""
-
-wget "https://raw.githubusercontent.com/tarekzoka/plugin-os/main/MultiStalker.tar.gz"
-
-
-tar -xzf MultiStalker.tar.gz  -C /
-
-wait
-rm -f /tmp/MultiStalker.tar.gz
-echo "   UPLOADED BY  >>>>   TAREK_TT "   
-sleep 4;                                                                                                                  
-exit 0 </item>
 
 <item
             name="TOOL-gstplayer"
