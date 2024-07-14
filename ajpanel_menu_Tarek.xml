@@ -37,16 +37,11 @@
             name="MetrixHD"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install MetrixHD?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/MetrixHD.sh -O - | /bin/sh</item>
-<item 
-            name="MetrixHD-1"
-            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
-            ask="Install MetrixHD-1?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/MetrixHD-1.sh -O - | /bin/sh</item>
-
 
 <item 
-            name="aglare-fhd_3.5"
+            name="aglare-fhd_3.7"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
-            ask="Install aglare ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd_3.4.sh -O - | /bin/sh</item> 
+            ask="Install aglare ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd_3.7.sh -O - | /bin/sh</item> 
 <item 
             name="aglare-fhd_3.2"
             icon="/media/hdd/AJPanel_Backup/icons/pli.png"
@@ -76,9 +71,9 @@
             ask="Install novax-fhd?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/novax-fhd_2.1.sh -O - | /bin/sh</item>
 
 <item 
-            name="aglare-fhd_3.4"
+            name="aglare-fhd_3.7"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
-            ask="Install aglare-fhd?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd_3.4.sh -O - | /bin/sh</item>
+            ask="Install aglare-fhd?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd_3.7.sh -O - | /bin/sh</item>
 
      
 <item
@@ -261,11 +256,6 @@
             name="kaled-channel"
             icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
             ask="Install kaled-channel?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channel-kaled.sh -O - | /bin/sh</item>
-<item
-            name="tarekalashry"
-            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
-            ask="Install tarekalashry?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channels_tarekalashry.sh -O - | /bin/sh</item>
-
 <item 
             name="ch-ahmed-husin"
             icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
@@ -613,11 +603,6 @@
             name="IPaudio-all-ver"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install IPaudio-all-ver ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/IPaudio/-/raw/main/installertt.sh -O - | /bin/sh</item>
-<item 
-            name="IPtoSAT"
-            icon="/media/hdd/AJPanel_Backup/icons/IPtoSAT.png"
-            ask="Install IPtoSAT ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/IPtoSAT/installer.sh -O - | /bin/sh</item>
-
 
 
 <item 
@@ -628,7 +613,7 @@
 <item 
             name="vavoo"
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
-            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/.../installer.sh -O - | /bin/sh</item>
+            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/main/vavoo.xx -O - | /bin/sh</item>
 
 </submenu>
 #########################################
@@ -692,7 +677,7 @@ sleep 2; </item>
 
 <item
             name="IPtoSAT"
-            icon="/media/hdd/AJPanel_Backup/icons/ipt.png"
+            icon="/media/hdd/AJPanel_Backup/icons/iptosat.png"
             ask="Install FootOnsat ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/IPtoSAT/online-setup" | bash -s IPtoSAT</item>
 
 <item 
@@ -703,23 +688,6 @@ sleep 2; </item>
             name="footonsat"
             icon="/media/hdd/AJPanel_Backup/icons/fo.png"
             ask="Install footonsat ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/footonsat/footonsat.sh -O - | /bin/sh</item>
-<item
-            name="MultiStalker-OS"
-            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
-            ask="Install MultiStalker-OS ?">#!/bin/sh
-##
-echo ""
-
-wget "https://raw.githubusercontent.com/tarekzoka/plugin-os/main/MultiStalker.tar.gz"
-
-
-tar -xzf MultiStalker.tar.gz  -C /
-
-wait
-rm -f /tmp/MultiStalker.tar.gz
-echo "   UPLOADED BY  >>>>   TAREK_TT "   
-sleep 4;                                                                                                                  
-exit 0 </item>
 <item
             name="multiquickbut"
             icon="/media/hdd/AJPanel_Backup/icons/xx.png"
@@ -737,6 +705,24 @@ wait
 sleep 2;
 
 exit 0</item>
+<item
+            name="MultiStalker-OS"
+            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
+            ask="Install MultiStalker-OS ?">#!/bin/sh
+##
+echo ""
+
+wget "https://raw.githubusercontent.com/tarekzoka/plugin-os/main/MultiStalker.tar.gz"
+
+
+tar -xzf MultiStalker.tar.gz  -C /
+
+wait
+rm -f /tmp/MultiStalker.tar.gz
+echo "   UPLOADED BY  >>>>   TAREK_TT "   
+sleep 4;                                                                                                                  
+exit 0 </item>
+
 <item
             name="advancedquickbutton"
             icon="/media/hdd/AJPanel_Backup/icons/xx.png"
@@ -1021,13 +1007,12 @@ exit 0
 <item 
             name="vavoov-1.11"
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
-            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/main/vavoo_1.11.sh -O - | /bin/sh</item>
+            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/.../vavoo_1.11.sh -O - | /bin/sh</item>
 
-<item
-            name="vavoo"
+<item 
+            name="vavoov-1.9"
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
-            ask="Install vavoo ?">curl -LJso- "https://gitlab.com/hanfy1971/vavoo/-/raw/main/online-setup" | bash -s vavoo</item>
-
+            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/.../vavoo_1.9.sh -O - | /bin/sh</item>
 
 <item
             name="dpkg"
@@ -1133,6 +1118,7 @@ exit 0
             name="epg-T"
             icon="/media/hdd/AJPanel_Backup/icons/robot.png"
             ask="Install epg-TAREK ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epg/epg-tarek.sh -O - | /bin/sh</item>
+
 <item 
             name="EPG-CORN"
             icon="/media/hdd/AJPanel_Backup/icons/robot.png"
@@ -1153,11 +1139,6 @@ exit 0
             icon="/media/hdd/AJPanel_Backup/icons/tix.png"
             ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/T/MyMetrixLiteBackup-T.sh -O - | /bin/sh</item>
 <item 
-            name="H-MyMetrixLiteBackup"
-            icon="/media/hdd/AJPanel_Backup/icons/tix.png"
-            ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/H/MyMetrixLiteBackup-H.sh -O - | /bin/sh</item>
-
-<item 
             name="D-MyMetrixLiteBackup"
             icon="/media/hdd/AJPanel_Backup/icons/tix.png"
             ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/D/MyMetrixLiteBackup-D.sh -O - | /bin/sh</item>
@@ -1165,7 +1146,7 @@ exit 0
 <item 
             name="S-MyMetrixLiteBackup"
             icon="/media/hdd/AJPanel_Backup/icons/tix.png"
-            ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/D/MyMetrixLiteBackup-s.sh -O - | /bin/sh</item>
+            ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/s/MyMetrixLiteBackup-s.sh -O - | /bin/sh</item>
 
 <item
             name="openwebif"
@@ -1241,23 +1222,6 @@ exit 0
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install TOOL-gst-base ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOL-gst-base.shO - | /bin/sh</item>
 
-<item
-            name="MultiStalker-OS"
-            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
-            ask="Install MultiStalker-OS ?">#!/bin/sh
-##
-echo ""
-
-wget "https://raw.githubusercontent.com/tarekzoka/plugin-os/main/MultiStalker.tar.gz"
-
-
-tar -xzf MultiStalker.tar.gz  -C /
-
-wait
-rm -f /tmp/MultiStalker.tar.gz
-echo "   UPLOADED BY  >>>>   TAREK_TT "   
-sleep 4;                                                                                                                  
-exit 0 </item>
 
 <item
             name="TOOL-gstplayer"
@@ -1315,11 +1279,6 @@ exit 0 </item>
             name="Elsafty-v1.1"
             icon="/media/hdd/AJPanel_Backup/icons/safty.png"
             ask="Install Elsafty-v1.1 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-Elsafty.sh -O - | /bin/sh</item>
-<item 
-            name="Elsafty-v1.3"
-            icon="/media/hdd/AJPanel_Backup/icons/safty.png"
-            ask="Install ipaudiopro-Elsafty ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-Elsafty3.sh -O - | /bin/sh</item>
-
 
 <item 
             name="alsa-utils"
@@ -1341,30 +1300,13 @@ exit 0 </item>
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install metrix_skinparts ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/metrix-parts/metrix-fhd-parts-ec-usr.sh -O - | /bin/sh</item>
 
-<item 
-            name="web_cam"
-            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
-            ask="Install web_cam ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/free-iptv/-/raw/main/web_cam.sh -O - | /bin/sh</item>
-
-<item 
-            name="movicam-a"
-            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
-            ask="Install movicam ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/free-iptv/-/raw/..../movicam/movicam-fav.sh -O - | /bin/sh</item>
-<item 
-            name="movicam-b"
-            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
-            ask="Install movicam ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/free-iptv/-/raw/..../movicam/Movicam_bouqet_update.sh -O - | /bin/sh</item>
 
 <item 
             name="movicam"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
-            ask="Install movicam ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/free-iptv/-/raw/.../movicam/Movicam_bouqet.sh -O - | /bin/sh</item>
+            ask="Install movicam ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/free-iptv/-/raw/.../movicam/movicam-fav.sh -O - | /bin/sh</item>
 
 
-<item 
-            name="free-iptv"
-            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
-            ask="Install free-iptv ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/free-iptv/-/raw/main/playlists-1.0.sh -O - | /bin/sh</item>
 
 <item
             name="Freeccam3"
@@ -1531,7 +1473,6 @@ init 3</item>
 
                  </submenu>
     </ajp_menu>
-
 
 
 
