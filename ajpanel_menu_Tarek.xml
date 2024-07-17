@@ -377,6 +377,7 @@
 
        
 <item name="epggrabber1" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epggrabber/epggrabber.sh -O - | /bin/sh</item>
+<item name="epggrabber-update" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epggrabber/epggrabber-update.sh -O - | /bin/sh</item>
 <item 
             name="new-multistalker-pro"
             icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
