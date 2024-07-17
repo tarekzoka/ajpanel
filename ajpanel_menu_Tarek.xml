@@ -630,6 +630,11 @@
             name="vavoo"
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
             ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/.../installer.sh -O - | /bin/sh</item>
+<item 
+            name="vavo-allbouquets"
+            icon="/media/hdd/AJPanel_Backup/icons/vav.png"
+            ask="Install allbouquets?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/..../allbouquets.sh -O - | /bin/sh</item>
+
 
 </submenu>
 #########################################
