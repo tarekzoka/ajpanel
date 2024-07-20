@@ -377,7 +377,9 @@
 
        
 <item name="epggrabber1" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epggrabber/epggrabber.sh -O - | /bin/sh</item>
+
 <item name="epggrabber-update" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epggrabber/epggrabber-update.sh -O - | /bin/sh</item>
+
 <item 
             name="new-multistalker-pro"
             icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
@@ -629,7 +631,9 @@
 <item 
             name="vavoo"
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
-            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/.../installer.sh -O - | /bin/sh</item>
+            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/..../installer.sh -O - | /bin/sh</item>
+
+
 <item 
             name="vavo-allbouquets"
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
@@ -1135,6 +1139,14 @@ exit 0
             name="Settings_all_image"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install Settings_ ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/settings-allimge/-/raw/main/TarekSettings_all_image.sh -O - | /bin/sh</item>
+
+<item 
+            name="fontmagnifier"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install fontmagnifier ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/fontmagnifier/fontmagnifier.sh -O - | /bin/sh</item>
+
+
+<item name="epggrabber-tooles" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epggrabber/EPGGrabber-tooles.sh -O - | /bin/sh</item>
 <item 
             name="epg-T"
             icon="/media/hdd/AJPanel_Backup/icons/robot.png"
@@ -1364,7 +1376,7 @@ exit 0 </item>
 <item 
             name="movicam"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
-            ask="Install movicam ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/free-iptv/-/raw/.../movicam/Movicam_bouqet.sh -O - | /bin/sh</item>
+            ask="Install movicam ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/free-iptv/-/raw/..../movicam/Movicam_bouqet.sh -O - | /bin/sh</item>
 
 
 <item 
@@ -1537,7 +1549,6 @@ init 3</item>
 
                  </submenu>
     </ajp_menu>
-
 
 
 
