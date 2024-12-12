@@ -7,12 +7,12 @@
 #!/bin/sh
 echo
 
-opkg install --force-overwrite https://github.com/tarekzoka/ajpanel/blob/main/eenigma2-plugin-extensions-ajpanel_v9.4.0_all.ipk
+opkg install --force-overwrite https://github.com/tarekzoka/ajpanel/blob/main/eenigma2-plugin-extensions-ajpanel_v10.2.3_all.ipk
 wait
 #!/bin/sh
 #
 
-wget -O /tmp/enigma2-plugin-extensions-ajpanel_v9.4.0_all.deb "https://github.com/tarekzoka/ajpanel/blob/main/enigma2-plugin-extensions-ajpanel_v9.4.0_all.deb"
+wget -O /tmp/enigma2-plugin-extensions-ajpanel_v10.2.3_all.deb "https://github.com/tarekzoka/ajpanel/blob/main/enigma2-plugin-extensions-ajpanel_v10.2.3_all.deb"
 wait
 apt-get update ; dpkg -i /tmp/*.deb ; apt-get -y -f install
 wait
