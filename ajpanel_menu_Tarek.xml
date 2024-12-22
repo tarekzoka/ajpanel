@@ -41,10 +41,10 @@
             name="MetrixHD-1"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install MetrixHD-1?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/MetrixHD-1.sh -O - | /bin/sh</item>
-<item
+<item 
             name="Aglare"
-            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
-            ask="Install Aglare ?">curl -LJso- "https://gitlab.com/hanfy1971/skins/-/raw/main/Aglare/online-setup" | bash -s Aglare</item>
+            icon="/media/hdd/AJPanel_Backup/icons/ATV.png"
+            ask="Aglare ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/Aglare/aglare-fhd.sh -O - | /bin/sh</item>
 
 <item 
             name="aglare-fhd_3.5"
