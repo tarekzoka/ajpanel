@@ -355,6 +355,13 @@
             name="ipaudiopro-1.2-last"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro ?">curl -LJso- "https://gitlab.com/hanfy1971/ipaudiopro/-/raw/main/online-setup" | bash -s ipaudiopro</item>
+
+<item 
+            name="ipaudiopro-1.4"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install ipaudiopro-1.4 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/20IPaudiopro/1.4/ipaudiopro.sh -O - | /bin/sh</item>
+
+
 <item 
             name="ipaudiopro-1.2"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
