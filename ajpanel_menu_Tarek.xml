@@ -361,7 +361,7 @@
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro-1.4 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro/1.4/ipaudiopro.sh -O - | /bin/sh</item>
 
-item 
+<item 
             name="AjPanel"
             icon="/media/hdd/AJPanel_Backup/icons/AjPanel.png"
             ask="Install AjPanel ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh</item>
