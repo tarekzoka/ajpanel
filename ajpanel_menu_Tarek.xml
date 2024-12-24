@@ -728,6 +728,13 @@ sleep 2; </item>
             name="footonsat"
             icon="/media/hdd/AJPanel_Backup/icons/fo.png"
             ask="Install footonsat ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/footonsat/footonsat.sh -O - | /bin/sh</item>
+
+<item 
+            name="barryallen"
+            icon="/media/hdd/AJPanel_Backup/icons/barryallen.png"
+            ask="Install barryallen ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/barryallen/barryallen.sh -O - | /bin/sh</item>
+
+
 <item
             name="MultiStalker-OS"
             icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
