@@ -1224,6 +1224,11 @@ exit 0
             name="bitrate"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install bitrate ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/bitrate/bitrate.sh -O - | /bin/sh</item>
+<item 
+            name="Ciefp-Panel"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install Ciefp-Panel?">wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Ciefp-Panel/Ciefp-Panel.sh -O - | /bin/sh</item>
+
 
 <item
             name="wget-curl-opkg"
