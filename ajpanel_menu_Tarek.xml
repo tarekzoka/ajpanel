@@ -1364,11 +1364,6 @@ exit 0 </item>
             name="Elsafty-v1.1"
             icon="/media/hdd/AJPanel_Backup/icons/safty.png"
             ask="Install Elsafty-v1.1 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-Elsafty.sh -O - | /bin/sh</item>
-<item 
-            name="Elsafty-v1.3"
-            icon="/media/hdd/AJPanel_Backup/icons/safty.png"
-            ask="Install ipaudiopro-Elsafty ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/ipaudiopro-Elsafty3.sh -O - | /bin/sh</item>
-
 
 <item 
             name="alsa-utils"
