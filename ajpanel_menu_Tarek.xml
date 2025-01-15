@@ -1234,6 +1234,11 @@ exit 0
             ask="Install Ciefp-Panel?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/Ciefp-Panel.sh -O - | /bin/sh</item>
 
 
+<item 
+            name="Ciefp-Panel3"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install Ciefp-Panel?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ciefp-panel/Ciefp-Panel.sh -O - | /bin/sh</item>
+
 <item
             name="wget-curl-opkg"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
