@@ -1244,7 +1244,7 @@ exit 0
 <item 
             name="ELISAT-Panel3"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
-            ask="Install Ciefp-Panel?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ciefp-panelA/Ciefp-Panel.sh -O - | /bin/sh</item>
+            ask="Install Ciefp-Panel?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ciefpsettingspanel/Ciefp-PanelA.sh -O - | /bin/sh</item>
 
 <item
             name="wget-curl-opkg"
