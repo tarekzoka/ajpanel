@@ -362,6 +362,12 @@
             ask="Install ipaudiopro-1.4 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro/1.4/ipaudiopro.sh -O - | /bin/sh</item>
 
 <item 
+            name="ipaudiopro-1.5"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install ipaudiopro-1.5?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro/IPAudioPro1.5.sh -O - | /bin/sh</item>
+
+
+<item 
             name="AjPanel"
             icon="/media/hdd/AJPanel_Backup/icons/aj.png"
             ask="Install AjPanel ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh</item>
@@ -1230,6 +1236,12 @@ exit 0
             ask="Install Ciefp-Panel?">wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Ciefp-Panel/Ciefp-Panel.sh -O - | /bin/sh</item>
 
 <item 
+            name="MagicPanel"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install MagicPanel-?">wget -q "--no-check-certificate" https://gitlab.com/h-ahmed/Panel/-/raw/main/MagicPanel-install.sh -O - | /bin/sh</item>
+
+
+<item 
             name="Addonspanelsmart"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install Addonspanelsmart?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/Addonspanel/main/Ciefp-Settings-py3.sh -O - | /bin/sh</item>
@@ -1244,7 +1256,7 @@ exit 0
 <item 
             name="ELISAT-Panel3"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
-            ask="Install Ciefp-Panel?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ciefpsettingspanel/Ciefp-PanelA.sh -O - | /bin/sh</item>
+            ask="Install Ciefp-Panel?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ciefpsettingspanel/ciefpsettingspanel.sh -O - | /bin/sh</item>
 
 <item
             name="wget-curl-opkg"
