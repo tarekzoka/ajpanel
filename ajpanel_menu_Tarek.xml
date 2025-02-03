@@ -41,19 +41,15 @@
             name="MetrixHD-1"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install MetrixHD-1?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/MetrixHD-1.sh -O - | /bin/sh</item>
-<item 
-            name="Aglare"
-            icon="/media/hdd/AJPanel_Backup/icons/ATV.png"
-            ask="Aglare ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/Aglare/aglare-fhd.sh -O - | /bin/sh</item>
+<item
+            name="Aglare-all"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install Aglare-all ?">curl -LJso- "https://gitlab.com/hanfy1971/skins/-/raw/main/Aglare/online-setup" | bash -s Aglare</item>
 
 <item 
             name="aglare-fhd_3.5"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install aglare ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/aglare-fhd_3.4.sh -O - | /bin/sh</item> 
-<item 
-            name="aglare-fhd_3.2"
-            icon="/media/hdd/AJPanel_Backup/icons/pli.png"
-            ask="Install aglare ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/pli/aglare-fhd-pli.sh -O - | /bin/sh</item>
 
 <item 
             name="premium-fhd-magenta_3.1"
