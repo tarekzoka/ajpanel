@@ -421,6 +421,12 @@
             icon="/media/hdd/AJPanel_Backup/icons/qei.png"
             ask="Install RaedQuickSignal ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/RaedQuickSignal/main/RaedQuickSignal.sh -O - | /bin/sh</item>
 
+<item 
+            name="MultiCamAdder"
+            icon="/media/hdd/AJPanel_Backup/icons/sevies.png"
+            ask="Install MultiCamAdder ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/MultiCamAdder/installer.sh -O - | /bin/sh</item>
+
+
 <item
             name="Suptv"
             icon="/media/hdd/AJPanel_Backup/icons/plug.png"
