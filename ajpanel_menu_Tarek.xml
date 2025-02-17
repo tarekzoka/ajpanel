@@ -1258,6 +1258,11 @@ exit 0
             ask="Install Addonspanelsmart?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/Addonspanel/main/Ciefp-Settings-py3.sh -O - | /bin/sh</item>
 
 <item 
+            name="Addonspanelsmart-py2-py3"
+            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install Addonspanelsmart?">https://raw.githubusercontent.com/tarekzoka/Addonspanel/main/installer.sh -O - | /bin/sh</item>
+
+<item 
             name="ciefp-PANEL"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install ciefp-PANEL?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/ciefp/CiefpSelectSatellite/main/installer.sh -O - | /bin/sh</item>
