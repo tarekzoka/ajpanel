@@ -386,6 +386,11 @@
             name="ipaudiopro1.3"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro1.3 ?">curl -LJso- "https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/main/online-setup" | bash -s ipaudiopro1.3</item>
+<item 
+            name="screenrecorder"
+            icon="/media/hdd/AJPanel_Backup/icons/picon.png"
+            ask="Install screenrecorder ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/screenrecorder/screenrecorder.sh -O - | /bin/sh</item>
+
 
 <item
             name="ALL-VESION-ARM-MIPS"
@@ -1114,6 +1119,11 @@ exit 0
             name="oscam2"
             icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
             ask="Install oscam-last ?">curl -LJso- "https://gitlab.com/hanfy1971/softcam/-/raw/main/mohamed-os/online-setup" | bash -s oscam</item>
+<item
+            name="oscam3"
+            icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
+            ask="oscam-last ?">curl -LJso- "https://gitlab.com/hanfy1971/softcam/-/raw/main/mohamed-os/online-setup1" | bash -s softcam</item>
+
 <item
             name="oscam"
             icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
