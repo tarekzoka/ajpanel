@@ -34,6 +34,12 @@
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install copper-fhd?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/copper-fhd_2.3.sh -O - | /bin/sh</item>
 <item 
+            name="Fury-FHD-V3"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install Fury-FHD-V3/Fury ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/Fury-FHD-V3/Fury-FHD-V3.sh -O - | /bin/sh</item>
+
+
+<item 
             name="MetrixHD"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install MetrixHD?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/MetrixHD.sh -O - | /bin/sh</item>
@@ -406,6 +412,12 @@
 <item name="epggrabber1" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epggrabber/epggrabber.sh -O - | /bin/sh</item>
 
 <item name="epggrabber-update" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epggrabber/epggrabber-update.sh -O - | /bin/sh</item>
+
+<item 
+            name="epgimport"
+            icon="/media/hdd/AJPanel_Backup/icons/epg.png"
+            ask="Install epgimport ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epgimport/epgimport.sh -O - | /bin/sh</item>
+
 
 <item 
             name="new-multistalker-pro"
