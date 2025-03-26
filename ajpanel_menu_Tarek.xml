@@ -396,6 +396,10 @@
             name="screenrecorder"
             icon="/media/hdd/AJPanel_Backup/icons/picon.png"
             ask="Install screenrecorder ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/screenrecorder/screenrecorder.sh -O - | /bin/sh</item>
+<item
+            name="setpicon"
+         icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install setpicon ?">wget https://raw.githubusercontent.com/tarekzoka/setpicon/main/installer.sh -O - | /bin/sh</item>
 
 
 <item
@@ -632,9 +636,9 @@
 			<item name="novalerstore" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ns.png" info="(بانل تسطيب اضافات)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novalerstore.sh -O - | /bin/sh</item>
 			<item name="oaweather" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/oa.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/oaweather/oaweather.sh?inline=false -O - | /bin/sh</item>
 			<item name="opdboot" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/opdboot.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/opdboot/opdboot.sh -O - | /bin/sh</item>
-<item name="worldcam-4.5" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/worldcam/worldcam-v-4.2.5.sh -O - | /bin/sh</item>
+<item name="worldcam-4.9" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/worldcam/installer.sh -O - | /bin/sh</item>
 
-<item name="worldcam" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/worldcam/main/installer.sh -O - | /bin/sh</item>
+<item name="worldcam-4.9" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/worldcam/main/installer.sh -O - | /bin/sh</item>
 			<item name="opkg-tools" ask="yes(reboot)" icon="/media/hdd/AJPanel_Backup/icons/opkgtools.png"  info="(اداة تشغيل خاصة بالajpanel)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/opkg-tools/opkg-tools.sh -O - | /bin/sh</item>
 
 <item name="worldcam-4.3" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/worldcam/worldcam4.3.sh -O - | /bin/sh</item>
