@@ -395,7 +395,8 @@
 <item 
             name="screenrecorder"
             icon="/media/hdd/AJPanel_Backup/icons/picon.png"
-            ask="Install screenrecorder ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/screenrecorder/screenrecorder.sh -O - | /bin/sh</item>
+            ask="Install screenrecorder ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/screenrecorder/installer.sh -O - | /bin/sh</item>
+
 <item
             name="setpicon"
          icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
