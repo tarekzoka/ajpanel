@@ -37,7 +37,10 @@
             name="Fury-FHD-V3"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install Fury-FHD-V3/Fury ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/Fury-FHD-V3/Fury-FHD-V3.sh -O - | /bin/sh</item>
-
+<item 
+            name="FURY-HD-V5.4"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install FURY ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/%20fury-fhd/fury-fhd.sh -O - | /bin/sh</item>
 
 <item 
             name="MetrixHD"
