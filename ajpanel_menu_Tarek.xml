@@ -1221,7 +1221,8 @@ exit 0
 <item 
             name="change-password-to-root"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
-            ask="Install change-password-to-root ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/enigma2-servise/main/change-password-to-root.sh-O - | /bin/sh</item
+            ask="Install change-password-to-root ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/enigma2-servise/main/change-password-to-root.sh-O - | /bin/sh</item>
+
 
 <item 
             name="Settings_all_image"
