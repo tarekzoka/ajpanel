@@ -386,6 +386,14 @@
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install email-panel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/emilpanel/emilpanel.sh -O - | /bin/sh</item>
 
+<item 
+            name="ELISATPANEL"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/installer.sh -O - | /bin/sh</item>
+<item
+            name="Audios"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install AudiosL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/Audios/NEWAudios.sh -O - | /bin/sh</item>
 
 <item 
             name="ipaudiopro-1.2"
@@ -1210,6 +1218,10 @@ exit 0
             name="satellitesxml"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install satellitesxml ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/satellitesxml/installer.sh -O - | /bin/sh</item>
+<item 
+            name="change-password-to-root"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install change-password-to-root ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/enigma2-servise/main/change-password-to-root.sh-O - | /bin/sh</item
 
 <item 
             name="Settings_all_image"
