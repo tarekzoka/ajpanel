@@ -390,6 +390,16 @@
             name="ELISATPANEL"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/installer.sh -O - | /bin/sh</item>
+<item 
+            name="EStalker"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install EStalker?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/EStalker/main/EStalker.sh-O - | /bin/sh</item>
+
+<item 
+            name="ELISold-panel"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/insal-oldpanel-O - | /bin/sh</item>
+
 <item
             name="Audios"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
