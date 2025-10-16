@@ -393,7 +393,7 @@
 <item 
             name="EStalker"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
-            ask="Install EStalker?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/EStalker/main/EStalker.sh-O - | /bin/sh</item>
+            ask="Install EStalker?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/EStalker/main/EStalker.sh -O - | /bin/sh</item>
 
 <item 
             name="ELISold-panel"
