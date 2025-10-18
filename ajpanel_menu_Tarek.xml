@@ -398,7 +398,7 @@
 <item 
             name="ELISold-panel"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
-            ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/insal-oldpanel-O - | /bin/sh</item>
+            ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/insal-oldpanel.sh -O - | /bin/sh</item>
 
 <item
             name="Audios"
