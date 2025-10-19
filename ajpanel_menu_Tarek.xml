@@ -1236,7 +1236,10 @@ exit 0
             name="delete-password"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install delete-password?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/enigma2-servise/main/delete-password.sh-O - | /bin/sh</item>
-
+<item 
+            name="D_all.sever.sh"
+            icon="/media/hdd/AJPanel_Backup/icons/fo.png"
+            ask="Install D_all.sever.sh?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/enigma2-servise/main/D_all.sever.sh-O - | /bin/sh</item>
 
 <item 
             name="Settings_all_image"
