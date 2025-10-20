@@ -399,6 +399,11 @@
             name="ELISold-panel"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/insal-oldpanel.sh -O - | /bin/sh</item>
+<item 
+            name="EMAILPANEL"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/EMAILPANEL/panel.sh-O - | /bin/sh</item>
+
 
 <item
             name="Audios"
@@ -1161,6 +1166,11 @@ exit 0
             name="oscam2"
             icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
             ask="Install oscam-last ?">curl -LJso- "https://gitlab.com/hanfy1971/softcam/-/raw/main/mohamed-os/online-setup" | bash -s oscam</item>
+<item
+            name="OSCAM-LEVIES"
+            icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
+            ask="Install oscam ?">wget -q "--no-check-certificate" wget  https://gitlab.com/hanfy1971/softcam/-/raw/ main/levi / oscam.sh -O - | /bin/sh</item>
+
 <item
             name="oscam3"
             icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
