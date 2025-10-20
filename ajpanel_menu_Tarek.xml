@@ -402,7 +402,7 @@
 <item 
             name="EMAILPANEL"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
-            ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/EMAILPANEL/panel.sh-O - | /bin/sh</item>
+            ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EMAILPANEL/panel.sh -O - | /bin/sh</item>
 
 
 <item
