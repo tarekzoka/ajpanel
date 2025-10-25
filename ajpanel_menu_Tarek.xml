@@ -388,8 +388,14 @@
 
 <item 
             name="ELISATPANEL"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/installer.sh -O - | /bin/sh</item>
+<item 
+            name="PanelAIO"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install PanelAIO?">
+wget -q "--no-check-certificate" https://raw.githubusercontent.com/OliOli2013/PanelAIO-Plugin/main/installer.sh -O - | /bin/sh</item>
+
 <item 
             name="EStalker"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
@@ -403,7 +409,10 @@
             name="EMAILPANEL"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EMAILPANEL/panel.sh -O - | /bin/sh</item>
-
+<item
+            name="ajpanel"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install ajpanel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ajpanel/installer.sh -O - | /bin/sh</item>
 
 <item
             name="Audios"
