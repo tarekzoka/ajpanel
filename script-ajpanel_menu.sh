@@ -11,4 +11,6 @@ echo "   UPLOADED BY  >>>>   TAREK-HANFY "
 sleep 4;                                                                                                                  
 echo ". >>>>         RESTARING     <<<<"
 echo BY-TAREK-HANFY   "**********************************************************************************"
-exit 0  
+wait
+killall -9 enigma2
+exit 0
