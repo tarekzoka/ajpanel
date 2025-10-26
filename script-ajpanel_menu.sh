@@ -4,10 +4,10 @@ tar -xzf ajpanel_menu.tar.gz  -C /
 
 wait
 rm -f /tmp/ajpanel_menu.tar.gz
-echo "   UPLOADED BY  >>>>   TAREK_TT "   
+echo "   UPLOADED BY  >>>>   TAREK-HANFY "   
 sleep 4;                                                                                                                  
 echo ". >>>>         RESTARING     <<<<"
 echo BY-TAREK-HANFY   "**********************************************************************************"
 wait
 killall -9 enigma2
-exit 0 
+exit 0  
