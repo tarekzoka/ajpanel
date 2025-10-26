@@ -224,16 +224,15 @@
         width="1600"
         height="950">
         <item
-            name="ajp-menu-icons"
+            name="ajp-menu-emil"
          icon="/media/hdd/AJPanel_Backup/icons/menu.png"
             ask="Install update-ajpanel-menu ?">wget https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel_menu.sh -O - | /bin/sh</item>
+
 <item
             name="ajpapel-menu"
-         icon="/media/hdd/AJPanel_Backup/icons/xml.png"
+         icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install update-menu ?">wget -q "--no-check-certificate" 
-https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/script-ajpanel_menu.sh -O - | /bin/sh
-
--O - | /bin/sh</item>
+https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/script-ajpanel_menu.sh -O - | /bin/sh</item>
 
 <item
             name="ajpapel-xml"
