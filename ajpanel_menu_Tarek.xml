@@ -231,8 +231,7 @@
 <item
             name="ajpapel-menu"
          icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
-            ask="Install update-menu ?">wget -q "--no-check-certificate" 
-https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/script-ajpanel_menu.sh -O - | /bin/sh</item>
+            ask="Install update-menu ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/ajpanel_menu1.sh -O - | /bin/sh</item>
 
 <item
             name="ajpapel-xml"
