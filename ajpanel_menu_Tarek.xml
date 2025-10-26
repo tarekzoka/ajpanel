@@ -228,6 +228,11 @@
          icon="/media/hdd/AJPanel_Backup/icons/menu.png"
             ask="Install update-ajpanel-menu ?">wget https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel_menu.sh -O - | /bin/sh</item>
 <item
+            name="ajpapel-menu"
+         icon="/media/hdd/AJPanel_Backup/icons/xml.png"
+            ask="Install update-menu ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/main/script-ajpanel_menu.sh-O - | /bin/sh</item>
+
+<item
             name="ajpapel-xml"
          icon="/media/hdd/AJPanel_Backup/icons/xml.png"
             ask="Install update-menu-light ?">wget https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel_menu-light.sh -O - | /bin/sh</item>
