@@ -500,7 +500,10 @@ wget -q "--no-check-certificate" https://raw.githubusercontent.com/OliOli2013/Pa
             name="Suptv"
             icon="/media/hdd/AJPanel_Backup/icons/plug.png"
             ask="Install Suptv ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/Suptv/online-setup" | bash -s Suptv</item>
-
+<item 
+            name="iptvdream-all"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install iptvdream-all ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/iptvdream-all/iptvdream-all.sh -O - | /bin/sh</item>
 
 <item 
             name="dependencies-ipaudiopro"
@@ -1712,6 +1715,7 @@ init 3</item>
 		<item ask="Remove XCplugin" icon="DEL.png" name="XCplugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-Plugin-XCplugin.sh  -O - | /bin/sh</item>
 		<item ask="Remove Xstreamity Plugin" icon="DEL.png" name="Xstreamity-Plugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-xstreamity.sh  -O - | /bin/sh</item>
 		<item ask="Remove Youtube" icon="DEL.png" name="Youtube">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-youtube.sh  -O - | /bin/sh</item>
+<item ask="remove-script" icon="DEL.png" name="remove-script">wget https://raw.githubusercontent.com/tar1971/settings/refs/heads/main/B1-SCRIPT-cv.sh  -O - | /bin/sh</item>
 
 
                  </submenu>
