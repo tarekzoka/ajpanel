@@ -503,7 +503,7 @@ wget -q "--no-check-certificate" https://raw.githubusercontent.com/OliOli2013/Pa
 <item 
             name="iptvdream-all"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
-            ask="Install iptvdream-all ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/iptvdream-all/iptvdream-all.sh -O - | /bin/sh</item>
+            ask="Install iptvdream-all ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/iptvdream-all/iptvdream-all.sh -O - | /bin/sh</item>
 
 <item 
             name="dependencies-ipaudiopro"
