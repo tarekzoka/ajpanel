@@ -811,6 +811,11 @@ sleep 2; </item>
             icon="/media/hdd/AJPanel_Backup/icons/Quran.png"
             ask="Install Quran ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/Quran/Quran.sh -O - | /bin/sh</item>
 <item 
+            name="worldcam-4.9"
+            icon="/media/hdd/AJPanel_Backup/icons/wor.png"
+            ask="Install worldcam ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/worldcam/refs/heads/main/installer.sh -O - | /bin/sh</item>
+
+<item 
             name="footonsat"
             icon="/media/hdd/AJPanel_Backup/icons/fo.png"
             ask="Install footonsat ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/footonsat/footonsat.sh -O - | /bin/sh</item>
