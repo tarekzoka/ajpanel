@@ -419,6 +419,7 @@ wget -q "--no-check-certificate" https://raw.githubusercontent.com/OliOli2013/Pa
             name="ajpanel"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install ajpanel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ajpanel/installer.sh -O - | /bin/sh</item>
+<item name="worldcam-5.5" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q --no-check-certificate https://raw.githubusercontent.com/Belfagor2005/WorldCam/main/installer.sh -O - | /bin/sh</item>
 
 <item
             name="Audios"
@@ -1110,6 +1111,26 @@ exit 0 </item>
             name="OSCAM-1-os"
          icon="/media/hdd/AJPanel_Backup/icons/money.png"
             ask="Install ncam-os?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/oscam-os.sh -O - | /bin/sh</item>
+<item
+            name="OSCAM-2-os"
+         icon="/media/hdd/AJPanel_Backup/icons/money.png"
+            ask="Install ncam-os?">#!/bin/sh
+#
+
+wget -O /tmp/oscam_11869-emu-r802_all.deb "https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/oscam_11869-emu-r802_all.deb"
+
+dpkg -i --force-overwrite /tmp/*.deb
+
+rm -r /tmp/oscam_11869-emu-r802_all.deb
+
+wait
+
+sleep 2;
+
+exit 0
+  
+</item>
+
 
 <item
             name="ncam-os"
@@ -1117,11 +1138,11 @@ exit 0 </item>
             ask="Install ncam-os?">#!/bin/sh
 #
 
-wget -O /tmp/ncam_14.7-r0_all.deb "https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/ncam_14.6-r0_all.deb"
+wget -O /tmp/ncam-osdreambox_V15.2-r0.deb "https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/enigma2-plugin-softcams-ncam-osdreambox_V15.2-r0.deb"
 
 dpkg -i --force-overwrite /tmp/*.deb
 
-rm -r /tmp/ncam_14.7-r0_all.deb
+rm -r /tmp/ncam-osdreambox_V15.2-r0.deb
 
 wait
 
