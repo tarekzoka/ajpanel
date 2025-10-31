@@ -34,9 +34,10 @@
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install copper-fhd?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/copper-fhd_2.3.sh -O - | /bin/sh</item>
 <item 
-            name="Fury-FHD-V3"
+            name="Fury-FHD-v00"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
-            ask="Install Fury-FHD-V3/Fury ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/Fury-FHD-V3/Fury-FHD-V3.sh -O - | /bin/sh</item>
+            ask="Install Fury-FHD-V3/Fury ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh</item>
+
 <item 
             name="FURY-HD-V5.4"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
@@ -399,7 +400,8 @@
 <item 
             name="elisat-new-panel"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
-            ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/installer-new.sh-O - | /bin/sh</item>
+            ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/installer-new.sh -O - | /bin/sh</item>
+
 <item 
             name="EStalker"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
@@ -1297,6 +1299,11 @@ exit 0
             name="Settings_all_image"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install Settings_ ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/settings-allimge/-/raw/main/TarekSettings_all_image.sh -O - | /bin/sh</item>
+
+<item 
+            name="repair-hdd"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install repair-hdd ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/enigma2-servise/refs/heads/main/repair-hdd.sh -O - | /bin/sh</item>
 
 <item 
             name="fontmagnifier"
