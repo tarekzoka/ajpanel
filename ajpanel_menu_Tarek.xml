@@ -422,7 +422,7 @@
 <item name="worldcam-5.5" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q --no-check-certificate https://raw.githubusercontent.com/Belfagor2005/WorldCam/main/installer.sh -O - | /bin/sh</item>
 
 <item
-            name="Audios"
+            name="Audio-orang-anis"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install AudiosL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/Audios/NEWAudios.sh -O - | /bin/sh</item>
 
@@ -732,13 +732,13 @@
 <item 
             name="vavoo"
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
-            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/..../installer.sh -O - | /bin/sh</item>
+            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/main/installer.sh -O - | /bin/sh</item>
 
 
 <item 
             name="vavo-allbouquets"
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
-            ask="Install allbouquets?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/..../allbouquets.sh -O - | /bin/sh</item>
+            ask="Install allbouquets?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/main/allbouquets.sh -O - | /bin/sh</item>
 
 
 </submenu>
@@ -1517,6 +1517,11 @@ exit 0 </item>
             name="dependencies-audio"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install dependencies-audio ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/update-dependencies-audio.sh -O - | /bin/sh</item>
+
+<item
+            name="Audio-orang-anis"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install AudiosL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/Audios/NEWAudios.sh -O - | /bin/sh</item>
 
 <item
             name="asound-libasound"
