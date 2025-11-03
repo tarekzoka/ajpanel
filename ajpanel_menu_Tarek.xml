@@ -602,6 +602,16 @@
             ask="Install alajre ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/alajre/alajre.sh -O - | /bin/sh</item>
 
 <item 
+            name="new-2iplayer"
+            icon="/media/hdd/AJPanel_Backup/icons/e2.png"
+            ask="Install newe2iplayer ?">wget -q "--no-check-certificate" https://github.com/angelheart150/My_e2iplayer_hosts/raw/main/install-e2iplayer-update-hosts.sh -O - | /bin/sh</item>
+
+<item
+            name="new-2iplayer-tarek"
+            icon="/media/hdd/AJPanel_Backup/icons/e2.png"
+            ask="Install new-2iplayer ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/new-%20e2iplayer/install-e2iplayer-update-hosts.sh -O - | /bin/sh</item>
+
+<item 
             name="e2iplayer2"
             icon="/media/hdd/AJPanel_Backup/icons/e2.png"
             ask="Install e2iplayer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/e2iplayer/E2IPlayer2.sh -O - | /bin/sh</item>
@@ -732,13 +742,13 @@
 <item 
             name="vavoo"
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
-            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/main/installer.sh -O - | /bin/sh</item>
+            ask="Install vavoo ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/..../installer.sh -O - | /bin/sh</item>
 
 
 <item 
             name="vavo-allbouquets"
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
-            ask="Install allbouquets?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/main/allbouquets.sh -O - | /bin/sh</item>
+            ask="Install allbouquets?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/vavoo/-/raw/..../allbouquets.sh -O - | /bin/sh</item>
 
 
 </submenu>
