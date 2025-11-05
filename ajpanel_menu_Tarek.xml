@@ -610,6 +610,10 @@
             name="new-2iplayer-tarek"
             icon="/media/hdd/AJPanel_Backup/icons/e2.png"
             ask="Install new-2iplayer ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/new-%20e2iplayer/install-e2iplayer-update-hosts.sh -O - | /bin/sh</item>
+<item
+            name="oem-2iplayer"
+            icon="/media/hdd/AJPanel_Backup/icons/e2.png"
+            ask="Install oem-2iplayer ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20e2iplayer-oem/e2iplayer.sh -O - | /bin/sh</item>
 
 <item 
             name="e2iplayer2"
