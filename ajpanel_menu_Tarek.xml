@@ -425,6 +425,10 @@
             name="Audio-orang-anis"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install AudiosL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/Audios/NEWAudios.sh -O - | /bin/sh</item>
+<item
+            name="RadioRelay"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install RadioRelay?">wget https://raw.githubusercontent.com/angelheart150/RadioRelay/main/installer.sh -O - | /bin/sh</item>
 
 <item 
             name="ipaudiopro-1.2"
