@@ -17,9 +17,9 @@
         title="skin"
         info="Download And Install SKINS"
         icon="/media/hdd/AJPanel_Backup/icons/SKINS2.png"
-        mode="grid_6x3"
+        mode="grid_8x4"
         shade="yes"
-        font_size="50"
+        font_size="20"
         title_bg="#11332233"
         num_fg="#FCFCFC"
         num_bg="#000000"
@@ -27,8 +27,8 @@
         title1_bg="#000000"
         title2_fg="#FCFCFC"
         title2_bg="#000000"
-        width="1600"
-        height="950">
+        width="1950"
+        height="1080">
 <item 
             name="copper-fhd_2.3"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
@@ -212,9 +212,9 @@
         title="up-panel-feed"
         info="Download And Install plugin"
         icon="/media/hdd/AJPanel_Backup/icons/FEED1.png"
-        mode="grid_6x3"
+        mode="grid_8x4"
         shade="yes"
-        font_size="50"
+        font_size="18"
         title_bg="#11332233"
         num_fg="#FCFCFC"
         num_bg="#000000"
@@ -222,8 +222,8 @@
         title1_bg="#000000"
         title2_fg="#FCFCFC"
         title2_bg="#000000"
-        width="1600"
-        height="950">
+        width="1950"
+        height="1080">
         <item
             name="ajp-menu-emil"
          icon="/media/hdd/AJPanel_Backup/icons/menu.png"
@@ -350,9 +350,9 @@
         title="plugin"
         info="Download And Install plugin"
         icon="/media/hdd/AJPanel_Backup/icons/plugin1.png"
-        mode="grid_6x3"
+        mode="grid_8x4"
         shade="yes"
-        font_size="50"
+        font_size="15"
         title_bg="#11332233"
         num_fg="#FCFCFC"
         num_bg="#000000"
@@ -360,8 +360,8 @@
         title1_bg="#000000"
         title2_fg="#FCFCFC"
         title2_bg="#000000"
-        width="1600"
-        height="950">
+        width="1900"
+        height="1080">
 
 <item 
             name="AjPanel"
@@ -790,9 +790,9 @@
         title="DM920-900-os"
         info=" Download And install plugin And Favorites "
         icon="/media/hdd/AJPanel_Backup/icons/dream-os.png"
-        mode="grid_4x2"
+        mode="grid_8x4"
         shade="yes"
-        font_size="35"
+        font_size="17"
         title_bg="#11332233"
         num_fg="#FCFCFC"
         num_bg="#000000"
@@ -800,8 +800,8 @@
         title1_bg="#000000"
         title2_fg="#FCFCFC"
         title2_bg="#000000"
-        width="1600"
-        height="950">
+        width="1950"
+        height="1080">
 <item 
             name="ansite-quran"
             icon="/media/hdd/AJPanel_Backup/icons/ansite.png"
@@ -1280,9 +1280,9 @@ exit 0
         title="Tooles"
         info=" Download And install plugin And Tooles "
         icon="/media/hdd/AJPanel_Backup/icons/Tooles.png"
-        mode="grid_4x2"
+        mode="grid_8x4"
         shade="yes"
-        font_size="35"
+        font_size="15"
         title_bg="#11332233"
         num_fg="#FCFCFC"
         num_bg="#000000"
@@ -1290,8 +1290,8 @@ exit 0
         title1_bg="#000000"
         title2_fg="#FCFCFC"
         title2_bg="#000000"
-        width="1600"
-        height="950">
+        width="1950"
+        height="1080">
         <item
             name="vertualkeyboard"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
