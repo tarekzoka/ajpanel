@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ajp_menu
     title="Panel (Ajpanel By Tarek)"
-    mode="grid_4x3"
+    mode="grid_6x3"
     shade="yes"
-    font_size="50"
+    font_size="25"
     bg="/media/hdd/AJPanel_Backup/icons/back1.png"
     num_fg="#FCFCFC"
     num_bg="#000000"
@@ -11,8 +11,8 @@
     title1_bg="#000000"
     title2_fg="#FCFCFC"
     title2_bg="#000000"
-    width="1600"
-    height="950">
+    width="1800"
+    height="1080">
 <submenu
         title="skin"
         info="Download And Install SKINS"
@@ -394,21 +394,12 @@
             ask="Install email-panel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/emilpanel/emilpanel.sh -O - | /bin/sh</item>
 
 <item 
-            name="ELISATPANEL"
-            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
-            ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/installer.sh -O - | /bin/sh</item>
-<item 
-            name="elisat-new-panel"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
-            ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/installer-new.sh -O - | /bin/sh</item>
-
-<item 
             name="EStalker"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install EStalker?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/EStalker/main/EStalker.sh -O - | /bin/sh</item>
 
 <item 
-            name="ELISold-panel"
+            name="ELIS-old-panel"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/insal-oldpanel.sh -O - | /bin/sh</item>
 <item 
@@ -487,6 +478,15 @@
             name="XcPlugin"
             icon="/media/hdd/AJPanel_Backup/icons/xc.png"
             ask="Install XcPlugin ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/XcPlugin/online-setup" | bash -s XcPlugin</item>
+
+<item 
+            name="ELISATPANEL"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/installer.sh -O - | /bin/sh</item>
+<item 
+            name="elisat-new-panel"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/installer-new.sh -O - | /bin/sh</item>
 
 <item 
             name="RaedQuickSignal"
@@ -1735,7 +1735,7 @@ exit 0 </item>
 </submenu>
 #########################################
 ##############REMOVE5##############
-	<submenu font_size="30" height="950" icon="REMOVE1.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Remove" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1600">
+	<submenu font_size="30" height="1080" icon="REMOVE1.png" mode="grid" num_bg="#000000" num_fg="#FCFCFC" shade="yes" title="Remove" title1_bg="#000000" title1_fg="#FFFF00" title2_bg="#000000" title2_fg="#FCFCFC" title_bg="#11332233" width="1800">
 		<item ask="Remove AlternativeSoftcamManager" icon="remove.png" name="AlternativeSoftcamManager">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-alternativesoftcammanager.sh -O - | /bin/sh</item>
 		<item ask="Remove Channels" icon="DEL.png" info="Remove All Channels" name="Channels">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-channels.sh  -O - | /bin/sh</item>
 		<item ask="yes" icon="remove.png" name="Crashlogs">wget https://dreambox4u.com/emilnabil237/script/remove/DEL_all_Crashlogs.sh  -O - | /bin/sh</item>
