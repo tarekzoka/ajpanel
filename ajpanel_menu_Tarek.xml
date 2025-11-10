@@ -1732,6 +1732,57 @@ exit 0 </item>
 		<item name="Alternate">echo "nameserver 76.76.19.19" > /etc/resolv.conf; echo "nameserver 76.223.122.150" >> /etc/resolv.conf; killall -9 enigma2</item>
 		<item name="AdGuard">echo "nameserver 94.140.14.14" > /etc/resolv.conf; echo "nameserver 94.140.15.15" >> /etc/resolv.conf; killall -9 enigma2</item>
 		<item name="Control D">echo "nameserver 76.76.2.0" > /etc/resolv.conf; echo "nameserver 76.76.10.0" >> /etc/resolv.conf; killall -9 enigma2</item>
+
+</submenu>
+#########################################
+##############panels5##############
+<submenu   title="panels5"
+        info="Download And Install panels"
+        icon="/media/hdd/AJPanel_Backup/icons/pa-1.png"
+        mode="grid_8x4"
+        shade="yes"
+        font_size="20"
+        title_bg="#11332233"
+        num_fg="#FCFCFC"
+        num_bg="#000000"
+        title1_fg="#FCFCFC"
+        title1_bg="#000000"
+        title2_fg="#FCFCFC"
+        title2_bg="#000000"
+        width="1950"
+        height="1080">
+<item 
+            name="ELIS-old-panel"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/insal-oldpanel.sh -O - | /bin/sh</item>
+<item
+            name="panel-tarek"
+         icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install update-menu ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/ajpanel_menu1.sh -O - | /bin/sh</item>
+
+<item 
+            name="EMAILPANEL"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EMAILPANEL/panel.sh -O - | /bin/sh</item>
+<item 
+            name="satvenuspanel"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install satvenuspanel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/satvenuspanel/satvenuspanel.sh -O - | /bin/sh</item>
+<item 
+            name="elisat-new-panel"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/installer-new.sh -O - | /bin/sh</item>
+
+<item 
+            name="Ciefp-Panel"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install Ciefp-Panel?">wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Ciefp-Panel/Ciefp-Panel.sh -O - | /bin/sh</item>
+
+<item 
+            name="MagicPanel"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install MagicPanel-?">wget -q "--no-check-certificate" https://gitlab.com/h-ahmed/Panel/-/raw/main/MagicPanel-install.sh -O - | /bin/sh</item>
+
 </submenu>
 #########################################
 ##############REMOVE5##############
