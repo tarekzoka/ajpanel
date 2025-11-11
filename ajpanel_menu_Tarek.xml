@@ -260,9 +260,9 @@
         title="chanells"
         info="Download And Install plugin"
         icon="/media/hdd/AJPanel_Backup/icons/chanell2.png"
-        mode="grid_6x3"
+        mode="grid_8x4"
         shade="yes"
-        font_size="50"
+        font_size="25"
         title_bg="#11332233"
         num_fg="#FCFCFC"
         num_bg="#000000"
@@ -270,76 +270,77 @@
         title1_bg="#000000"
         title2_fg="#FCFCFC"
         title2_bg="#000000"
-        width="1600"
-        height="950">
+        width="1900"
+        height="1080">
         <item
             name="kaled-channel"
-            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install kaled-channel?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channel-kaled.sh -O - | /bin/sh</item>
+<item 
+            name="a.altahan"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
+            ask="Install a.altahan ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/channels/-/raw/main/a.altahan-motor.sh -O - | /bin/sh</item>
+
 <item
             name="tarekalashry"
-            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install tarekalashry?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channels_tarekalashry.sh -O - | /bin/sh</item>
 
 <item 
             name="ch-ahmed-husin"
-            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install channels ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channel-ahmed-husin.sh -O - | /bin/sh</item>
 <item 
             name="channel-ashry"
-            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install channel-ashry ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/channels/-/raw/main/channel-ashry-2024-6.sh -O - | /bin/sh</item>
 
 
 <item 
             name="ch-M.goda"
-            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install Channels By Mohamed Goda + Ahmed Shawky ?">wget https://raw.githubusercontent.com/emilnabil/channel-mohamed-goda/main/installer.sh  -O - | /bin/sh</item>
-<item 
-            name="Quran-iptv"
-            icon="/media/hdd/AJPanel_Backup/icons/Quran.png"
-            ask="Install Quran-iptv ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channel-Quran-iptv.sh -O - | /bin/sh</item>
 
        <item
             name="ch-hussein"
-            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install hussein-chanell ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/hussein-chanell-X.sh -O - | /bin/sh</item>    
 <item
             name="CH-Mahmed-os"
-            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install CHANNELL-Mahmed-os ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/CHANNELL-Mahmed-os.sh -O - | /bin/sh</item>    
 <item 
             name="channel-Ismail"
-            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install channel-Ismail ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channel-Ismail%20Saidi.sh -O - | /bin/sh</item>
 
 <item
             name="CH-Romeh"
-            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install CHANNELL-Romeh ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/CHANNELL-Romeh.sh -O - | /bin/sh</item>    
 <item
             name="ch-nasr"
-            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install channels-nasr ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channels-nasr.sh  -O - | /bin/sh</item>    
 <item
             name="ch_Ashraf-fathy"
-            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install channels_Ashraf-fathy ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channels_Ashraf-fathy.sh  -O - | /bin/sh</item>    
 <item
             name="CH-mustafa-motor"
-            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install CHANNELL-mustafa-motor ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/CHANNELL-mustafa-motor.sh   -O - | /bin/sh</item> 
 <item
             name="CH-linuxsat-motor"
-            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install linuxsat-motor ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/linuxsat-motor.sh   -O - | /bin/sh</item> 
 <item
             name="CH-ciefp-motor1"
-            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install ciefp-motor1 ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/ciefp-motor1.sh   -O - | /bin/sh</item> 
 <item
             name="CH-elkhamisy"
-            icon="/media/hdd/AJPanel_Backup/icons/chanell3.png"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install elkhamisy-chanell ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/elkhamisy-chanell-X.sh
 </item>
 
@@ -367,6 +368,11 @@
             name="AjPanel"
             icon="/media/hdd/AJPanel_Backup/icons/aj.png"
             ask="Install AjPanel ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh</item>
+
+<item 
+            name="Quran-iptv"
+            icon="/media/hdd/AJPanel_Backup/icons/Quran.png"
+            ask="Install Quran-iptv ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channel-Quran-iptv.sh -O - | /bin/sh</item>
 
 <item
             name="ipaudiopro-1.2-last"
@@ -1617,13 +1623,42 @@ exit 0 </item>
 #########################################
 ##############PICON5##############
 
-	<submenu title="SymLink-picon" shade="yes" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/digitalisation.png">
+	<submenu title="piconS-SymLink" shade="yes" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/digitalisation.png">
 		<item name="picon 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/picon /usr/share/enigma2/picon</item>
 		<item name="piconCrypt 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/piconCrypt /usr/share/enigma2/piconCrypt</item>
 		<item name="piconProv 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/piconProv /usr/share/enigma2/piconProv</item>
 		<item name="piconSat 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/piconSat /usr/share/enigma2/piconSat</item>
 		<item name="zzpicon 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/zzpicon /usr/share/enigma2/zzpicon</item>
 		<item name="emu 2 hdd" icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png">ln -sf /media/hdd/emu /usr/share/enigma2/emu</item>
+<item 
+            name="picon-buddy"
+            icon="/media/hdd/AJPanel_Backup/icons/picon.png"
+            ask="Install picon-buddy ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/picons/-/raw/main/picon-buddy.sh -O - | /bin/sh</item>
+
+<item 
+            name="picons-0.8w"
+            icon="/media/hdd/AJPanel_Backup/icons/picon.png"
+            ask="Install picons-0.8w ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/picons/-/raw/main/picons-0.8w.sh -O - | /bin/sh</item>
+
+<item 
+            name="picons-14w"
+            icon="/media/hdd/AJPanel_Backup/icons/picon.png"
+            ask="Install picons-14w ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/picons/-/raw/main/picons-14w.sh -O - | /bin/sh</item>
+
+<item 
+            name="picons-23.5e"
+            icon="/media/hdd/AJPanel_Backup/icons/picon.png"
+            ask="Install picons-23.5e ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/picons/-/raw/main/picons-23.5e.sh -O - | /bin/sh</item>
+
+<item 
+            name="picons-34w"
+            icon="/media/hdd/AJPanel_Backup/icons/picon.png"
+            ask="Install picons-34w ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/picons/-/raw/main/picons-34w.sh -O - | /bin/sh</item>
+<item 
+            name="picons-30w"
+            icon="/media/hdd/AJPanel_Backup/icons/picon.png"
+            ask="Install picons-30w ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/picons/-/raw/main/picons-30w.sh -O - | /bin/sh</item>
+
 
 <item 
             name="picons-ipaudio"
@@ -1736,7 +1771,7 @@ exit 0 </item>
 </submenu>
 #########################################
 ##############panels5##############
-<submenu   title="panels5"
+<submenu   title="panels"
         info="Download And Install panels"
         icon="/media/hdd/AJPanel_Backup/icons/pa-1.png"
         mode="grid_8x4"
