@@ -3,7 +3,7 @@
     title="Panel (Ajpanel By Tarek)"
     mode="grid_6x3"
     shade="yes"
-    font_size="25"
+    font_size="20"
     bg="/media/hdd/AJPanel_Backup/icons/back1.png"
     num_fg="#FCFCFC"
     num_bg="#000000"
@@ -40,7 +40,7 @@
 
 <item 
             name="FURY-HD-V5.4"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install FURY ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/%20fury-fhd/fury-fhd.sh -O - | /bin/sh</item>
 
 <item 
@@ -109,7 +109,7 @@
             ask="Install bohalla ?">wget https://raw.githubusercontent.com/tarekzoka/SKINS/main/BO.sh -qO - | /bin/sh</item> 
 <item 
             name="premiumfhd-ylew"
-            icon="/media/hdd/AJPanel_Backup/icons/ATV.png"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install aglare-fhd ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/premiumfhd-ylew.sh -O - | /bin/sh</item>
 <item 
             name="premium-fhd-rose"
@@ -139,7 +139,7 @@
             ask="Install Mx-SunMoon ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SKINS/main/Mx-SunMoon.sh -O - | /bin/sh</item>
 <item 
             name="Jihadv2"
-            icon="/media/hdd/AJPanel_Backup/icons/ATV.png"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install Jihadv2 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/Jihadv2.sh-O - | /bin/sh</item>
 
 <item 
@@ -1314,10 +1314,6 @@ exit 0
             name="delete-password"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install delete-password?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/enigma2-servise/main/delete-password.sh-O - | /bin/sh</item>
-<item 
-            name="D_all.sever.sh"
-            icon="/media/hdd/AJPanel_Backup/icons/fo.png"
-            ask="Install D_all.sever.sh?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/enigma2-servise/main/D_all.sever.sh-O - | /bin/sh</item>
 
 <item 
             name="Settings_all_image"
@@ -1833,6 +1829,11 @@ exit 0 </item>
 		<item ask="yes" icon="DEL.png" name="Emu-Oscam">opkg remove enigma2-plugin-softcams-oscam*</item>
 		<item ask="yes" icon="DEL.png" name="Emu-Config-Files">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-emus-config-files.sh  -O - | /bin/sh</item>
 		<item ask="yes" icon="DEL.png" name="E2iplayer">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-e2iplayer.sh  -O - | /bin/sh</item>
+<item 
+            name="D_all.sever.sh"
+            icon="/media/hdd/AJPanel_Backup/icons/DEL.png"
+            ask="Install D_all.sever.sh?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/enigma2-servise/main/D_all.sever.sh-O - | /bin/sh</item>
+
 		<item ask="Remove FreeServer-Plugin" icon="DEL.png" name="FreeServer-Plugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-FreeServer.sh -O - | /bin/sh</item>
 
 <item 
@@ -1856,7 +1857,78 @@ init 3</item>
 		<item ask="Remove Xstreamity Plugin" icon="DEL.png" name="Xstreamity-Plugin">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-xstreamity.sh  -O - | /bin/sh</item>
 		<item ask="Remove Youtube" icon="DEL.png" name="Youtube">wget https://dreambox4u.com/emilnabil237/script/remove/DEL-plugin-youtube.sh  -O - | /bin/sh</item>
 <item ask="remove-script" icon="DEL.png" name="remove-script">wget https://raw.githubusercontent.com/tar1971/settings/refs/heads/main/B1-SCRIPT-cv.sh  -O - | /bin/sh</item>
+</submenu>
+#########################################
+##############SUPORT-IPAUDIO##############
+<submenu
+        title="SUPORT-IPAUDIO"
+        info="Download And Install SUPORT-IPAUDIO"
+        icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+        mode="grid_10x5"
+        shade="yes"
+        font_size="30"
+        title_bg="#11332233"
+        num_fg="#FCFCFC"
+        num_bg="#000000"
+        title1_fg="#FCFCFC"
+        title1_bg="#000000"
+        title2_fg="#FCFCFC"
+        title2_bg="#000000"
+        width="1950"
+        height="1080">
+<item 
+            name="alsa"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install alsa ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/alsa-plugins.sh -O - | /bin/sh</item>
 
+<item 
+            name="curl"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install curl ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/curl.sh -O - | /bin/sh</item>
+
+
+<item 
+            name="exteplayer3"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install exteplayer3 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/exteplayer3.sh -O - | /bin/sh</item>
+
+<item 
+            name="ffmpeg"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install ffmpeg ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/ffmpeg.sh -O - | /bin/sh</item>
+
+
+<item 
+            name="gstplayer"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install gstplayer ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/gstplayer.sh -O - | /bin/sh</item>
+
+
+<item 
+            name="gstreamer1.0-plugins-bad"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install gstreamer1.0-plugins-bad ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/gstreamer1.0-plugins-bad.sh -O - | /bin/sh</item>
+
+<item 
+            name="gstreamer1.0-plugins-good"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install gstreamer1.0-plugins-good ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/gstreamer1.0-plugins-good.sh -O - | /bin/sh</item>
+
+<item 
+            name="gstreamer1.0-plugins-ugly"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install gstreamer1.0-plugins-ugly ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/gstreamer1.0-plugins-ugly.sh -O - | /bin/sh</item>
+
+<item 
+            name="alsa"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install alsa ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/alsa-plugins.sh -O - | /bin/sh</item>
+
+
+<item 
+            name="alsa"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install alsa ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/alsa-plugins.sh -O - | /bin/sh</item>
 
                  </submenu>
     </ajp_menu>
