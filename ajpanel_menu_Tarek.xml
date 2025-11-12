@@ -403,6 +403,11 @@
             name="EStalker"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install EStalker?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/EStalker/main/EStalker.sh -O - | /bin/sh</item>
+<item 
+            name="fontmagnifier"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install fontmagnifier ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/fontmagnifier/fontmagnifier.sh -O - | /bin/sh</item>
+
 
 <item 
             name="ELIS-old-panel"
@@ -1325,11 +1330,6 @@ exit 0
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install repair-hdd ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/enigma2-servise/refs/heads/main/repair-hdd.sh -O - | /bin/sh</item>
 
-<item 
-            name="fontmagnifier"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
-            ask="Install fontmagnifier ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/fontmagnifier/fontmagnifier.sh -O - | /bin/sh</item>
-
 
 <item name="epggrabber-tooles" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epggrabber/EPGGrabber-tooles.sh -O - | /bin/sh</item>
 <item 
@@ -1422,12 +1422,6 @@ exit 0
             name="Ciefp-Panel2"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install Ciefp-Panel?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/Ciefp-Panel.sh -O - | /bin/sh</item>
-
-
-<item 
-            name="ELISAT-Panel3"
-            icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
-            ask="Install Ciefp-Panel?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ciefpsettingspanel/ciefpsettingspanel.sh -O - | /bin/sh</item>
 
 <item
             name="wget-curl-opkg"
@@ -1919,16 +1913,30 @@ init 3</item>
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install gstreamer1.0-plugins-ugly ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/gstreamer1.0-plugins-ugly.sh -O - | /bin/sh</item>
 
-<item 
-            name="alsa"
+<item
+            name="ipaudio-tools"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
-            ask="Install alsa ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/alsa-plugins.sh -O - | /bin/sh</item>
+            ask="Install ipaudio-tools ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOLS-ipaudio-tools.sh -O - | /bin/sh</item>
 
 
 <item 
             name="alsa"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install alsa ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/alsa-plugins.sh -O - | /bin/sh</item>
+
+<item
+            name="Audio-orang-anis"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install AudiosL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/Audios/NEWAudios.sh -O - | /bin/sh</item>
+
+<item
+            name="asound-libasound"
+         icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install asound-libasound ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/asound-libasound.so.2.0.sh -O - | /bin/sh</item>
+<item
+            name="asound-libasound-tar"
+         icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install asound-libasound ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/asound-libasound2.sh -O - | /bin/sh</item>
 
                  </submenu>
     </ajp_menu>
