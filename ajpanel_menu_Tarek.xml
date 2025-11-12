@@ -1009,7 +1009,7 @@ sleep 2;
 exit 0 </item>
 <item
             name="xstreamity"
-         icon="/media/hdd/AJPanel_Backup/icons/xstreamity12.png"
+         icon="/media/hdd/AJPanel_Backup/icons/xtz.png"
             ask="Install xstreamity ?">#!/bin/sh
 #
 
@@ -1068,6 +1068,11 @@ sleep 2;  </item>
             name="ipaudio-libasound.so"
          icon="/media/hdd/AJPanel_Backup/icons/dd.png"
             ask="Install ipaudio-6.8?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/asound-libasound.so-os.sh -O - | /bin/sh  </item>
+<item 
+            name="dreamarabia-a"
+            icon="/media/hdd/AJPanel_Backup/icons/dreamarabia.png"
+            ask="Install dreamarabia ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/DM/refs/heads/main/dreamarabia.sh -O - | /bin/sh</item>
+
 
 <item
             name="dreamarabia"
