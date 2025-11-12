@@ -1631,6 +1631,11 @@ exit 0 </item>
             ask="Install picon-buddy ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/picons/-/raw/main/picon-buddy.sh -O - | /bin/sh</item>
 
 <item 
+            name="PiconsRename.sh"
+            icon="/media/hdd/AJPanel_Backup/icons/lightbulb.png"
+            ask="Install PiconsRename.sh ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/picons/-/raw/main/PiconsRename.sh -O - | /bin/sh</item>
+
+<item 
             name="picons-0.8w"
             icon="/media/hdd/AJPanel_Backup/icons/picon.png"
             ask="Install picons-0.8w ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/picons/-/raw/main/picons-0.8w.sh -O - | /bin/sh</item>
