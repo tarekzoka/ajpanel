@@ -398,6 +398,10 @@
             name="email-panel"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install email-panel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/emilpanel/emilpanel.sh -O - | /bin/sh</item>
+<item 
+            name="bouquetmakerxtream"
+            icon="/media/hdd/AJPanel_Backup/icons/kerxtream.png"
+            ask="Install bouquetmakerxtream ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20bouquetmakerxtream/bouquetmakerxtream.sh -O - | /bin/sh</item>
 
 <item 
             name="EStalker"
