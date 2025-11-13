@@ -1372,6 +1372,10 @@ exit 0
             name="M-MyMetrixLiteBackup"
             icon="/media/hdd/AJPanel_Backup/icons/tix.png"
             ask="Install MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/M/MyMetrixLiteBackup-M.sh -O - | /bin/sh</item>
+<item 
+            name="A-MyMetrixLiteBackup"
+            icon="/media/hdd/AJPanel_Backup/icons/tix.png"
+            ask="Install ASHRY-MyMetrixLiteBackup ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MyMetrixLiteBackup/A/MyMetrixLiteBackup-A.sh -O - | /bin/sh</item>
 
 <item 
             name="D-MyMetrixLiteBackup"
