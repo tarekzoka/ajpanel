@@ -907,14 +907,14 @@ exit 0</item>
             icon="/media/hdd/AJPanel_Backup/icons/camd.png"
             ask="Install cammanager ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/alternativesoftcammanager.sh -O - | /bin/sh</item>
 
-<item
-            name="E2-MOHAMED_OS"
-         icon="/media/hdd/AJPanel_Backup/icons/MOHAMED_OS.png"
-            ask="Install E2-MOHAMED_OS ?">wget -qO- --no-check-certificate https://gitlab.com/MOHAMED_OS/e2iplayer/-/raw/main/install-e2iplayer.sh -O - | /bin/sh</item>
 <item 
-            name="e2iplayer2"
+            name="os-e2player"
             icon="/media/hdd/AJPanel_Backup/icons/e2.png"
-            ask="Install e2iplayer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/e2iplayer/E2IPlayer2.sh -O - | /bin/sh</item>
+            ask="Install os-e2player ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/os-e2player/e2player.sh -O - | /bin/sh</item>
+<item 
+            name="e2-e2player"
+            icon="/media/hdd/AJPanel_Backup/icons/e2.png"
+            ask="Install os-e2player ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/os-e2player/refs/heads/main/e2player.sh -O - | /bin/sh</item>
 
 <item
             name="E2-TAREK"
