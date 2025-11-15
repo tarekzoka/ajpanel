@@ -402,6 +402,10 @@
             name="bouquetmakerxtream"
             icon="/media/hdd/AJPanel_Backup/icons/kerxtream.png"
             ask="Install bouquetmakerxtream ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20bouquetmakerxtream/bouquetmakerxtream.sh -O - | /bin/sh</item>
+<item 
+            name="athkar"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install athkar ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/athkar/athkar.sh -O - | /bin/sh</item>
 
 <item 
             name="EStalker"
@@ -624,6 +628,12 @@
             name="new-2iplayer"
             icon="/media/hdd/AJPanel_Backup/icons/e2.png"
             ask="Install newe2iplayer ?">wget -q "--no-check-certificate" https://github.com/angelheart150/My_e2iplayer_hosts/raw/main/install-e2iplayer-update-hosts.sh -O - | /bin/sh</item>
+
+<item 
+            name="adnoon-e2player"
+            icon="/media/hdd/AJPanel_Backup/icons/e2.png"
+            ask="Install adnoon ?">wget -q "--no-check-certificate" https://github.com/popking159/mye2iplayer/raw/main/update_e2iplayer_patch.sh -O - | /bin/sh</item>
+
 
 <item
             name="new-2iplayer-tarek"
