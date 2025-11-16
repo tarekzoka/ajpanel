@@ -276,7 +276,8 @@
             name="kaled-channel"
             icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install kaled-channel?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channel-kaled.sh -O - | /bin/sh</item>
-item
+<item 
+
             name="ibraheem-motor"
             icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install ibraheem-motor?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/a.ibraheem/a.ibraheem-motor.sh -O - | /bin/sh</item>
@@ -1838,7 +1839,7 @@ exit 0 </item>
 <item 
             name="elisat-panel-onlin"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
-            ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://github.com/eliesat/eliesatpanel/blob/main/installer.sh -O - | /bin/sh</item>
+            ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://github.com/eliesat/eliesatpanel/raw/main/installer.sh -O - | /bin/sh</item>
 
 <item
             name="panel-tarek"
