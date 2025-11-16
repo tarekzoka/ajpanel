@@ -1253,7 +1253,7 @@ exit 0
 
 </submenu>
 #########################################
-##############oscam5-nacam##############
+##############oscam-nacam5##############
     <submenu
         title="oscam-nacam"
         info=" Download And install plugin And Favorites "
@@ -1273,7 +1273,8 @@ exit 0
         <item
             name="nacam"
             icon="/media/hdd/AJPanel_Backup/icons/ncam-14.3.png"
-            ask="Install ncam-last ?">wget -q "--no-check-certificate" wget  https://gitlab.com/hanfy1971/softcam/-/raw/main/mohamed-os/ncam.sh -O - | /bin/sh</item>
+            ask="Install ncam-last ?">wget -q "--no-check-certificate" wget  https://gitlab.com/hanfy1971/oscam-nacam/-/raw/main/ncam.sh -O - | /bin/sh</item>
+
 <item
             name="nacam2"
             icon="/media/hdd/AJPanel_Backup/icons/ncam-14.3.png"
@@ -1286,7 +1287,7 @@ exit 0
 <item
             name="oscam-levie45"
             icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
-            ask="Install oscam-levie45 ?">wget -q "--no-check-certificate" wget  https://gitlab.com/hanfy1971/softcam/-/raw/main/levi/oscam.sh -O - | /bin/sh</item>
+            ask="Install oscam-levie45 ?">wget -q "--no-check-certificate" wget  https://gitlab.com/hanfy1971/oscam-nacam/-/raw/main/oscam.sh -O - | /bin/sh</item>
 
 <item
             name="oscam3"
@@ -1296,7 +1297,7 @@ exit 0
 <item
             name="oscam"
             icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
-            ask="Install oscam-last ?">wget -q "--no-check-certificate" wget  https://gitlab.com/hanfy1971/softcam/-/raw/main/mohamed-os/oscam.sh -O - | /bin/sh</item>
+            ask="Install oscam-last ?">wget -q "--no-check-certificate" wget  https://gitlab.com/hanfy1971/oscam-nacam/-/raw/main/oscam.sh -O - | /bin/sh</item>
 
 <item 
             name="OSCAM-audi06"
