@@ -1813,6 +1813,12 @@ exit 0 </item>
             name="ELIS-old-panel"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
             ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/insal-oldpanel.sh -O - | /bin/sh</item>
+
+<item 
+            name="elisat-panel-onlin"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://github.com/eliesat/eliesatpanel/blob/main/installer.sh -O - | /bin/sh</item>
+
 <item
             name="panel-tarek"
          icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
