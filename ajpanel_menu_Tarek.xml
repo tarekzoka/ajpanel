@@ -843,6 +843,7 @@ rm -r /tmp/plugin-extensions-ansite.tar.gz
 killall -9 enigma2
 
 sleep 2; </item>
+<item name="epggrabber1" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epggrabber/epggrabber.sh -O - | /bin/sh</item>
 
 <item
             name="IPtoSAT"
@@ -1219,6 +1220,10 @@ exit 0
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
             ask="Install vavoo ?">curl -LJso- "https://gitlab.com/hanfy1971/vavoo/-/raw/main/online-setup" | bash -s vavoo</item>
 
+<item 
+            name="MultiCamAdder"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install MultiCamAdder ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/MultiCamAdder/installer_dreambox.sh -O - | /bin/sh</item>
 
 <item
             name="dpkg"
