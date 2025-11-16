@@ -276,10 +276,25 @@
             name="kaled-channel"
             icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install kaled-channel?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channel-kaled.sh -O - | /bin/sh</item>
+item
+            name="ibraheem-motor"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
+            ask="Install ibraheem-motor?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/a.ibraheem/a.ibraheem-motor.sh -O - | /bin/sh</item>
+
 <item 
             name="a.altahan"
             icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install a.altahan ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/channels/-/raw/main/a.altahan-motor.sh -O - | /bin/sh</item>
+<item 
+            name="adelsat"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
+            ask="Install adelsat?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/adelsat/adelsat-motor.sh -O - | /bin/sh</item>
+
+<item 
+            name="h.wahba"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
+            ask="Install h.wahba?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/h.wahba/h.wahba-motor.sh -O - | /bin/sh</item>
+
 
 <item
             name="tarekalashry"
@@ -290,6 +305,11 @@
             name="ch-ahmed-husin"
             icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install channels ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channel-ahmed-husin.sh -O - | /bin/sh</item>
+<item 
+            name="a.salama"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
+            ask="Install a.salama ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/a.salama/a.salama-motor.sh -O - | /bin/sh</item>
+
 <item 
             name="channel-ashry"
             icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
@@ -1838,9 +1858,38 @@ exit 0 </item>
             ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/installer-new.sh -O - | /bin/sh</item>
 
 <item 
-            name="Ciefp-Panel"
+            name="CiefpPlugins"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
-            ask="Install Ciefp-Panel?">wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Ciefp-Panel/Ciefp-Panel.sh -O - | /bin/sh</item>
+            ask="Install Ciefp-Panel?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/ciefp/CiefpPlugins/main/installer.sh -O - | /bin/sh</item>
+<item 
+            name="CiefpsettingsPanel"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install Ciefp-Panel?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/ciefp/CiefpsettingsPanel/main/installer.sh -O - | /bin/sh</item>
+
+<item 
+            name="epanel-Panel"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install epanel?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/epanel/epanel.sh -O - | /bin/sh</item>
+
+
+<item             name="tvManager"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install tvManager?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Belfagor2005/tvManager/main/installer.sh -O - | /bin/sh</item>
+
+<item 
+            name="LinuxsatPanell"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install LinuxsatPanel?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Belfagor2005/LinuxsatPanel/main/installer.sh -O - | /bin/sh</item>
+
+<item 
+            name="novalerstore"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install novalerstore?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/novalerstore/novalerstore/novalerstore.sh -O - | /bin/sh</item>
+
+<item 
+            name="tvPanel"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install tvPanel?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Belfagor2005/tvPanel/main/installer.sh -O - | /bin/sh</item>
 
 <item 
             name="MagicPanel"
