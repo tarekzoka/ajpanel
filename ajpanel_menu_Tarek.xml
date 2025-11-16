@@ -950,7 +950,8 @@ exit 0</item>
 <item 
             name="e2-e2player"
             icon="/media/hdd/AJPanel_Backup/icons/e2.png"
-            ask="Install os-e2player ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/os-e2player/refs/heads/main/e2player.sh -O - | /bin/sh</item>
+            ask="Install os-e2player ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/os-e2player/e2player1.sh -O - | /bin/sh</item>
+
 
 <item
             name="E2-TAREK"
