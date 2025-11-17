@@ -1272,9 +1272,9 @@ exit 0
         title="oscam-nacam"
         info=" Download And install plugin And Favorites "
         icon="/media/hdd/AJPanel_Backup/icons/oscam-nacam.png"
-        mode="grid_4x2"
+        mode="grid_8x4"
         shade="yes"
-        font_size="35"
+        font_size="20"
         title_bg="#11332233"
         num_fg="#FCFCFC"
         num_bg="#000000"
@@ -1282,8 +1282,8 @@ exit 0
         title1_bg="#000000"
         title2_fg="#FCFCFC"
         title2_bg="#000000"
-        width="1600"
-        height="950">
+        width="1900"
+        height="1080">
         <item
             name="nacam"
             icon="/media/hdd/AJPanel_Backup/icons/ncam-14.3.png"
