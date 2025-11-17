@@ -551,6 +551,12 @@
             ask="Install iptvdream-all ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/iptvdream-all/iptvdream-all.sh -O - | /bin/sh</item>
 
 <item 
+            name="screennames"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install screennames ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/refs/heads/main/screennames/screennames.sh -O - | /bin/sh</item>
+
+
+<item 
             name="dependencies-ipaudiopro"
             icon="/media/hdd/AJPanel_Backup/icons/depe.png"
             ask="Install dependencies-audio ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ipaudiopro-last/update-dependencies-audio.sh -O - | /bin/sh</item>
@@ -584,9 +590,15 @@
             name="xklass"
             icon="/media/hdd/AJPanel_Backup/icons/kis.png"
             ask="Install xklass ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/xklass/xklass-playeriptv.sh -O - | /bin/sh</item>
+<item 
+            name="mod-dorik1972"
+            icon="/media/hdd/AJPanel_Backup/icons/kis.png"
+            ask="Install mod-dorik1972 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epgimport-mod-dorik1972/epgimport-mod-dorik1972.sh -O - | /bin/sh</item>
+
+
 <item
             name="xklass"
-            icon="/media/hdd/AJPanel_Backup/icons/kis.png"
+            icon="/media/hdd/AJPanel_Backup/icons/epg.png"
             ask="Install xklass ?">curl -LJso- "https://raw.githubusercontent.com/tarekzoka/xklass/main/online-setup" | bash -s xklass</item>
 
 <item 
