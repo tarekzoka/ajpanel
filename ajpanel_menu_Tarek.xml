@@ -553,8 +553,7 @@
 <item 
             name="screennames"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
-            ask="Install screennames ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/refs/heads/main/screennames/screennames.sh -O - | /bin/sh</item>
-
+            ask="Install screennames ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/screennames/main/screennames.sh -O - | /bin/sh</item>
 
 <item 
             name="dependencies-ipaudiopro"
@@ -592,14 +591,8 @@
             ask="Install xklass ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/xklass/xklass-playeriptv.sh -O - | /bin/sh</item>
 <item 
             name="mod-dorik1972"
-            icon="/media/hdd/AJPanel_Backup/icons/kis.png"
-            ask="Install mod-dorik1972 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epgimport-mod-dorik1972/epgimport-mod-dorik1972.sh -O - | /bin/sh</item>
-
-
-<item
-            name="xklass"
             icon="/media/hdd/AJPanel_Backup/icons/epg.png"
-            ask="Install xklass ?">curl -LJso- "https://raw.githubusercontent.com/tarekzoka/xklass/main/online-setup" | bash -s xklass</item>
+            ask="Install mod-dorik1972 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epgimport-mod-dorik1972/epgimport-mod-dorik1972.sh -O - | /bin/sh</item>
 
 <item 
             name="ajpanel"
@@ -630,6 +623,11 @@
             name="opkg-tools"
             icon="/media/hdd/AJPanel_Backup/icons/update-ajpanel-menu.png"
             ask="Install opkg-tools ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/opkg-tools/opkg-tools.sh -O - | /bin/sh</item>
+<item
+            name="xklass"
+            icon="/media/hdd/AJPanel_Backup/icons/kis.png"
+            ask="Install xklass ?">curl -LJso- "https://raw.githubusercontent.com/tarekzoka/xklass/main/online-setup" | bash -s xklass</item>
+
 
  <item
             name="Sherlockmod"
