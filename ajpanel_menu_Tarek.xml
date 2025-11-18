@@ -1807,7 +1807,35 @@ exit 0 </item>
 <item 
             name="bootlogoswapper2"
             icon="/media/hdd/AJPanel_Backup/icons/boot.png"
-            ask="Install bootlogoswapper ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/bootlogoswapper/bootlogoswapper.sh -O - | /bin/sh</item>
+            ask="Install bootlogoswapper ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/bootlogos-mixed-atv.sh -O - | /bin/sh</item>
+
+<item 
+            name="bootlogos-pure2"
+            icon="/media/hdd/AJPanel_Backup/icons/boot.png"
+            ask="Install bootlogos-pure2 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/bootlogos-mixed-pure2.sh -O - | /bin/sh</item>
+
+<item 
+            name="bootlogos-pli"
+            icon="/media/hdd/AJPanel_Backup/icons/boot.png"
+            ask="Install bootlogos-pli ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/bootlogos-mixed-pli.sh -O - | /bin/sh</item>
+
+
+<item 
+            name="bootlogos-egami"
+            icon="/media/hdd/AJPanel_Backup/icons/boot.png"
+            ask="Install bootlogos-egami ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/bootlogos-mixed-egami.sh -O - | /bin/sh</item>
+
+
+<item 
+            name="bootlogos-bhole"
+            icon="/media/hdd/AJPanel_Backup/icons/boot.png"
+            ask="Install bootlogos-bhole ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/bootlogos-mixed-bh.sh -O - | /bin/sh</item>
+
+
+<item 
+            name="bootlogos-atv"
+            icon="/media/hdd/AJPanel_Backup/icons/boot.png"
+            ask="Install bootlogos-atv ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/bootlogos-mixed-atv.sh -O - | /bin/sh</item>
 
 </submenu>
 #########################################
