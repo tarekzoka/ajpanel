@@ -1819,6 +1819,10 @@ exit 0 </item>
             icon="/media/hdd/AJPanel_Backup/icons/boot.png"
             ask="Install bootlogos-pli ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/bootlogos-mixed-pli.sh -O - | /bin/sh</item>
 
+<item 
+            name="bootlogo-atv2"
+            icon="/media/hdd/AJPanel_Backup/icons/boot.png"
+            ask="Install bootlogo-atv ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/main/bootlogo-atv.sh -O - | /bin/sh</item>
 
 <item 
             name="bootlogos-egami"
