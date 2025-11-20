@@ -1815,6 +1815,11 @@ exit 0 </item>
             ask="Install bootlogos-pure2 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/bootlogos-mixed-pure2.sh -O - | /bin/sh</item>
 
 <item 
+            name="bootlogo-dream"
+            icon="/media/hdd/AJPanel_Backup/icons/dd.png"
+            ask="Install bootlogo-dream ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/bootlogo-dream.sh -O - | /bin/sh</item>
+
+<item 
             name="bootlogos-pli"
             icon="/media/hdd/AJPanel_Backup/icons/boot.png"
             ask="Install bootlogos-pli ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/bootlogos-mixed-pli.sh -O - | /bin/sh</item>
