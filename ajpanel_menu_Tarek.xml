@@ -1849,7 +1849,10 @@ exit 0 </item>
             name="bootlogos-egami"
             icon="/media/hdd/AJPanel_Backup/icons/boot.png"
             ask="Install bootlogos-egami ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/bootlogos-mixed-egami.sh -O - | /bin/sh</item>
-
+<item 
+            name="bootlogos-O.B.HOLE"
+            icon="/media/hdd/AJPanel_Backup/icons/boot.png"
+            ask="Install bootlogos-O.B.HOLE ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/mixed-O.B.HOLE.sh -O - | /bin/sh</item>
 
 <item 
             name="bootlogos-bhole"
