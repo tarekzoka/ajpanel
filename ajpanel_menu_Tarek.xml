@@ -1834,6 +1834,26 @@ exit 0 </item>
             name="bootlogo-dream-d"
             icon="/media/hdd/AJPanel_Backup/icons/dd.png"
             ask="Install bootlogo-dream ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/boot-d/bootlogo-dream-d.sh -O - | /bin/sh</item>
+<item 
+            name="bootlogo-dream-f"
+            icon="/media/hdd/AJPanel_Backup/icons/dd.png"
+            ask="Install bootlogo-dream ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/boot-f/bootlogo-dream-f.sh -O - | /bin/sh</item>
+<item 
+            name="bootlogo-dream-g"
+            icon="/media/hdd/AJPanel_Backup/icons/dd.png"
+            ask="Install bootlogo-dream ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/boot-g/bootlogo-dream-g.sh -O - | /bin/sh</item>
+<item 
+            name="bootlogo-dream-h"
+            icon="/media/hdd/AJPanel_Backup/icons/dd.png"
+            ask="Install bootlogo-dream ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/boot-h/bootlogo-dream-h.sh -O - | /bin/sh</item>
+<item 
+            name="bootlogo-dream-k"
+            icon="/media/hdd/AJPanel_Backup/icons/dd.png"
+            ask="Install bootlogo-dream ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/boot-k/bootlogo-dream-k.sh -O - | /bin/sh</item>
+<item 
+            name="bootlogo-dream-x"
+            icon="/media/hdd/AJPanel_Backup/icons/dd.png"
+            ask="Install bootlogo-dream ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/bootlogo/-/raw/main/boot-x/bootlogo-dream-x.sh -O - | /bin/sh</item>
 
 <item 
             name="bootlogos-pli"
