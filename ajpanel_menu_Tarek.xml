@@ -581,7 +581,7 @@
 <item 
             name="ssupport-17.12"
             icon="/media/hdd/AJPanel_Backup/icons/sub.png"
-            ask="Install subssupport ?">wget -q "--no-check-certificate" https://github.com/popking159/ssupport/raw/main/subssupport-install.sh -O - | /bin/sh -O - | /bin/sh</item>
+            ask="Install subssupport ?">wget -q "--no-check-certificate" https://github.com/popking159/ssupport/raw/main/subssupport-install.sh -O - | /bin/sh</item>
 
 <item 
             name="subssupport"
@@ -990,9 +990,9 @@ sleep 2;
 exit 0 </item>
 
 <item 
-            name="ssupport-17.12"
+            name="ssupport-17.1"
             icon="/media/hdd/AJPanel_Backup/icons/sub.png"
-            ask="Install subssupport ?">wget -q "--no-check-certificate" https://github.com/popking159/ssupport/raw/main/subssupport-install.sh -O - | /bin/sh -O - | /bin/sh</item>
+            ask="Install subssupport ?">wget -q "--no-check-certificate" https://github.com/popking159/ssupport/raw/main/subssupport-install.sh -O - | /bin/sh</item>
 
 <item 
             name="AjPanel"
