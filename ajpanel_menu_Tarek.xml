@@ -579,7 +579,7 @@
             ask="Install EPGImport ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/EPGImport/main/EPGImport-mod.sh -O - | /bin/sh</item>
 
 <item 
-            name="ssupport-17.12"
+            name="ssupport-1.8"
             icon="/media/hdd/AJPanel_Backup/icons/sub.png"
             ask="Install subssupport ?">wget -q "--no-check-certificate" https://github.com/popking159/ssupport/raw/main/subssupport-install.sh -O - | /bin/sh</item>
 
@@ -990,9 +990,9 @@ sleep 2;
 exit 0 </item>
 
 <item 
-            name="ssupport-17.1"
+            name="ssupport-1.8"
             icon="/media/hdd/AJPanel_Backup/icons/sub.png"
-            ask="Install subssupport ?">wget -q "--no-check-certificate" https://github.com/popking159/ssupport/raw/main/subssupport-install.sh -O - | /bin/sh</item>
+            ask="Install subssupport ?">wget -q "--no-check-certificate" https://github.com/kkkkkk.sh -O - | /bin/sh</item>
 
 <item 
             name="AjPanel"
