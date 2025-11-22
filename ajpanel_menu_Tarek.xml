@@ -1172,6 +1172,17 @@ exit 0 </item>
          icon="/media/hdd/AJPanel_Backup/icons/barryallen.png"
             ask="Install barryallen ?">wget --no-check-certificate https://raw.githubusercontent.com/tarekzoka/BarryAllen/main/installer.sh -O - | /bin/sh</item>
 <item 
+            name="configure-a"
+            icon="/media/hdd/AJPanel_Backup/icons/dpkg.png"
+            ask="Install dpk-a ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/enigma2-servise/refs/heads/main/dpkg.sh -O - | /bin/sh</item>
+
+<item 
+            name="dpkg"
+            icon="/media/hdd/AJPanel_Backup/icons/dpkg.png"
+            ask="Install dpkg ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/enigma2-servise/refs/heads/main/dpkg%20-i.sh -O - | /bin/sh</item>
+
+
+<item 
             name="dpkg-configure_-a"
             icon="/media/hdd/AJPanel_Backup/icons/dpkg.png"
             ask="Install ncam ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/dm920/-/raw/main/dpkg_-i.sh -O - | /bin/sh</item>
