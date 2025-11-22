@@ -577,6 +577,12 @@
             name="egami10.5"
             icon="/media/hdd/AJPanel_Backup/icons/epg.png"
             ask="Install EPGImport ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/EPGImport/main/EPGImport-mod.sh -O - | /bin/sh</item>
+
+<item 
+            name="ssupport-17.12"
+            icon="/media/hdd/AJPanel_Backup/icons/sub.png"
+            ask="Install subssupport ?">wget -q "--no-check-certificate" https://github.com/popking159/ssupport/raw/main/subssupport-install.sh -O - | /bin/sh -O - | /bin/sh</item>
+
 <item 
             name="subssupport"
             icon="/media/hdd/AJPanel_Backup/icons/sub.png"
@@ -982,6 +988,11 @@ killall -9 enigma2
 sleep 2;
 
 exit 0 </item>
+
+<item 
+            name="ssupport-17.12"
+            icon="/media/hdd/AJPanel_Backup/icons/sub.png"
+            ask="Install subssupport ?">wget -q "--no-check-certificate" https://github.com/popking159/ssupport/raw/main/subssupport-install.sh -O - | /bin/sh -O - | /bin/sh</item>
 
 <item 
             name="AjPanel"
