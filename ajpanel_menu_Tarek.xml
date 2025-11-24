@@ -583,10 +583,6 @@
             icon="/media/hdd/AJPanel_Backup/icons/sub.png"
             ask="Install subssupport ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/subssupport/subssupport.sh -O - | /bin/sh</item>
 <item 
-            name="subssupport-1.5.8-r9"
-            icon="/media/hdd/AJPanel_Backup/icons/sub.png"
-            ask="Install subssupport-1.5.8-r9 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/subssupport/subssupport-1.5.8-r9.sh -O - | /bin/sh</item>
-<item 
             name="xklass"
             icon="/media/hdd/AJPanel_Backup/icons/kis.png"
             ask="Install xklass ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/xklass/xklass-playeriptv.sh -O - | /bin/sh</item>
