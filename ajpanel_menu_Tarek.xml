@@ -462,6 +462,11 @@
             ask="Install RadioRelay?">wget https://raw.githubusercontent.com/angelheart150/RadioRelay/main/installer.sh -O - | /bin/sh</item>
 
 <item 
+            name="OrangeAudio"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install OrangeAudio?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/OrangeAudio/installer.sh -O - | /bin/sh</item>
+
+<item 
             name="ipaudiopro-1.2"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro-last ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/main/ipaudiopro.sh -O - | /bin/sh</item>
@@ -502,8 +507,7 @@
 <item 
             name="epgimport"
             icon="/media/hdd/AJPanel_Backup/icons/epg.png"
-            ask="Install epgimport ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epgimport/epgimport.sh -O - | /bin/sh</item>
-
+            ask="Install epgimport ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epgimport/https://gitlab.com/hanfy1971/plugin/-/raw/main/epgimport/install.sh -O - | /bin/sh</item>
 
 <item 
             name="new-multistalker-pro"
@@ -541,6 +545,11 @@
             name="MultiIptvAdder"
          icon="/media/hdd/AJPanel_Backup/icons/sevies.png"
             ask="Install MultiIptvAdder ?">wget https://raw.githubusercontent.com/tarekzoka/MultiIptvAdder/main/installer.sh -O - | /bin/sh</item>
+<item 
+            name="footonsat"
+            icon="/media/hdd/AJPanel_Backup/icons/fo.png"
+            ask="Install footonsat ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/footonsat/install.sh -O - | /bin/sh</item>
+
 <item
             name="Suptv"
             icon="/media/hdd/AJPanel_Backup/icons/plug.png"
@@ -838,7 +847,7 @@
 
 </submenu>
 #########################################
-##############DM920-900-os##############
+##############DM920##############
     <submenu
         title="DM920-900-os"
         info=" Download And install plugin And Favorites "
@@ -890,8 +899,7 @@ sleep 2; </item>
 <item 
             name="footonsat"
             icon="/media/hdd/AJPanel_Backup/icons/fo.png"
-            ask="Install footonsat ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/plugin-os/main/footonsat/footonsat.sh -O - | /bin/sh</item>
-
+            ask="Install footonsat ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/footonsat/install.sh -O - | /bin/sh</item>
 <item 
             name="barryallen"
             icon="/media/hdd/AJPanel_Backup/icons/barryallen.png"
@@ -1389,6 +1397,10 @@ exit 0
             name="delete-password"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install delete-password?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/enigma2-servise/main/delete-password.sh-O - | /bin/sh</item>
+<item 
+            name="CiefpTMDBSearch"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install CiefpTMDBSearch?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/picons/-/raw/main/CiefpTMDBSearch/install.sh-O - | /bin/sh</item>
 
 <item 
             name="Settings_all_image"
