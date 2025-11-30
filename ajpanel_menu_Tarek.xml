@@ -295,7 +295,10 @@
             name="h.wahba"
             icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install h.wahba?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/h.wahba/h.wahba-motor.sh -O - | /bin/sh</item>
-
+<item 
+            name="ABO-NASR"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
+            ask="Install ABO-NASR?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/channels/-/raw/main/abu.nasser-motor/abu.nasser-motor.sh -O - | /bin/sh</item>
 
 <item
             name="tarekalashry"
