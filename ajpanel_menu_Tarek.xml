@@ -430,6 +430,10 @@
             name="athkar"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install athkar ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/athkar/athkar.sh -O - | /bin/sh</item>
+<item
+            name="FootOnsat"
+            icon="/media/hdd/AJPanel_Backup/icons/fo.png"
+            ask="Install FootOnsat ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/FootOnsat/online-setup" | bash -s FootOnsat</item>
 
 <item 
             name="EStalker"
