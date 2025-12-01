@@ -556,7 +556,7 @@
 <item 
             name="footonsat-a"
             icon="/media/hdd/AJPanel_Backup/icons/fo.png"
-            ask="Install footonsat ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971///plugin/-/raw/main/footonsat/install.sh -O - | /bin/sh</item>
+            ask="Install footonsat ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/footonsat/install.sh -O - | /bin/sh</item>
 
 <item
             name="Suptv"
@@ -623,11 +623,6 @@
             name="Sherlockmod"
          icon="/media/hdd/AJPanel_Backup/icons/sherlock.png"
             ask="Install Sherlockmod ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/sherlockmod/main/sherlockmod.sh -O - | /bin/sh</item>
-<item
-            name="FootOnsat-b"
-            icon="/media/hdd/AJPanel_Backup/icons/fo.png"
-            ask="Install FootOnsat ?">curl -LJso- "https://gitlab.com/hanfy1971///plugin/-/raw/main/FootOnsat/online-setup" | bash -s FootOnsat</item>
-
 <item 
             name="tmdb"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
@@ -816,6 +811,12 @@
             name="new-multistalker-pro"
             icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
             ask="Install multistalker-pro ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/multistalker-pro/main/multistalker-pro.sh -O - | /bin/sh</item>
+
+<item
+            name="FootOnsat-b"
+            icon="/media/hdd/AJPanel_Backup/icons/fo.png"
+            ask="Install FootOnsat ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/FootOnsat/online-setup" | bash -s FootOnsat</item>
+
 
 <item 
             name="vavoo"
