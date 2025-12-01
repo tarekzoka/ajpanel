@@ -553,7 +553,7 @@
          icon="/media/hdd/AJPanel_Backup/icons/sevies.png"
             ask="Install MultiIptvAdder ?">wget https://raw.githubusercontent.com/tarekzoka/MultiIptvAdder/main/installer.sh -O - | /bin/sh</item>
 <item 
-            name="footonsat"
+            name="footonsat-a"
             icon="/media/hdd/AJPanel_Backup/icons/fo.png"
             ask="Install footonsat ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/footonsat/install.sh -O - | /bin/sh</item>
 
@@ -623,7 +623,7 @@
          icon="/media/hdd/AJPanel_Backup/icons/sherlock.png"
             ask="Install Sherlockmod ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/sherlockmod/main/sherlockmod.sh -O - | /bin/sh</item>
 <item
-            name="FootOnsat"
+            name="FootOnsat-b"
             icon="/media/hdd/AJPanel_Backup/icons/fo.png"
             ask="Install FootOnsat ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/FootOnsat/online-setup" | bash -s FootOnsat</item>
 
@@ -742,7 +742,7 @@
 			<item name="easy-cccam" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ecccam.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/easy-cccam/easy-cccam.sh -O - | /bin/sh</item>
 			<item name="epggrabber1" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epggrabber/epggrabber.sh -O - | /bin/sh</item>
 			<item name="feedsfinder" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/bis.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/feedsfinder/feedsfinder.sh -O - | /bin/sh</item>
-			<item name="footonsat" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/fo.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/footonsat/footonsat.sh -O - | /bin/sh</item>
+
 			<item name="freeserver" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/fr.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/freeserver/freeserver.sh -O - | /bin/sh </item>
 <item name="easy-cccam" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ecccam.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/easy-cccam/easy-cccam.sh -O - | /bin/sh</item>
 			<item name="epggrabber" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/epggrabber/epggrabber.sh -O - | /bin/sh</item>
