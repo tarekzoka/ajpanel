@@ -34,12 +34,12 @@
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install copper-fhd?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/copper-fhd_2.3.sh -O - | /bin/sh</item>
 <item 
-            name="Fury-FHD-v00"
+            name="Fury-FHD-last"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
-            ask="Install Fury-FHD-V3/Fury ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/islam-2412/IPKS/refs/heads/main/fury/installer.sh -O - | /bin/sh</item>
+            ask="Install Fury-FHD-V3/Fury ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/blob/raw/%20fury-fhd/fury-fhd.sh -O - | /bin/sh</item>
 
 <item 
-            name="FURY-HD-V5.4"
+            name="FURY-HD-V5.9"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install FURY ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/%20fury-fhd/fury-fhd.sh -O - | /bin/sh</item>
 
