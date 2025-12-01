@@ -435,6 +435,7 @@
             icon="/media/hdd/AJPanel_Backup/icons/fo.png"
             ask="Install FootOnsat ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/FootOnsat/online-setup" | bash -s FootOnsat</item>
 
+
 <item 
             name="EStalker"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
@@ -555,7 +556,7 @@
 <item 
             name="footonsat-a"
             icon="/media/hdd/AJPanel_Backup/icons/fo.png"
-            ask="Install footonsat ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/footonsat/install.sh -O - | /bin/sh</item>
+            ask="Install footonsat ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971///plugin/-/raw/main/footonsat/install.sh -O - | /bin/sh</item>
 
 <item
             name="Suptv"
@@ -625,7 +626,7 @@
 <item
             name="FootOnsat-b"
             icon="/media/hdd/AJPanel_Backup/icons/fo.png"
-            ask="Install FootOnsat ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/FootOnsat/online-setup" | bash -s FootOnsat</item>
+            ask="Install FootOnsat ?">curl -LJso- "https://gitlab.com/hanfy1971///plugin/-/raw/main/FootOnsat/online-setup" | bash -s FootOnsat</item>
 
 <item 
             name="tmdb"
