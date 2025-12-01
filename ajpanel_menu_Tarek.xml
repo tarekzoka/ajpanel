@@ -1415,6 +1415,10 @@ exit 0
             name="Settings_all_image"
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install Settings_ ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/settings-allimge/-/raw/main/TarekSettings_all_image.sh -O - | /bin/sh</item>
+<item 
+            name="e2iplayer_hosts"
+            icon="/media/hdd/AJPanel_Backup/icons/e2.png"
+            ask="Install e2iplayer_hosts ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/angelheart150/My_e2iplayer_hosts/refs/heads/main/install-e2iplayer-update-hosts.sh -O - | /bin/sh</item>
 
 <item 
             name="repair-hdd"
