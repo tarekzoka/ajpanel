@@ -1714,10 +1714,6 @@ exit 0 </item>
             icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
             ask="Install free-iptv ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/free-iptv/-/raw/main/playlists-1.0.sh -O - | /bin/sh</item>
 
-<item 
-            name="emilnabil-plugin"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
-            ask="Install emilnabil-plugin ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/EmilPanel/emilpanel.sh-O - | /bin/sh</item>
 <item
             name="Freeccam3"
          icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
