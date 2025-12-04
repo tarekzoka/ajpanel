@@ -1409,6 +1409,12 @@ exit 0
             name="satellitesxml"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install satellitesxml ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/satellitesxml/installer.sh -O - | /bin/sh</item>
+
+<item 
+            name="iptv-org-playlists"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install iptv-org-playlists ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/tooles/-/raw/main/iptv-org-playlists/iptv-org-playlists.sh -O - | /bin/sh</item>
+
 <item 
             name="change-password-to-root"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
