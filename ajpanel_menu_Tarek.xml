@@ -752,6 +752,12 @@
 <item name="xtraevent-5.3" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/xt.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/xtraevent/xtraevent-5.3.sh -O - | /bin/sh</item>
 <item name="xtraevent-6.4" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/xt.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/xtraevent/xtraevent-6.4.sh -O - | /bin/sh</item>
             <item name="Ipaudio-7.4-ffmpeg" icon="/media/hdd/AJPanel_Backup/icons/ipa.png" info="(اضافة الصوتيات على قنوات السات)" ask="yes ">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh</item>
+
+<item name="Ipaudio-7.4-ffmpeg-py3" icon="/media/hdd/AJPanel_Backup/icons/ipa.png" info="(اضافة الصوتيات على قنوات السات)" ask="yes ">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/ipaudio-old-py/-/raw/main/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh</item>
+
+<item name="Ipaudio-6.8-py2" icon="/media/hdd/AJPanel_Backup/icons/ipa.png" info="(اضافة الصوتيات على قنوات السات)" ask="yes ">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/ipaudio-old-py/-/raw/main/ipaudio.sh -O - | /bin/sh</item>
+
+
 			<item name="ipaudiopro-1.1-py-3.9-3.11" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ipap.png" info="(اضافة الصوتيات على قنوات السات)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipaudiopro/ipaudiopro.sh -O - | /bin/sh</item>
 <item name="levi45-addon-manager" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/Tooles.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/levi45-addon-manager/levi45-addon-manager.sh-O - | /bin/sh</item>
 			<item name="ipchecker" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ipchecker.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipchecker/ipchecker.sh -O - | /bin/sh</item>
