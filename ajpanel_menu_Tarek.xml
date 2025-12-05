@@ -786,6 +786,12 @@
 
 
 <item name="worldcam-4.3" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/worldcam/worldcam4.3.sh -O - | /bin/sh</item>
+
+
+
+<item name="worldcam-6.3" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/m4dhouse/Wireguard-Vpn/refs/heads/python-3.12/WireGuard.sh -O - | /bin/sh</item>
+
+
 <item 
             name="youtube"
             icon="/media/hdd/AJPanel_Backup/icons/yt.png"
