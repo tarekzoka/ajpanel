@@ -1211,6 +1211,10 @@ exit 0 </item>
             name="configure-a"
             icon="/media/hdd/AJPanel_Backup/icons/dpkg.png"
             ask="Install dpk-a ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/enigma2-servise/refs/heads/main/dpkg.sh -O - | /bin/sh</item>
+<item 
+            name="EMAILPANEL"
+            icon="/media/hdd/AJPanel_Backup/icons/dpkg.png"
+            ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EMAILPANEL/DM-OS/installer.sh -O - | /bin/sh</item>
 
 <item 
             name="dpkg"
@@ -2003,6 +2007,13 @@ exit 0 </item>
             name="EMAILPANEL"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
             ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EMAILPANEL/panel.sh -O - | /bin/sh</item>
+
+<item 
+            name="EMAILPANEL-a"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EMAILPANEL/emilpanelpro.sh -O - | /bin/sh</item>
+
+
 <item 
             name="satvenuspanel"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
