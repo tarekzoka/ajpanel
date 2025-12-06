@@ -1972,7 +1972,7 @@ exit 0 </item>
 
 </submenu>
 #########################################
-##############panels5##############
+##############panel-5##############
 <submenu   title="panels"
         info="Download And Install panels"
         icon="/media/hdd/AJPanel_Backup/icons/pa-1.png"
