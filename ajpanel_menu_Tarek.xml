@@ -475,6 +475,12 @@
             ask="Install OrangeAudio?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/OrangeAudio/installer.sh -O - | /bin/sh</item>
 
 <item 
+            name="E2BissKeysEditor"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install E2BissKeysEditor?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/E2BissKeysEditor/E2BissKeysEditoraa.sh -O - | /bin/sh</item>
+
+
+<item 
             name="ipaudiopro-1.2"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro-last ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/main/ipaudiopro.sh -O - | /bin/sh</item>
