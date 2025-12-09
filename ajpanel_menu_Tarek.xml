@@ -2022,13 +2022,17 @@ exit 0 </item>
 <item 
             name="EMAILPANEL"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
-            ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EMAILPANEL/panel.sh -O - | /bin/sh</item>
+            ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/EmilPanel/emilpanel.sh -O - | /bin/sh -O - | /bin/sh</item>
 
 <item 
-            name="EMAILPANEL-a"
+            name="EMAILPANEL-pro"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
             ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EMAILPANEL/emilpanelpro.sh -O - | /bin/sh</item>
 
+<item 
+            name="EMAILPANEL-onlin-pro"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/EmilPanelPro/emilpanelpro.sh -O - | /bin/sh</item>
 
 <item 
             name="satvenuspanel"
