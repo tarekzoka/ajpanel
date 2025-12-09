@@ -300,6 +300,11 @@
             icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install ABO-NASR?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/channels/-/raw/main/abu.nasser-motor/abu.nasser-motor.sh -O - | /bin/sh</item>
 
+<item 
+            name="wahba-motor"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
+            ask="Install wahba-motor?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/raw/main/wahba-motor.sh-O - | /bin/sh</item>
+
 <item
             name="tarekalashry"
             icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
@@ -563,6 +568,11 @@
             name="footonsat-a"
             icon="/media/hdd/AJPanel_Backup/icons/fo.png"
             ask="Install footonsat ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/footonsat/install.sh -O - | /bin/sh</item>
+<item 
+            name="GeminiPatcher"
+            icon="/media/hdd/AJPanel_Backup/icons/sevies.png"
+            ask="Install GeminiPatcher ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/GeminiPatcher/geminipatcher.sh -O - | /bin/sh</item>
+
 
 <item
             name="Suptv"
