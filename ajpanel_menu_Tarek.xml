@@ -478,10 +478,6 @@
             name="OrangeAudio"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install OrangeAudio?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/OrangeAudio/installer.sh -O - | /bin/sh</item>
-<item 
-            name="IPAudio-V8"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
-            ask="Install IPAudio-V8?">wget -q --no-check-certificate https://raw.githubusercontent.com/popking159/ipaudio/main/installer-ipaudio.sh -O - | /bin/sh</item>
 
 
 <item 
@@ -498,6 +494,14 @@
             name="ipaudiopro-1.3"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro-1.3 ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/main/ipaudiopro1.3.sh -O - | /bin/sh</item>
+
+<item name="Ipaudio-8-ffmpeg-py3" icon="/media/hdd/AJPanel_Backup/icons/ipa.png" info="(اضافة الصوتيات على قنوات السات)" ask="yes ">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/ipaudio-old-py/-/raw/main/ipaudio-8-ffmpeg.sh -O - | /bin/sh</item>
+
+
+<item name="Ipaudio-6.8-py2" icon="/media/hdd/AJPanel_Backup/icons/ipa.png" info="(اضافة الصوتيات على قنوات السات)" ask="yes ">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/ipaudio-old-py/-/raw/main/ipaudio.sh -O - | /bin/sh</item>
+
+
+
 <item
             name="ipaudiopro1.3"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
@@ -775,8 +779,6 @@
             <item name="Ipaudio-7.4-ffmpeg" icon="/media/hdd/AJPanel_Backup/icons/ipa.png" info="(اضافة الصوتيات على قنوات السات)" ask="yes ">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh</item>
 
 <item name="Ipaudio-7.4-ffmpeg-py3" icon="/media/hdd/AJPanel_Backup/icons/ipa.png" info="(اضافة الصوتيات على قنوات السات)" ask="yes ">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/ipaudio-old-py/-/raw/main/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh</item>
-
-<item name="Ipaudio-6.8-py2" icon="/media/hdd/AJPanel_Backup/icons/ipa.png" info="(اضافة الصوتيات على قنوات السات)" ask="yes ">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/ipaudio-old-py/-/raw/main/ipaudio.sh -O - | /bin/sh</item>
 
 
 			<item name="ipaudiopro-1.1-py-3.9-3.11" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ipap.png" info="(اضافة الصوتيات على قنوات السات)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipaudiopro/ipaudiopro.sh -O - | /bin/sh</item>
