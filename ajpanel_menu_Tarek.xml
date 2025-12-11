@@ -478,6 +478,11 @@
             name="OrangeAudio"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install OrangeAudio?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/OrangeAudio/installer.sh -O - | /bin/sh</item>
+<item 
+            name="IPAudio-V8"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install IPAudio-V8?">wget -q --no-check-certificate https://raw.githubusercontent.com/popking159/ipaudio/main/installer-ipaudio.sh -O - | /bin/sh</item>
+
 
 <item 
             name="E2BissKeysEditor"
