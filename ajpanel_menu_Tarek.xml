@@ -2210,6 +2210,12 @@ init 3</item>
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install AudiosL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/Audios/NEWAudios.sh -O - | /bin/sh</item>
 
+
+<item
+            name="Sat-family_Audios"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install Sat-family_Audios ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/ipaudio-old-py/-/raw/main/Sat-family_Audios.sh -O - | /bin/sh</item>
+
 <item
             name="asound-libasound"
          icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
