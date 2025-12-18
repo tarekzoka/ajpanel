@@ -431,6 +431,12 @@
             name="bouquetmakerxtream"
             icon="/media/hdd/AJPanel_Backup/icons/kerxtream.png"
             ask="Install bouquetmakerxtream ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20bouquetmakerxtream/bouquetmakerxtream.sh -O - | /bin/sh</item>
+
+<item 
+            name="hasbahca"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
+            ask="Install hasbahca ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20hasbahca/hasbahca.sh -O - | /bin/sh</item>
+
 <item 
             name="athkar"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
@@ -443,46 +449,46 @@
 
 <item 
             name="EStalker"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install EStalker?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/EStalker/main/EStalker.sh -O - | /bin/sh</item>
 <item 
             name="fontmagnifier"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install fontmagnifier ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/fontmagnifier/fontmagnifier.sh -O - | /bin/sh</item>
 
 
 <item 
             name="ELIS-old-panel"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/insal-oldpanel.sh -O - | /bin/sh</item>
 <item 
             name="EMAILPANEL"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EMAILPANEL/panel.sh -O - | /bin/sh</item>
 <item
             name="ajpanel"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install ajpanel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ajpanel/installer.sh -O - | /bin/sh</item>
 <item name="worldcam-5.5" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/wor.png">wget -q --no-check-certificate https://raw.githubusercontent.com/Belfagor2005/WorldCam/main/installer.sh -O - | /bin/sh</item>
 
 <item
             name="Audio-orang-anis"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install AudiosL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/Audios/NEWAudios.sh -O - | /bin/sh</item>
 <item
             name="RadioRelay"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install RadioRelay?">wget https://raw.githubusercontent.com/angelheart150/RadioRelay/main/installer.sh -O - | /bin/sh</item>
 
 <item 
             name="OrangeAudio"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install OrangeAudio?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/OrangeAudio/installer.sh -O - | /bin/sh</item>
 
 
 <item 
             name="E2BissKeysEditor"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install E2BissKeysEditor?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/E2BissKeysEditor/E2BissKeysEditoraa.sh -O - | /bin/sh</item>
 
 
@@ -2153,76 +2159,76 @@ init 3</item>
         height="1080">
 <item 
             name="alsa"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install alsa ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/alsa-plugins.sh -O - | /bin/sh</item>
 
 <item 
             name="curl"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install curl ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/curl.sh -O - | /bin/sh</item>
 
 
 <item 
             name="exteplayer3"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install exteplayer3 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/exteplayer3.sh -O - | /bin/sh</item>
 
 <item 
             name="ffmpeg"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install ffmpeg ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/ffmpeg.sh -O - | /bin/sh</item>
 
 
 <item 
             name="gstplayer"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install gstplayer ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/gstplayer.sh -O - | /bin/sh</item>
 
 
 <item 
             name="gstreamer1.0-plugins-bad"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install gstreamer1.0-plugins-bad ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/gstreamer1.0-plugins-bad.sh -O - | /bin/sh</item>
 
 <item 
             name="gstreamer1.0-plugins-good"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install gstreamer1.0-plugins-good ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/gstreamer1.0-plugins-good.sh -O - | /bin/sh</item>
 
 <item 
             name="gstreamer1.0-plugins-ugly"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install gstreamer1.0-plugins-ugly ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/gstreamer1.0-plugins-ugly.sh -O - | /bin/sh</item>
 
 <item
             name="ipaudio-tools"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install ipaudio-tools ?">wget https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOLS-ipaudio-tools.sh -O - | /bin/sh</item>
 
 
 <item 
             name="alsa"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install alsa ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tooles-ipaudiopro/alsa-plugins.sh -O - | /bin/sh</item>
 
 <item
             name="Audio-orang-anis"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install AudiosL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/Audios/NEWAudios.sh -O - | /bin/sh</item>
 
 
 <item
             name="Sat-family_Audios"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install Sat-family_Audios ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/ipaudio-old-py/-/raw/main/Sat-family_Audios.sh -O - | /bin/sh</item>
 
 <item
             name="asound-libasound"
-         icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+         icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install asound-libasound ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/asound-libasound.so.2.0.sh -O - | /bin/sh</item>
 <item
             name="asound-libasound-tar"
-         icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+         icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install asound-libasound ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/asound-libasound2.sh -O - | /bin/sh</item>
 
                  </submenu>
