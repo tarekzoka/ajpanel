@@ -534,6 +534,11 @@
             ask="Install acherone ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/acherone/installer.sh -O - | /bin/sh</item>
 
 <item
+            name="cacheflush"
+            icon="/media/hdd/AJPanel_Backup/icons/concept.png"
+            ask="Install cacheflush ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/cacheflush/cacheflush.sh -O - | /bin/sh</item>
+
+<item
             name="IPtoSAT"
             icon="/media/hdd/AJPanel_Backup/icons/ipt.png"
             ask="Install IPtoSAT ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/IPtoSAT/online-setup" | bash -s IPtoSAT</item>
