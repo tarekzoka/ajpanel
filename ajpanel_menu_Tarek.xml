@@ -529,6 +529,11 @@
             ask="Install ALL-VESION-ARM-MIPS ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro/1.3/ipaudiopro.sh -O - | /bin/sh</item>
 
 <item
+            name="acherone"
+            icon="/media/hdd/AJPanel_Backup/icons/concept.png"
+            ask="Install acherone ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/acherone/installer.sh -O - | /bin/sh</item>
+
+<item
             name="IPtoSAT"
             icon="/media/hdd/AJPanel_Backup/icons/ipt.png"
             ask="Install IPtoSAT ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/IPtoSAT/online-setup" | bash -s IPtoSAT</item>
