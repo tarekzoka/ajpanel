@@ -446,6 +446,11 @@
             icon="/media/hdd/AJPanel_Backup/icons/fo.png"
             ask="Install FootOnsat ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/FootOnsat/online-setup" | bash -s FootOnsat</item>
 
+<item 
+            name="aisubtitles"
+            icon="/media/hdd/AJPanel_Backup/icons/oscam-nacam.png"
+            ask="Install aisubtitles ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20AISubtitles/aisubtitles.sh -O - | /bin/sh</item>
+
 
 <item 
             name="EStalker"
