@@ -1477,6 +1477,13 @@ exit 0
             name="delete-password"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install delete-password?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/enigma2-servise/main/delete-password.sh-O - | /bin/sh</item>
+
+
+<item 
+            name="quarterpounder"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install quarterpounder?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/DM/refs/heads/main/quarterpounder-ALL-Python.sh-O - | /bin/sh</item>
+
 <item 
             name="CiefpTMDBSearch"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
