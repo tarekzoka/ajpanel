@@ -1482,12 +1482,12 @@ exit 0
 <item 
             name="quarterpounder"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
-            ask="Install quarterpounder?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/DM/refs/heads/main/quarterpounder-ALL-Python.sh-O - | /bin/sh</item>
+            ask="Install quarterpounder?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/DM/refs/heads/main/quarterpounder-ALL-Python.sh -O - | /bin/sh</item>
 
 <item 
             name="CiefpTMDBSearch"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
-            ask="Install CiefpTMDBSearch?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/picons/-/raw/main/CiefpTMDBSearch/install.sh-O - | /bin/sh</item>
+            ask="Install CiefpTMDBSearch?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/picons/-/raw/main/CiefpTMDBSearch/install.sh -O - | /bin/sh</item>
 
 <item 
             name="Settings_all_image"
