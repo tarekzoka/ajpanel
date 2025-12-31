@@ -433,6 +433,12 @@
             ask="Install bouquetmakerxtream ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20bouquetmakerxtream/bouquetmakerxtream.sh -O - | /bin/sh</item>
 
 <item 
+            name="calendar"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner5.png"
+            ask="Install calendar ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20calendar/calendar.sh -O - | /bin/sh</item>
+
+
+<item 
             name="hasbahca"
             icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install hasbahca ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20hasbahca/hasbahca.sh -O - | /bin/sh</item>
