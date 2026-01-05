@@ -437,6 +437,11 @@
             icon="/media/hdd/AJPanel_Backup/icons/spinner5.png"
             ask="Install calendar ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20calendar/calendar.sh -O - | /bin/sh</item>
 
+<item 
+            name="EstalkerWebControl"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner5.png"
+            ask="Install EstalkerWebControl ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EstalkerWebControl/estalkerwebcontrol.sh -O - | /bin/sh</item>
+
 
 <item 
             name="hasbahca"
