@@ -422,6 +422,10 @@
             name="ipaudiopro-1.5"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro-1.5?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro/IPAudioPro1.5.sh -O - | /bin/sh</item>
+<item 
+            name="ipaudiopro-1.7"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install ipaudiopro-1.7 ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/refs/heads/main/ipaudiopro_1.7.sh -O - | /bin/sh</item>
 
 
 <item 
@@ -838,7 +842,7 @@
 <item name="Ipaudio-7.4-ffmpeg-py3" icon="/media/hdd/AJPanel_Backup/icons/ipa.png" info="(اضافة الصوتيات على قنوات السات)" ask="yes ">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/ipaudio-old-py/-/raw/main/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh</item>
 
 
-			<item name="ipaudiopro-1.1-py-3.9-3.11" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ipap.png" info="(اضافة الصوتيات على قنوات السات)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipaudiopro/ipaudiopro.sh -O - | /bin/sh</item>
+			<item name="ipaudiopro-1.1-py-3.9-3.11" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ipap.png" info="(ا  افة الصوتيات على قنوات السات)">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipaudiopro/ipaudiopro.sh -O - | /bin/sh</item>
 <item name="levi45-addon-manager" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/Tooles.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/levi45-addon-manager/levi45-addon-manager.sh-O - | /bin/sh</item>
 			<item name="ipchecker" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ipchecker.png">wget -q "--no-check-certificate" https://gitlab.com/eliesat/extensions/-/raw/main/ipchecker/ipchecker.sh -O - | /bin/sh</item>
 			<item name="iptosat" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ipt.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/iptosat/iptosat.sh -O - | /bin/sh</item>
