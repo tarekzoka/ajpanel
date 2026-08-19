@@ -292,6 +292,11 @@
             ask="Install adelsat?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/adelsat/adelsat-motor.sh -O - | /bin/sh</item>
 
 <item 
+            name="Xtream2Audio"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install Xtream2Audio ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Xtream2Audio/Xtream2Audio.sh -O - | /bin/sh</item>
+
+<item 
             name="h.wahba"
             icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install h.wahba?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/h.wahba/h.wahba-motor.sh -O - | /bin/sh</item>
@@ -430,6 +435,13 @@
             name="AjPanel"
             icon="/media/hdd/AJPanel_Backup/icons/aj.png"
             ask="Install AjPanel ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh</item>
+
+<item 
+            name="EmilPanel-on"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install EmilPanel ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/EmilPanel/emilpanel.sh -O - | /bin/sh</item>
+
+
 <item 
             name="email-panel"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
@@ -975,6 +987,12 @@ killall -9 enigma2
 
 sleep 2; </item>
 <item name="epggrabber1" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/epg.png">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epggrabber/epggrabber.sh -O - | /bin/sh</item>
+
+<item 
+            name="Xtream2Audio-dreamos"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install Xtream2Audio-dreamos ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Xtream2Audio/Xtream2Audio-dreamos.sh -O - | /bin/sh</item>
+
 
 <item
             name="IPtoSAT"
@@ -2188,12 +2206,12 @@ init 3</item>
 #########################################
 ##############SUPORT-IPAUDIO##############
 <submenu
-        title="SUPORT-IPAUDIO"
+        title="IPAUDIO-suport"
         info="Download And Install SUPORT-IPAUDIO"
         icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
-        mode="grid_10x5"
+        mode="grid_8x4"
         shade="yes"
-        font_size="30"
+        font_size="15"
         title_bg="#11332233"
         num_fg="#FCFCFC"
         num_bg="#000000"
@@ -2201,7 +2219,7 @@ init 3</item>
         title1_bg="#000000"
         title2_fg="#FCFCFC"
         title2_bg="#000000"
-        width="1950"
+        width="1900"
         height="1080">
 <item 
             name="alsa"
@@ -2261,6 +2279,15 @@ init 3</item>
             name="Audio-orang-anis"
             icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install AudiosL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/Audios/NEWAudios.sh -O - | /bin/sh</item>
+<item 
+            name="Xtream2Audio"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install Xtream2Audio ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Xtream2Audio/Xtream2Audio.sh -O - | /bin/sh</item>
+
+<item 
+            name="Xtream2Audio-dreamos"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install Xtream2Audio-dreamos ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Xtream2Audio/Xtream2Audio-dreamos.sh -O - | /bin/sh</item>
 
 
 <item
