@@ -427,6 +427,11 @@
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudiopro-1.7 ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/refs/heads/main/ipaudiopro_1.7.sh -O - | /bin/sh</item>
 
+<item 
+            name="ipaudio_1.8"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install ipaudio_1.8 ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/refs/heads/main/ipaudio_1.8.sh -O - | /bin/sh</item>
+
 
 <item 
             name="ipaudi-8.11"
@@ -454,6 +459,12 @@
             name="bouquetmakerxtream"
             icon="/media/hdd/AJPanel_Backup/icons/kerxtream.png"
             ask="Install bouquetmakerxtream ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20bouquetmakerxtream/bouquetmakerxtream.sh -O - | /bin/sh</item>
+
+<item 
+            name="SimplySports"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install SimplySports ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SimplySports/refs/heads/main/simplysports.sh -O - | /bin/sh</item>
+
 
 <item 
             name="calendar"
