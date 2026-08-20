@@ -476,6 +476,11 @@
             icon="/media/hdd/AJPanel_Backup/icons/spinner5.png"
             ask="Install EstalkerWebControl ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EstalkerWebControl/estalkerwebcontrol.sh -O - | /bin/sh</item>
 
+<item 
+            name="AudioPlus"
+            icon="/media/hdd/AJPanel_Backup/icons/spinner5.png"
+            ask="Install AudioPlus ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/AudioPlus/refs/heads/main/ipaudioplus.sh -O - | /bin/sh</item>
+
 
 <item 
             name="hasbahca"
@@ -546,6 +551,11 @@
             name="E2BissKeysEditor"
             icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install E2BissKeysEditor?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/E2BissKeysEditor/E2BissKeysEditoraa.sh -O - | /bin/sh</item>
+
+<item 
+            name="SilentRunner"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
+            ask="Install SilentRunner?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SilentRunner/refs/heads/main/SilentRunner.sh -O - | /bin/sh</item>
 
 
 <item 
