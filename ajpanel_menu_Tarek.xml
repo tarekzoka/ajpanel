@@ -459,11 +459,21 @@
             name="bouquetmakerxtream"
             icon="/media/hdd/AJPanel_Backup/icons/kerxtream.png"
             ask="Install bouquetmakerxtream ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20bouquetmakerxtream/bouquetmakerxtream.sh -O - | /bin/sh</item>
+<item  
+            name="audioselectionpatcher"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install audioselectionpatcher ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/audioselectionpatcher/refs/heads/main/myinstaller.sh -O - | /bin/sh</item>
+
 
 <item 
             name="SimplySports"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install SimplySports ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SimplySports/refs/heads/main/simplysports.sh -O - | /bin/sh</item>
+
+<item 
+            name="customchannelselection"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install customchannelselection ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/customchannelselection/refs/heads/main/myinstaller.sh -O - | /bin/sh</item>
 
 
 <item 
@@ -1256,6 +1266,11 @@ sleep 2;  </item>
             name="ipaudio-json"
             icon="/media/hdd/AJPanel_Backup/icons/dd.png"
             ask="Install ipaudio-json ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro/ipaudio.sh -O - | /bin/sh</item>
+
+<item 
+            name="anis-ipaudio"
+            icon="/media/hdd/AJPanel_Backup/icons/dd.png"
+            ask="Install anis-ipaudio ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/refs/heads/main/ipaudio-os.sh -O - | /bin/sh</item>
 
 
 <item
