@@ -325,7 +325,7 @@
             ask="Install a.salama ?">wget -q "--no-check-certificate" https://gitlab.com/eliesat/settings/-/raw/main/a.salama/a.salama-motor.sh -O - | /bin/sh</item>
 
 <item 
-            name="channel-ashry"
+            name="tarek-ashry-2"
             icon="/media/hdd/AJPanel_Backup/icons/spinner1.png"
             ask="Install channel-ashry ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/channels/-/raw/main/channel-ashry-2024-6.sh -O - | /bin/sh</item>
 
@@ -2329,6 +2329,10 @@ init 3</item>
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install Xtream2Audio-dreamos ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Xtream2Audio/Xtream2Audio-dreamos.sh -O - | /bin/sh</item>
 
+<item 
+            name="anis-audio"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install anis-audio ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro/tarek-json/IPAudioPro-open.sh -O - | /bin/sh</item>
 
 <item
             name="Sat-family_Audios"
