@@ -1,8 +1,8 @@
 #!/bin/sh
 # ============================================================================================================
 # Purpose	: Completely remove AJPanel
-# Usage		: wget -q https://raw.githubusercontent.com/AMAJamry/AJPanel/main/remove-ajpanel.sh -O - | /bin/sh
-# Home Page	: https://github.com/AMAJamry/AJPanel
+# Usage		: wget -q https://raw.githubusercontent.com/tarekzoka/ajpanel/main/remove-ajpanel.sh -O - | /bin/sh
+# Home Page	: https://github.com/arekzoka/ajpanel
 # ============================================================================================================
 
 # ============================================================================================================
