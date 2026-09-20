@@ -496,7 +496,7 @@
 <item 
             name="SimplySports"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
-            ask="Install SimplySports ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/SimplySports/refs/heads/main/simplysports.sh -O - | /bin/sh</item>
+            ask="Install SimplySports ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/SimplySports/SimplySports.sh -O - | /bin/sh</item>
 
 <item 
             name="customchannelselection"
