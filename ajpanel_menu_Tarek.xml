@@ -239,6 +239,11 @@
          icon="/media/hdd/AJPanel_Backup/icons/xml.png"
             ask="Install update-menu-light ?">wget https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel_menu-light.sh -O - | /bin/sh</item>
 
+<item
+            name="Haitham-menu"
+         icon="/media/hdd/AJPanel_Backup/icons/xml.png"
+            ask="Install Haitham-menu ?">wget https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/Haitham-menu.sh -O - | /bin/sh</item>
+
             <item
             name="feed-tarek"
          icon="/media/hdd/AJPanel_Backup/icons/FEED.png"
@@ -462,6 +467,16 @@
 
 
 <item 
+            name="AlMuaddhin"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install AlMuaddhin ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/AlMuaddhin/almoaddhin.sh -O - | /bin/sh</item>
+
+<item 
+            name="/EStalker"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install /EStalker ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EStalker/EStalker.sh -O - | /bin/sh</item>
+
+<item 
             name="levi45-freeserver"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install levi45-freeserver ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/levi45-freeserver/raw/main/levi45-freeserver.sh -O - | /bin/sh</item>
@@ -496,11 +511,16 @@
             icon="/media/hdd/AJPanel_Backup/icons/ tmdb.png"
             ask="Install AutoZapRecovery ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/AutoZapRecovery/refs/heads/main/autozap-recovery.sh -O - | /bin/sh</item>
 
+<item 
+            name=" AutoZapRecovery "
+            icon="/media/hdd/AJPanel_Backup/icons/ tmdb.png"
+            ask="Install AutoZapRecovery ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20DiskCpuTemp/diskcputemp.sh -O - | /bin/sh</item>
+
 
 <item 
-            name="SimplySports"
+            name="DiskCpuTemp"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
-            ask="Install SimplySports ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/SimplySports/SimplySports.sh -O - | /bin/sh</item>
+            ask="Install DiskCpuTemp ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/SimplySports/SimplySports.sh -O - | /bin/sh</item>
 
 <item 
             name="customchannelselection"
@@ -2163,7 +2183,7 @@ exit 0 </item>
 
 </submenu>
 #########################################
-##############panel-5##############
+##############panel5##############
 <submenu   title="panels"
         info="Download And Install panels"
         icon="/media/hdd/AJPanel_Backup/icons/pa-1.png"
@@ -2403,7 +2423,7 @@ init 3</item>
             ask="Install asound-libasound ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/asound-libasound2.sh -O - | /bin/sh</item>
 </submenu>
 #########################################
-##############FREE-IPTV-AUDIO##############
+##############FREE5-IPTV-AUDIO##############
 <submenu
         title="FREE-IPTV-AUDIO"
         info="Download And Install FREE-IPTV-AUDIO"
