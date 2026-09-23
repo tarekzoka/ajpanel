@@ -523,6 +523,12 @@
             ask="Install DiskCpuTemp ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/SimplySports/SimplySports.sh -O - | /bin/sh</item>
 
 <item 
+            name="advancedscreenshot"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install advancedscreenshot ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/advancedscreenshot/advancedscreenshot.sh -O - | /bin/sh</item>
+
+
+<item 
             name="customchannelselection"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install customchannelselection ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/customchannelselection/refs/heads/main/myinstaller.sh -O - | /bin/sh</item>
@@ -2203,6 +2209,12 @@ exit 0 </item>
             name="ELIS-old-panel"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
             ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/insal-oldpanel.sh -O - | /bin/sh</item>
+			
+			<item 
+            name="LinuxsatPanel"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install LinuxsatPanel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/LinuxsatPanel/installer.sh -O - | /bin/sh</item>
+			
 
 <item 
             name="elisat-panel-onlin"
