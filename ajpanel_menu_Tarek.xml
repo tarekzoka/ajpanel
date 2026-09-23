@@ -2213,7 +2213,7 @@ exit 0 </item>
 			<item 
             name="LinuxsatPanel"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
-            ask="Install LinuxsatPanel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/LinuxsatPanel/installer.sh -O - | /bin/sh</item>
+            ask="Install LinuxsatPanel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/LinuxsatPanel/installer.sh -O - | /bin/sh</item>1
 			
 
 <item 
