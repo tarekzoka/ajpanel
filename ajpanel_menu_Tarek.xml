@@ -450,6 +450,13 @@
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudio-8.11?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro/IPaudioPro-mnasr.sh -O - | /bin/sh</item>
 
+
+<item 
+            name="ipstreamer"
+            icon="/media/hdd/AJPanel_Backup/icons/red-hat-icon.png"
+            ask="Install ipstreamer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/popking159/ipstreamer/refs/heads/main/installer-ipstreamer.sh -O - | /bin/sh</item>
+
+
 <item 
             name="furybiss"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
