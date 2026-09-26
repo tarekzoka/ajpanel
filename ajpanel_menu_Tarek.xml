@@ -726,6 +726,7 @@ exit 0 </item>
 			
 
 <item name="elisat-panel-onlin" icon="pa-2.png" ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://github.com/eliesat/eliesatpanel/raw/main/installer.sh -O - | /bin/sh</item>
+		<item name="MohamedStore" icon="pa-2.png" ask="Install MohamedStore ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/wwwgoper77-wq/MohamedStore/refs/heads/main/install.sh -O - | /bin/sh</item>
 		<item name="panel-tarek" icon="pa-2.png" ask="Install update-menu ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/ajpanel_menu1.sh -O - | /bin/sh</item>
 		<item name="EMAILPANEL" icon="pa-2.png" ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" wget https://gitlab.com/hanfy1971/plugin/-/raw/main/emilpanel/emilpanel.sh -O - | /bin/sh -O - | /bin/sh</item>
 		<item name="EMAILPANEL-pro" icon="pa-2.png" ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EMAILPANEL/emilpanelpro.sh -O - | /bin/sh</item>
