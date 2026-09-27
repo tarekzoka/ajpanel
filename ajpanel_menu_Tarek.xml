@@ -723,11 +723,9 @@ exit 0 </item>
 	<submenu title="panels" info="Download And Install panels" icon="pa-1.png" mode="grid_8x4" shade="yes" font_size="20" title_bg="#11332233" num_fg="#FCFCFC" num_bg="#000000" title1_fg="#FCFCFC" title1_bg="#000000" title2_fg="#FCFCFC" title2_bg="#000000" width="1950" height="1080">
 		<item name="ELIS-old-panel" icon="pa-2.png" ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/insal-oldpanel.sh -O - | /bin/sh</item>
 		<item name="LinuxsatPanel" icon="pa-2.png" ask="Install LinuxsatPanel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/LinuxsatPanel/installer.sh -O - | /bin/sz</item>1
-			
-
 <item name="elisat-panel-onlin" icon="pa-2.png" ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://github.com/eliesat/eliesatpanel/raw/main/installer.sh -O - | /bin/sh</item>
 		<item name="MohamedStore" icon="pa-2.png" ask="Install MohamedStore ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/wwwgoper77-wq/MohamedStore/refs/heads/main/install.sh -O - | /bin/sh</item>
-		<item name="panel-tarek" icon="pa-2.png" ask="Install update-menu ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/ajpanel_menu1.sh -O - | /bin/sh</item>
+		<item name="panel-tarek" icon="pa-2.png" ask="Install update-menu ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/MohamedStore-panel/tarek-panel.sh -O - | /bin/sh</item>
 		<item name="EMAILPANEL" icon="pa-2.png" ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" wget https://gitlab.com/hanfy1971/plugin/-/raw/main/emilpanel/emilpanel.sh -O - | /bin/sh -O - | /bin/sh</item>
 		<item name="EMAILPANEL-pro" icon="pa-2.png" ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EMAILPANEL/emilpanelpro.sh -O - | /bin/sh</item>
 		<item name="satvenuspanel" icon="pa-2.png" ask="Install satvenuspanel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/satvenuspanel/satvenuspanel.sh -O - | /bin/sh</item>
