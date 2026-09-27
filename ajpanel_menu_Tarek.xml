@@ -168,6 +168,7 @@
 		<item name="mod-dorik1972" icon="epg.png" ask="Install mod-dorik1972 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/epgimport-mod-dorik1972/epgimport-mod-dorik1972.sh -O - | /bin/sh</item>
 		<item name="ajpanel" icon="aj.png" ask="Install ajpanel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ajpanel/ajpanel.sh -O - | /bin/sh</item>
 		<item name="ipkinstaller" icon="REMOVE1.png" ask="Install TOOL-ipkinstaller ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/Tooles/main/TOOL-ipkinstaller.sh -O - | /bin/sh
+		<item name="Akwam" icon="REMOVE1.png" ask="Install Akwam ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/Akwam/Akwam.sh -O - | /bin/sh
 </item>
 		<item name="Sherlockmod" icon="sherlock.png" ask="Install Sherlockmod ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/sherlockmod/main/sherlockmod.sh -O - | /bin/sh</item>
 		<item name="tmdb" icon="tmdb.png" ask="Install tmdb ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/tmdb/tmbd.sh -O - | /bin/sh</item>
