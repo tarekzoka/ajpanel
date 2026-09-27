@@ -2199,6 +2199,11 @@ exit 0 </item>
          icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
             ask="Install update-menu ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/MohamedStore-panel/tarek-panel.sh -O - | /bin/sh</item>
 
+<item
+            name="MohamedStore"
+         icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install MohamedStore ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/wwwgoper77-wq/MohamedStore/refs/heads/main/install.sh -O - | /bin/sh</item>
+
 <item 
             name="EMAILPANEL"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
