@@ -983,6 +983,11 @@
             icon="/media/hdd/AJPanel_Backup/icons/IPtoSAT.png"
             ask="Install IPtoSAT ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/IPtoSAT/installer.sh -O - | /bin/sh</item>
 
+<item 
+            name="Akwam"
+            icon="/media/hdd/AJPanel_Backup/icons/vav.png"
+            ask="Install Akwam ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/Akwam/Akwam.sh -O - | /bin/sh</item>
+
 
 
 <item 
@@ -2192,7 +2197,7 @@ exit 0 </item>
 <item
             name="panel-tarek"
          icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
-            ask="Install update-menu ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/ajpanel_menu1.sh -O - | /bin/sh</item>
+            ask="Install update-menu ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/MohamedStore-panel/tarek-panel.sh -O - | /bin/sh</item>
 
 <item 
             name="EMAILPANEL"
