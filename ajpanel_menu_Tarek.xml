@@ -1100,6 +1100,12 @@ sleep 2; </item>
             ask="Install levi45-freeserver ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/levi45-freeserver/raw/main/levi45-freeserver.sh -O - | /bin/sh</item>
 
 <item 
+            name="FreePanelDMOS"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install FreePanelDMOS ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/FreePanelDMOS/FreePanelDMOS.sh -O - | /bin/sh</item>
+
+
+<item 
             name="footonsat"
             icon="/media/hdd/AJPanel_Backup/icons/fo.png"
             ask="Install footonsat ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/footonsat/install.sh -O - | /bin/sh</item>
@@ -2190,14 +2196,19 @@ exit 0 </item>
             ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/insal-oldpanel.sh -O - | /bin/sh</item>
 
 <item 
-            name="elisat-panel-onlin"
+            name="Free-Panel"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
-            ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://github.com/eliesat/eliesatpanel/raw/main/installer.sh -O - | /bin/sh</item>
+            ask="Install Free-Panel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EMAILPANEL/Free-Panel.sh -O - | /bin/sh</item>
 
 <item
             name="panel-tarek"
          icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
             ask="Install update-menu ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/MohamedStore-panel/tarek-panel.sh -O - | /bin/sh</item>
+
+<item 
+            name="FreePanelDMOS"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install FreePanelDMOS ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/FreePanelDMOS/FreePanelDMOS.sh -O - | /bin/sh</item>
 
 <item
             name="MohamedStore"
