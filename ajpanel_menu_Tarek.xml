@@ -515,10 +515,14 @@
 			
 
 <item 
-            name="Alkuds-ipaudio-MAC-Xtreme"
+            name="Alkud-MAC-Xtreme"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
-            ask="Install Alkuds-ipaudio-MAC-Xtreme ?">wget -q "--no-check-certificate"https://raw.githubusercontent.com/tarekzoka/Alkuds-ipaudio-MAC-Xtreme-Player/refs/heads/main/installer.sh -O - | /bin/sh</item>
+            ask="Install Alkud-MAC-Xtreme ?">wget -q "--no-check-certificate"https://raw.githubusercontent.com/tarekzoka/Alkuds-ipaudio-MAC-Xtreme-Player/refs/heads/main/installer.sh -O - | /bin/sh</item>
 
+<item 
+            name="Alkud-MAC-Xtreme-onlin"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install Alkud-MAC-Xtreme ?">wget -q "--no-check-certificate"https://raw.githubusercontent.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player/main/installer.sh -O - | /bin/sh</item>
 
 
 <item 
@@ -2462,6 +2466,74 @@ init 3</item>
             name="asound-libasound-tar"
          icon="/media/hdd/AJPanel_Backup/icons/mos.png"
             ask="Install asound-libasound ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudio/main/asound-libasound2.sh -O - | /bin/sh</item>
+</submenu>
+#########################################
+##############IPTV-MEDIA-FREE-PLUGIN##############
+<submenu
+        title="FIPTV-MEDIA-FREE-PLUGIN"
+        info="Download And Install IPTV-MEDIA-FREE-PLUGIN"
+        icon="/media/hdd/AJPanel_Backup/icons/2586683.png"
+        mode="grid_8x4"
+        shade="yes"
+        font_size="15"
+        title_bg="#11332233"
+        num_fg="#FCFCFC"
+        num_bg="#000000"
+        title1_fg="#FCFCFC"
+        title1_bg="#000000"
+        title2_fg="#FCFCFC"
+        title2_bg="#000000"
+        width="1900"
+        height="1080">
+<item 
+            name="free-iptv"
+            icon="/media/hdd/AJPanel_Backup/icons/2586683.png"
+            ask="Install free-iptv-audio ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/free-iptv-audio/-/raw/main/FREE-fiptv.sh -O - | /bin/sh</item>
+
+
+
+<item 
+            name="XPortal"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install XPortal ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/azroukarim/XPortal/refs/heads/main/installer.sh -O - | /bin/sh</item>
+
+<item 
+            name=" e2iplayer- oe-mirrors "
+            icon="/media/hdd/AJPanel_Backup/icons/ tmdb.png"
+            ask="Install e2iplayer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/oe-mirrors/e2iplayer/refs/heads/python3/e2iplayer_install.sh -O - | /bin/sh</item>
+<item 
+            name="Alkud-MAC-Xtreme"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install Alkud-MAC-Xtreme ?">wget -q "--no-check-certificate"https://raw.githubusercontent.com/tarekzoka/Alkuds-ipaudio-MAC-Xtreme-Player/refs/heads/main/installer.sh -O - | /bin/sh</item>
+
+<item 
+            name="Alkud-MAC-Xtreme-onlin"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install Alkud-MAC-Xtreme ?">wget -q "--no-check-certificate"https://raw.githubusercontent.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player/main/installer.sh -O - | /bin/sh</item>
+
+<item
+            name="new-2iplayer-tarek"
+            icon="/media/hdd/AJPanel_Backup/icons/e2.png"
+            ask="Install new-2iplayer ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/new-%20e2iplayer/install-e2iplayer-update-hosts.sh -O - | /bin/sh</item>
+<item
+            name="oem-2iplayer"
+            icon="/media/hdd/AJPanel_Backup/icons/e2.png"
+            ask="Install oem-2iplayer ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20e2iplayer-oem/e2iplayer.sh -O - | /bin/sh</item>
+<item
+            name="RadioRelay"
+            icon="/media/hdd/AJPanel_Backup/icons/mos.png"
+            ask="Install RadioRelay?">wget https://raw.githubusercontent.com/angelheart150/RadioRelay/main/installer.sh -O - | /bin/sh</item>
+<item 
+            name="Akwam"
+            icon="/media/hdd/AJPanel_Backup/icons/vav.png"
+            ask="Install Akwam ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/Akwam/Akwam.sh -O - | /bin/sh</item>
+
+
+<item 
+            name="new-multistalker-pro"
+            icon="/media/hdd/AJPanel_Backup/icons/mpro.png"
+            ask="Install multistalker-pro ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/multistalker-pro/main/multistalker-pro.sh -O - | /bin/sh</item>
+
 
                  </submenu>
     </ajp_menu>
