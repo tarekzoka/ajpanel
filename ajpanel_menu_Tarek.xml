@@ -2490,7 +2490,11 @@ init 3</item>
             icon="/media/hdd/AJPanel_Backup/icons/2586683.png"
             ask="Install free-iptv-audio ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/free-iptv-audio/-/raw/main/FREE-fiptv.sh -O - | /bin/sh</item>
 
-
+<item 
+            name="TiviMateE2"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install TiviMateE2 ?">wget -q "--no-check-certificate" 
+https://raw.githubusercontent.com/tarekzoka/TiviMateE2/refs/heads/main/install.sh -O - | /bin/sh</item>
 
 <item 
             name="XPortal"
