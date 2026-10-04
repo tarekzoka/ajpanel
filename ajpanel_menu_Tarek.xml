@@ -444,6 +444,11 @@
             name="ipaudi-8.11"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install ipaudio-8.11?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/%20IPaudiopro/IPaudioPro-mnasr.sh -O - | /bin/sh</item>
+<item 
+            name="IPAudioPlus-Releases"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install IPAudio⁺ v2.5 ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ahmadarjan1/IPAudioPlus-Releases/refs/heads/main/installer.sh?fbclid=IwY2xjawUtFRJleHRuA2FlbQIxMABwZG9mBWJyaWQRMTJQNW5GdzJsa00wNW1DeFlzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe_skwa9kwJxH_EpThfvzFvkDN5u4ZDf6JTRwUVs5A6bm3HVs2ApRJMCv5N1Q_aem_DUJG5EwQ0J38iVWa6E7l4A -O - | /bin/sh</item>
+
 
 <item 
             name="furybiss"
@@ -555,6 +560,14 @@
             name="FootOnsat"
             icon="/media/hdd/AJPanel_Backup/icons/fo.png"
             ask="Install FootOnsat ?">curl -LJso- "https://gitlab.com/hanfy1971/plugin/-/raw/main/FootOnsat/online-setup" | bash -s FootOnsat</item>
+           
+
+<item
+            name="FootOnsat-onlin"
+            icon="/media/hdd/AJPanel_Backup/icons/fo.png"
+
+            ask="Install FootOnsat-onlin ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/fairbird/FootOnsat/refs/heads/main/Download/install.sh -O - | /bin/sh</item>
+
 
 <item 
             name="aisubtitles"
