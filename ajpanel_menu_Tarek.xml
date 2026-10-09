@@ -44,6 +44,12 @@
             ask="Install FURY ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/%20fury-fhd/fury-fhd.sh -O - | /bin/sh</item>
 
 <item 
+            name="MohammedSkin"
+            icon="/media/hdd/AJPanel_Backup/icons/atv.png"
+            ask="Install MohammedSkin ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/MohammedSkin/installer.sh -O - | /bin/sh</item>
+
+
+<item 
             name="MetrixHD"
             icon="/media/hdd/AJPanel_Backup/icons/atv.png"
             ask="Install MetrixHD?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/skins/-/raw/main/atv/MetrixHD.sh -O - | /bin/sh</item>
@@ -2211,6 +2217,17 @@ exit 0 </item>
             name="ELIS-old-panel"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
             ask="Install ELISATPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/ELISATPANEL/insal-oldpanel.sh -O - | /bin/sh</item>
+
+<item 
+            name="smartpanelfree"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install smartpanelfree ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/panel-free/-/raw/main/smartpanelfree/smartpanelfree.sh -O - | /bin/sh</item>
+
+<item 
+            name="ENIGMA-PLAY"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install ENIGMA-PLAY ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/install.sh -O - | /bin/sh</item>
+
 
 <item 
             name="Free-Panel"
