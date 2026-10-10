@@ -501,6 +501,10 @@
             name=" e2iplayer- oe-mirrors "
             icon="/media/hdd/AJPanel_Backup/icons/ tmdb.png"
             ask="Install e2iplayer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/oe-mirrors/e2iplayer/refs/heads/python3/e2iplayer_install.sh -O - | /bin/sh</item>
+<item 
+            name=" AutoSub "
+            icon="/media/hdd/AJPanel_Backup/icons/ tmdb.png"
+            ask="Install AutoSub ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/AutoSub/refs/heads/main/AutoSub.sh -O - | /bin/sh</item>
 
 <item 
             name=" AutoZapRecovery "
