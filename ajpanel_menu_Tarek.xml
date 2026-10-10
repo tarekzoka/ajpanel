@@ -2532,6 +2532,13 @@ init 3</item>
 https://raw.githubusercontent.com/tarekzoka/TiviMateE2/refs/heads/main/install.sh -O - | /bin/sh</item>
 
 <item 
+            name="GT-IPTV-PlayerPro"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install GT-IPTV-PlayerPro ?">wget -q "--no-check-certificate" 
+https://raw.githubusercontent.com/tarekzoka/GT-IPTV-PlayerPro/refs/heads/main/GT-IPTV-PlayerPro.sh -O - | /bin/sh</item>
+
+
+<item 
             name="XPortal"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install XPortal ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/azroukarim/XPortal/refs/heads/main/installer.sh -O - | /bin/sh</item>
