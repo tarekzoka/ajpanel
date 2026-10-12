@@ -2228,9 +2228,15 @@ exit 0 </item>
             ask="Install smartpanelfree ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/panel-free/-/raw/main/smartpanelfree/smartpanelfree.sh -O - | /bin/sh</item>
 
 <item 
-            name="ENIGMA-PLAY"
+            name="ENIGMA-PLAY-ON-LIN"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
             ask="Install ENIGMA-PLAY ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/install.sh -O - | /bin/sh</item>
+
+<item 
+            name="ENIGMA-PLAY-TAREK"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install ENIGMA-PLAY ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/EnigmaPlay-Repo/refs/heads/main/EnigmaPlay.sh -O - | /bin/sh</item>
+
 
 
 <item 
