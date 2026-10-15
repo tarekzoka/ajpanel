@@ -1641,6 +1641,17 @@ exit 0
             name="satellitesxml"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install satellitesxml ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/satellitesxml/installer.sh -O - | /bin/sh</item>
+<item 
+            name="quarterpounder"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install quarterpounder?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/DM/refs/heads/main/quarterpounder-ALL-Python.sh -O - | /bin/sh</item>
+
+<item 
+            name="serviceapp"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install serviceapp?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/serviceapp/refs/heads/main/serviceapp.sh -O - | /bin/sh</item>
+
+
 
 <item 
             name="iptv-org-playlists"
@@ -1661,6 +1672,12 @@ exit 0
             name="quarterpounder"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install quarterpounder?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/DM/refs/heads/main/quarterpounder-ALL-Python.sh -O - | /bin/sh</item>
+
+<item
+            name="ArabicSavior"
+         icon="/media/hdd/AJPanel_Backup/icons/Tooles2.png"
+            ask="Install ArabicSavior ?">wget https://raw.githubusercontent.com/tarekzoka/ArabicSavior/main/ArabicSavior2.sh -O - | /bin/sh</item>
+
 
 <item 
             name="CiefpTMDBSearch"
