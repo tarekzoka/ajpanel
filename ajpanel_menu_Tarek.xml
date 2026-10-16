@@ -1538,7 +1538,7 @@ exit 0
 
 </submenu>
 #########################################
-##############oscam-nacam5##############
+##############oscam5-nacam5##############
     <submenu
         title="oscam-nacam"
         info=" Download And install plugin And Favorites "
@@ -1558,22 +1558,26 @@ exit 0
         <item
             name="nacam"
             icon="/media/hdd/AJPanel_Backup/icons/ncam-14.3.png"
-            ask="Install ncam-last ?">wget -q "--no-check-certificate" wget  https://gitlab.com/hanfy1971/oscam-nacam/-/raw/main/ncam.sh -O - | /bin/sh</item>
+            ask="Install ncam-last ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/oscam-nacam/-/raw/main/ncam.sh -O - | /bin/sh</item>
 
 <item
             name="nacam2"
             icon="/media/hdd/AJPanel_Backup/icons/ncam-14.3.png"
             ask="Install ncam-last ?">curl -LJso- "https://gitlab.com/hanfy1971/softcam/-/raw/main/mohamed-os/online-setup1" | bash -s ncam</item>
+			<item
+            name="Ncam_EMU-bikp73"
+            icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
+            ask="Ncam_EMU-bikp73 ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/biko-73/Ncam_EMU/main/installer.sh -O - | /bin/sh -O - | /bin/sh</item>
 <item
             name="oscam-levie45"
             icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
-            ask="Install oscam-levie45 ?">wget -q "--no-check-certificate" wget  https://gitlab.com/hanfy1971/oscam-nacam/-/raw/main/oscam.sh -O - | /bin/sh</item>
+            ask="Install oscam-levie45 ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/oscam-nacam/-/raw/main/oscam.sh -O - | /bin/sh</item>
 
 <item
             name="oscam-mohamed"
             icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
-            ask="oscam-last ?">wget -q "--no-check-certificate" wget  https//gitlab.com/hanfy1971/softcam/-/raw/main/mohamed-os/oscam.sh -O - | /bin/sh</item>
-
+            ask="oscam-last ?">wwget -q "--no-check-certificate" https//gitlab.com/hanfy1971/softcam/-/raw/main/mohamed-os/oscam.sh -O - | /bin/sh</item>
+			
 <item 
             name="OSCAM-audi06"
             icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
@@ -1640,8 +1644,27 @@ exit 0
             name="serviceapp"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install serviceapp?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/serviceapp/refs/heads/main/serviceapp.sh -O - | /bin/sh</item>
+<item 
+            name="clean_ram"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install clean_ram?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/tooles/-/raw/main/clean_ram.sh -O - | /bin/sh</item>
+<item 
+            name="clean_iptv_cache"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install clean_iptv_cache?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/tooles/-/raw/main/clean_iptv_cache.sh -O - | /bin/sh</item>
+<item 
+            name="clean_crash"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install clean_crash?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/tooles/-/raw/main/clean_crash.sh -O - | /bin/sh</item>
+<item 
+            name="reset_pass"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install reset_pass?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/tooles/-/raw/main/reset_pass.sh -O - | /bin/sh</item>
 
-
+<item 
+            name="repair_disk"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Installrepair_disk?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/tooles/-/raw/main/repair_disk.sh -O - | /bin/sh</item>
 
 <item 
             name="iptv-org-playlists"
