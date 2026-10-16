@@ -1570,9 +1570,9 @@ exit 0
             ask="Install oscam-levie45 ?">wget -q "--no-check-certificate" wget  https://gitlab.com/hanfy1971/oscam-nacam/-/raw/main/oscam.sh -O - | /bin/sh</item>
 
 <item
-            name="oscam"
+            name="oscam-mohamed"
             icon="/media/hdd/AJPanel_Backup/icons/oscam-11731.png"
-            ask="oscam-last ?">curl -LJso- "https://gitlab.com/hanfy1971/softcam/-/raw/main/mohamed-os/online-setup1" | bash -s softcam</item>
+            ask="oscam-last ?">wget -q "--no-check-certificate" wget  https//gitlab.com/hanfy1971/softcam/-/raw/main/mohamed-os/oscam.sh -O - | /bin/sh</item>
 
 <item 
             name="OSCAM-audi06"
