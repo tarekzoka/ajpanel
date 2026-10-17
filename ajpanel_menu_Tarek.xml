@@ -484,9 +484,9 @@
 
 
 <item 
-            name="email-panel"
+            name="SubsSupportPro"
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
-            ask="Install email-panel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/emilpanel/emilpanel.sh -O - | /bin/sh</item>
+            ask="Install SubsSupportPro ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/popking159/SubsSupportPro/refs/heads/main/myinstaller.sh -O - | /bin/sh</item>
 <item 
             name="bouquetmakerxtream"
             icon="/media/hdd/AJPanel_Backup/icons/kerxtream.png"
