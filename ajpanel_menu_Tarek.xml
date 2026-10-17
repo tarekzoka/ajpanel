@@ -444,6 +444,11 @@
             name="IPAudioPlus"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install iIPAudioPlus ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/IPAudioPlus/refs/heads/main/installer.sh -O - | /bin/sh</item>
+<item 
+            name="ipstreamer"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install ipstreamer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/ipstreamer/refs/heads/main/myinstaller.sh -O - | /bin/sh</item>
+
 
 
 <item 
