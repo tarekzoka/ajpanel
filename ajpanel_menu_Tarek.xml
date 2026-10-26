@@ -413,6 +413,13 @@
             name="Quran-iptv"
             icon="/media/hdd/AJPanel_Backup/icons/Quran.png"
             ask="Install Quran-iptv ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/channels/main/channel-Quran-iptv.sh -O - | /bin/sh</item>
+			
+			<item
+            name="IPAudioPro-Releases-zakria"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install ipaudiopro ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/zKhadiri/IPAudioPro-Releases-/refs/heads/main/installer.sh -O - | /bin/sh</item>
+			
+
 
 <item
             name="ipaudiopro-1.2-last"
@@ -2272,8 +2279,21 @@ exit 0 </item>
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
             ask="Install ENIGMA-PLAY ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/EnigmaPlay-Repo/refs/heads/main/EnigmaPlay.sh -O - | /bin/sh</item>
 
+<item 
+            name="MagicPanelMax"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install MagicPanelMax ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/MagicPanelMax/refs/heads/main/installer.sh -O - | /bin/sh</item>
 
+			
+<item 
+            name="EMAILPANEL"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" wget https://gitlab.com/hanfy1971/plugin/-/raw/main/emilpanel/emilpanel.sh -O - | /bin/sh -O - | /bin/sh</item>
 
+<item 
+            name="EMAILPANEL-pro"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EMAILPANEL/emilpanelpro.sh -O - | /bin/sh</item>
 <item 
             name="Free-Panel"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
@@ -2295,9 +2315,9 @@ exit 0 </item>
             ask="Install MohamedStore ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/wwwgoper77-wq/MohamedStore/refs/heads/main/install.sh -O - | /bin/sh</item>
 
 <item 
-            name="EMAILPANEL"
+            name="levi-45-panel"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
-            ask="Install EMAILPANEL ?">wget -q "--no-check-certificate" wget https://gitlab.com/hanfy1971/plugin/-/raw/main/emilpanel/emilpanel.sh -O - | /bin/sh -O - | /bin/sh</item>
+            ask="Install levi-45-panel ?">wget -q "--no-check-certificate" wget https://raw.githubusercontent.com/levi-45/Addon/refs/heads/main/installer.sh -O - | /bin/sh -O - | /bin/sh</item>
 
 <item 
             name="EMAILPANEL-pro"
@@ -2618,6 +2638,16 @@ https://raw.githubusercontent.com/tarekzoka/GT-IPTV-PlayerPro/refs/heads/main/GT
             name="Akwam"
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
             ask="Install Akwam ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/Akwam/Akwam.sh -O - | /bin/sh</item>
+
+<item 
+            name="MyStreamer"
+            icon="/media/hdd/AJPanel_Backup/icons/vav.png"
+            ask="Install MyStreamer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/MyStreamer/refs/heads/main/myinstaller.sh -O - | /bin/sh</item>
+
+<item 
+            name="Arabseed"
+            icon="/media/hdd/AJPanel_Backup/icons/vav.png"
+            ask="Install Arabseed ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/Arabseed/refs/heads/main/installer.sh -O - | /bin/sh</item>
 
 
 <item 
