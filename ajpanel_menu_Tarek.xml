@@ -468,6 +468,14 @@
             ask="Install IPAudio⁺ v2.5 ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Ahmadarjan1/IPAudioPlus-Releases/refs/heads/main/installer.sh?fbclid=IwY2xjawUtFRJleHRuA2FlbQIxMABwZG9mBWJyaWQRMTJQNW5GdzJsa00wNW1DeFlzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe_skwa9kwJxH_EpThfvzFvkDN5u4ZDf6JTRwUVs5A6bm3HVs2ApRJMCv5N1Q_aem_DUJG5EwQ0J38iVWa6E7l4A -O - | /bin/sh</item>
 
 
+
+<item 
+            name="GlobalTranslate_Ultra"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install GlobalTranslate_Ultra?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/GlobalTranslate_Ultra/refs/heads/main/GlobalTU_7.1.sh -O - | /bin/sh</item>
+
+
+
 <item 
             name="furybiss"
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
@@ -2283,6 +2291,12 @@ exit 0 </item>
             name="MagicPanelMax"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
             ask="Install MagicPanelMax ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/MagicPanelMax/refs/heads/main/installer.sh -O - | /bin/sh</item>
+
+<item 
+            name="PanelAIO"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install PanelAIO ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/PanelAIO/refs/heads/main/PanelAIO.sh -O - | /bin/sh</item>
+
 
 			
 <item 
