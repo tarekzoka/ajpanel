@@ -2568,6 +2568,14 @@ init 3</item>
             icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
             ask="Install external-audio ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/external_audio/raw/main/external-audio.sh -O - | /bin/sh</item>
 
+<item 
+            name="IPAudioPro"
+            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
+            ask="Install IPAudioPro ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/IPAudioPro/refs/heads/main/IPAudioPro.sh -O - | /bin/sh</item>
+
+
+
+
 <item
             name="asound-libasound-tar"
          icon="/media/hdd/AJPanel_Backup/icons/mos.png"
