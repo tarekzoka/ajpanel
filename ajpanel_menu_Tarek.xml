@@ -444,6 +444,11 @@
             ask="Install ipaudio_1.8 ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ipaudiopro1.2/refs/heads/main/ipaudio_1.8.sh -O - | /bin/sh</item>
 
 <item 
+            name="ipaudio_1.9"
+            icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
+            ask="Install ipaudio_1.9 ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/IPAudioPro/refs/heads/main/IPAudioPro.sh -O - | /bin/sh</item>
+
+<item 
             name="IPAudioPlus"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
             ask="Install iIPAudioPlus ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/IPAudioPlus/refs/heads/main/installer.sh -O - | /bin/sh</item>
