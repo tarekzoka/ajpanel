@@ -2664,7 +2664,7 @@ https://raw.githubusercontent.com/tarekzoka/GT-IPTV-PlayerPro/refs/heads/main/GT
             ask="Install MyStreamer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/MyStreamer/refs/heads/main/myinstaller.sh -O - | /bin/sh</item>
 
 <item 
-            name="akwam-arabsed-mystrem"
+            name="akwam-Arabseed"
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
             ask="Install akwam-arabsed-mystrem ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/akwam-arabsed-mysream/refs/heads/main/MyStreamerInstal.sh -O - | /bin/sh</item>
 
@@ -2672,6 +2672,11 @@ https://raw.githubusercontent.com/tarekzoka/GT-IPTV-PlayerPro/refs/heads/main/GT
             name="Arabseed"
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
             ask="Install Arabseed ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/Arabseed/refs/heads/main/installer.sh -O - | /bin/sh</item>
+
+<item 
+            name="LukaTV"
+            icon="/media/hdd/AJPanel_Backup/icons/vav.png"
+            ask="Install LukaTV ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/popking159/LukaTV/refs/heads/main/myinstaller.sh -O - | /bin/sh</item>
 
 
 <item 
