@@ -2678,6 +2678,11 @@ https://raw.githubusercontent.com/tarekzoka/GT-IPTV-PlayerPro/refs/heads/main/GT
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
             ask="Install LukaTV ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/popking159/LukaTV/refs/heads/main/myinstaller.sh -O - | /bin/sh</item>
 
+<item 
+            name="myhits"
+            icon="/media/hdd/AJPanel_Backup/icons/vav.png"
+            ask="Install myhits ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/popking159/myhits/refs/heads/main/myinstaller.sh -O - | /bin/sh</item>
+
 
 <item 
             name="new-multistalker-pro"
