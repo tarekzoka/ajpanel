@@ -458,7 +458,6 @@
             ask="Install ipstreamer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/ipstreamer/refs/heads/main/myinstaller.sh -O - | /bin/sh</item>
 
 
-
 <item 
             name="ipaudi-8.11"
             icon="/media/hdd/AJPanel_Backup/icons/IpAudioPro.png"
@@ -512,6 +511,11 @@
             icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
             ask="Install audioselectionpatcher ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/audioselectionpatcher/refs/heads/main/myinstaller.sh -O - | /bin/sh</item>
 
+
+<item  
+            name="AutoBiss"
+            icon="/media/hdd/AJPanel_Backup/icons/FEED2.png"
+            ask="Install AutoBiss ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/AutoBiss/refs/heads/main/AutoBiss.sh -O - | /bin/sh</item>
 
 <item 
             name="XPortal"
