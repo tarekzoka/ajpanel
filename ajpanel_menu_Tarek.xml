@@ -2395,10 +2395,6 @@ exit 0 </item>
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
             ask="Install tvPanel?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/Belfagor2005/tvPanel/main/installer.sh -O - | /bin/sh</item>
 
-<item 
-            name="MagicPanel"
-            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
-            ask="Install MagicPanel-?">wget -q "--no-check-certificate" https://gitlab.com/h-ahmed/Panel/-/raw/main/MagicPanel-install.sh -O - | /bin/sh</item>
 
 </submenu>
 #########################################
