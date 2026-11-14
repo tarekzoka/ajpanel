@@ -2310,7 +2310,10 @@ exit 0 </item>
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
             ask="Install PanelAIO ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/PanelAIO/refs/heads/main/PanelAIO.sh -O - | /bin/sh</item>
 
-
+<item 
+            name="طارق بانل"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install طارق بانل?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/MohamedStore/refs/heads/main/install.sh -O - | /bin/sh</item>
 			
 <item 
             name="EMAILPANEL"
@@ -2329,7 +2332,11 @@ exit 0 </item>
 <item
             name="panel-tarek"
          icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
-            ask="Install update-menu ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/MohamedStore-panel/tarek-panel.sh -O - | /bin/sh</item>
+            ask="Install panel-tarek ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/MohamedStore-panel/tarek-panel.sh -O - | /bin/sh</item>
+<item
+            name="skybluestore"
+         icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install skybluestore ?">wget -O /tmp/install-skybluestore.sh https://updates.skyblue1.us/e2/install-skybluestore.sh && /bin/sh /tmp/install-skybluestore.sh -O - | /bin/sh</item>
 
 <item 
             name="FreePanelDMOS"
