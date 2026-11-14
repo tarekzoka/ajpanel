@@ -2336,7 +2336,7 @@ exit 0 </item>
 <item
             name="SkyBlueStore"
          icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
-            ask="Install SkyBlueStore ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/SkyBlueStore/refs/heads/main/install-skybluestore.sh -O - | /bin/sh</item>
+            ask="Install SkyBlueStore ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/SkyBlueStore/refs/heads/main/SkyBlueStore.sh -O - | /bin/sh</item>
 				
 
 <item 
