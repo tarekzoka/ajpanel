@@ -2313,7 +2313,7 @@ exit 0 </item>
 <item 
             name="طارق بانل"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
-            ask="Install طارق بانل?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/MohamedStore/refs/heads/main/install.sh -O - | /bin/sh</item>
+            ask="Install طارق بانل?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/Free-Panel/refs/heads/main/install.sh -O - | /bin/sh</item>
 			
 <item 
             name="EMAILPANEL"
