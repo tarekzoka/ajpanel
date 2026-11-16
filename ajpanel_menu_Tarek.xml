@@ -2311,7 +2311,7 @@ exit 0 </item>
             ask="Install PanelAIO ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/PanelAIO/refs/heads/main/PanelAIO.sh -O - | /bin/sh</item>
 
 <item 
-            name="طارق بانل"
+            name="FREE-PANEL"
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
             ask="Install طارق بانل?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/Free-Panel/refs/heads/main/install.sh -O - | /bin/sh</item>
 			
@@ -2330,7 +2330,7 @@ exit 0 </item>
             ask="Install Free-Panel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EMAILPANEL/Free-Panel.sh -O - | /bin/sh</item>
 
 <item
-            name="panel-tarek"
+            name="TAREK-PANEL"
          icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
             ask="Install panel-tarek ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/MohamedStore-panel/tarek-panel.sh -O - | /bin/sh</item>
 <item
@@ -2345,7 +2345,7 @@ exit 0 </item>
             ask="Install FreePanelDMOS ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/FreePanelDMOS/FreePanelDMOS.sh -O - | /bin/sh</item>
 
 <item
-            name="MohamedStore"
+            name="MohamedStore-PANEL"
          icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
             ask="Install MohamedStore ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/wwwgoper77-wq/MohamedStore/refs/heads/main/install.sh -O - | /bin/sh</item>
 
