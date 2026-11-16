@@ -2345,9 +2345,9 @@ exit 0 </item>
             ask="Install FreePanelDMOS ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/FreePanelDMOS/FreePanelDMOS.sh -O - | /bin/sh</item>
 
 <item
-            name="MohamedStore-PANEL"
+            name="TAREK-STORE"
          icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
-            ask="Install MohamedStore ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/wwwgoper77-wq/MohamedStore/refs/heads/main/install.sh -O - | /bin/sh</item>
+            ask="Install TAREK-STORE ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/MohamedStore/refs/heads/main/install.sh -O - | /bin/sh</item>
 
 <item 
             name="levi-45-panel"
