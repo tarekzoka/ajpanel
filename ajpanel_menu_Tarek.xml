@@ -1502,6 +1502,12 @@ exit 0 </item>
             name="OSCAM-1-os"
          icon="/media/hdd/AJPanel_Backup/icons/money.png"
             ask="Install ncam-os?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/oscam-nacam/main/oscam-os.sh -O - | /bin/sh</item>
+
+<item
+            name="OSCAM-3-os"
+         icon="/media/hdd/AJPanel_Backup/icons/money.png"
+            ask="Install oscam-os?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/OSCAM-NCAM/refs/heads/main/ipk-deb.sh -O - | /bin/sh</item>
+
 <item
             name="OSCAM-2-os"
          icon="/media/hdd/AJPanel_Backup/icons/money.png"
