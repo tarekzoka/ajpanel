@@ -2652,15 +2652,6 @@ https://raw.githubusercontent.com/tarekzoka/GT-IPTV-PlayerPro/refs/heads/main/GT
             name=" e2iplayer- oe-mirrors "
             icon="/media/hdd/AJPanel_Backup/icons/ tmdb.png"
             ask="Install e2iplayer ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/oe-mirrors/e2iplayer/refs/heads/python3/e2iplayer_install.sh -O - | /bin/sh</item>
-<item 
-            name="Alkud-MAC-Xtreme"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
-            ask="Install Alkud-MAC-Xtreme ?">wget -q "--no-check-certificate"https://raw.githubusercontent.com/tarekzoka/Alkuds-ipaudio-MAC-Xtreme-Player/refs/heads/main/installer.sh -O - | /bin/sh</item>
-
-<item 
-            name="Alkud-MAC-Xtreme-onlin"
-            icon="/media/hdd/AJPanel_Backup/icons/tmdb.png"
-            ask="Install Alkud-MAC-Xtreme ?">wget -q "--no-check-certificate"https://raw.githubusercontent.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player/main/installer.sh -O - | /bin/sh</item>
 
 <item
             name="new-2iplayer-tarek"
