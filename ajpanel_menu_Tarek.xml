@@ -2335,6 +2335,12 @@ exit 0 </item>
             icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
             ask="Install Free-Panel ?">wget -q "--no-check-certificate" https://gitlab.com/hanfy1971/plugin/-/raw/main/EMAILPANEL/Free-Panel.sh -O - | /bin/sh</item>
 
+<item 
+            name="Online4Tech-Panel1"
+            icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
+            ask="Install Online4Tech-Panel1 ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/online4tech/Online4Tech-Panel1/refs/heads/main/install.sh -O - | /bin/sh</item>
+
+
 <item
             name="TAREK-PANEL"
          icon="/media/hdd/AJPanel_Backup/icons/pa-2.png"
