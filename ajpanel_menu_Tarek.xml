@@ -2693,6 +2693,11 @@ https://raw.githubusercontent.com/tarekzoka/GT-IPTV-PlayerPro/refs/heads/main/GT
             ask="Install akwam-arabsed-mystrem ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/akwam-arabsed-mysream/refs/heads/main/MyStreamerInstal.sh -O - | /bin/sh</item>
 
 <item 
+            name="kanasastream-watch"
+            icon="/media/hdd/AJPanel_Backup/icons/vav.png"
+            ask="Install kanasastream-watch ?">wget -q "--no-check-certificate" https://kanasastream.online/enigma2/install.sh -O - | /bin/sh</item>
+
+<item 
             name="Arabseed"
             icon="/media/hdd/AJPanel_Backup/icons/vav.png"
             ask="Install Arabseed ?">wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarek1902/Arabseed/refs/heads/main/installer.sh -O - | /bin/sh</item>
